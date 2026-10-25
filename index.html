@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#17151d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="¿Qué veo?">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="apple-touch-icon" href="icon.svg">
+<title>¿Qué veo hoy? — TV Chile</title>
+<style>
+:root{color-scheme:dark;--bg:#111016;--panel:#1b1922;--panel2:#24212d;--text:#f7f4fb;--muted:#b9b3c5;--line:#373241;--pink:#ff6cae;--lime:#d5f477;--blue:#a8c8ff}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top right,#342039 0%,transparent 40%),var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:850px;margin:auto;padding:20px 15px 50px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center}.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--lime);font-weight:800}.brand{font-size:30px;line-height:1.05;letter-spacing:-.04em;margin:7px 0}.sub{color:var(--muted);margin:8px 0 0;max-width:530px}.live{border:1px solid #4e6740;background:#26301d;color:var(--lime);padding:7px 10px;border-radius:999px;font-size:11px;white-space:nowrap;font-weight:800}
+.toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}.btn{border:1px solid var(--line);border-radius:12px;background:var(--panel2);color:var(--text);padding:10px 13px;font-weight:700;font-size:13px;text-decoration:none;cursor:pointer}.btn.primary{background:var(--lime);color:#1b2010;border-color:var(--lime)}.btn:active{transform:scale(.98)}
+.status{padding:12px 14px;border:1px solid var(--line);background:#191720;border-radius:14px;color:var(--muted);font-size:12px;margin-bottom:16px}.status strong{color:var(--text)}
+.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:10px;margin:24px 0 11px}.sectionhead h2{margin:0;font-size:19px;letter-spacing:-.025em}.sectionhead small{color:var(--muted)}
+.cards{display:grid;gap:11px}.card{border:1px solid var(--line);background:linear-gradient(135deg,#211e29,#191720);border-radius:18px;padding:15px;position:relative;overflow:hidden}.card.best{border-color:#7e8f45;box-shadow:0 0 0 1px #7e8f4520}.cardtop{display:flex;justify-content:space-between;gap:10px;align-items:start}.channel{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--blue);font-weight:800}.time{font-size:13px;font-weight:800;color:var(--lime);white-space:nowrap}.title{font-size:19px;font-weight:850;letter-spacing:-.03em;margin:5px 0 6px}.desc{color:var(--muted);font-size:13px;margin:0 0 10px}.tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}.tag{font-size:11px;border:1px solid var(--line);border-radius:999px;padding:4px 8px;color:#e5dff0}.score{display:inline-flex;align-items:center;gap:5px;background:#30371e;color:var(--lime);font-weight:800;font-size:11px;padding:5px 8px;border-radius:8px}.cardactions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.cardactions a{font-size:12px}
+.empty{padding:24px;border:1px dashed var(--line);border-radius:16px;color:var(--muted);text-align:center}
+details{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px;margin-top:14px}summary{font-weight:800;cursor:pointer}details p,.fine{color:var(--muted);font-size:12px}.prefs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:13px}.check{display:flex;align-items:center;gap:8px;padding:10px;background:var(--panel2);border:1px solid var(--line);border-radius:11px;font-size:13px}.check input{accent-color:var(--pink);width:16px;height:16px}.rangeRow{display:flex;align-items:center;gap:12px;margin-top:14px;color:var(--muted);font-size:12px}.rangeRow input{flex:1;accent-color:var(--pink)}
+.sources{display:flex;gap:8px;flex-wrap:wrap}.sources a{color:var(--blue);font-size:12px}.footer{margin-top:28px;color:#928b9e;font-size:11px;text-align:center}
+@media(min-width:650px){main{padding:30px 22px 60px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.card{min-height:210px}.brand{font-size:39px}.prefs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+<main>
+<header class="top">
+  <div><div class="eyebrow">Tu guía de televisión chilena</div><h1 class="brand">¿Qué veo hoy?</h1><p class="sub">Programas ordenados según tus gustos: farándula, pelambres, opiniones, realities, invitados y humor. Menos zapping, más cosas que te interesan.</p></div>
+  <div class="live" id="liveBadge">● ACTUALIZANDO</div>
+</header>
+<div class="toolbar">
+  <button class="btn primary" id="refreshBtn">↻ Actualizar ahora</button>
+  <button class="btn" id="nowBtn">Ahora mismo</button>
+  <button class="btn" id="tonightBtn">Lo mejor de hoy</button>
+</div>
+<div class="status" id="status"><strong>Conectando con la guía de TV…</strong><br>Se actualizará automáticamente cada 5 minutos cuando la fuente esté disponible.</div>
+<div class="sectionhead"><h2 id="resultsTitle">Lo mejor para ti ahora</h2><small id="countLabel">Ordenado por afinidad</small></div>
+<div class="cards" id="cards"><div class="empty">Buscando programación actual…</div></div>
+
+<details id="prefDetails">
+<summary>⚙️ Ajustar mis gustos</summary>
+<p>Marca lo que más te gusta. Se guarda en este teléfono y se usa para ordenar los programas.</p>
+<div class="prefs" id="prefs">
+<label class="check"><input type="checkbox" value="farándula" checked> Farándula y pelambres</label>
+<label class="check"><input type="checkbox" value="opinión" checked> Opiniones y debates</label>
+<label class="check"><input type="checkbox" value="reality" checked> Reality y drama</label>
+<label class="check"><input type="checkbox" value="entrevistas" checked> Famosos e invitados</label>
+<label class="check"><input type="checkbox" value="humor" checked> Humor y concursos</label>
+<label class="check"><input type="checkbox" value="historias"> Casos e historias reales</label>
+<label class="check"><input type="checkbox" value="viajes"> Viajes y cultura</label>
+<label class="check"><input type="checkbox" value="cocina"> Cocina y competencias</label>
+<label class="check"><input type="checkbox" value="noticias"> Noticias y actualidad</label>
+</div>
+<div class="rangeRow"><span>Solo lo mejor</span><input id="threshold" type="range" min="0" max="5" value="1"><span id="thresholdText">Afinidad ≥ 1</span></div>
+<div class="toolbar"><button class="btn primary" id="savePrefs">Guardar preferencias</button><button class="btn" id="resetPrefs">Restablecer</button></div>
+</details>
+
+<div class="sectionhead"><h2>Fuentes y programación completa</h2></div>
+<p class="fine">La parrilla indica horarios y títulos; los invitados y temas específicos solo aparecerán si la fuente los publica. No voy a inventarlos. Toca un canal para abrir su información oficial.</p>
+<div class="sources">
+<a href="https://guiaprogramaciontv.com/canales/tv-chile" target="_blank" rel="noopener">Guía TV Chile</a>
+<a href="https://www.mega.cl/programacion/" target="_blank" rel="noopener">Mega</a>
+<a href="https://www.chilevision.cl/" target="_blank" rel="noopener">Chilevisión</a>
+<a href="https://www.13.cl/programacion" target="_blank" rel="noopener">Canal 13</a>
+<a href="https://www.tvn.cl/" target="_blank" rel="noopener">TVN</a>
+<a href="https://www.tvmas.tv/" target="_blank" rel="noopener">TV+</a>
+<a href="https://www.lared.cl/" target="_blank" rel="noopener">La Red</a>
+</div>
+<div class="footer">Hecho para usar como web app en el teléfono · Horario de Chile continental · La disponibilidad de datos depende de fuentes externas.</div>
+</main>
+<script>
+const API_CANDIDATES = [
+  'https://guiaprogramaciontv.com/v2/tv/surface/guide?date=today&group=tdt&country=CL',
+  'https://guiaprogramaciontv.com/v2/tv/read?view=now&country=CL',
+  'https://guiaprogramaciontv.com/v2/tv/read?date=today&country=CL'
+];
+const CHANNELS = {
+ 'mega':{name:'Mega',url:'https://www.mega.cl/programacion/'},
+ 'chv':{name:'Chilevisión',url:'https://www.chilevision.cl/'},
+ 'chilevisión':{name:'Chilevisión',url:'https://www.chilevision.cl/'},
+ 'canal 13':{name:'Canal 13',url:'https://www.13.cl/programacion'},
+ 'canal13':{name:'Canal 13',url:'https://www.13.cl/programacion'},
+ 'tvn':{name:'TVN',url:'https://www.tvn.cl/'},
+ 'tv+':{name:'TV+',url:'https://www.tvmas.tv/'},
+ 'la red':{name:'La Red',url:'https://www.lared.cl/'}
+};
+const DEFAULT_PREFS=['farándula','opinión','reality','entrevistas','humor'];
+let allItems=[], mode='now', lastUpdated=null, sourceName='';
+const $=id=>document.getElementById(id);
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function chileTime(){return new Intl.DateTimeFormat('es-CL',{timeZone:'America/Santiago',hour:'2-digit',minute:'2-digit',weekday:'long',day:'numeric',month:'long'}).format(new Date());}
+function getChannel(raw){
+ let s=String(raw||'').toLowerCase();
+ for(const key in CHANNELS) if(s.includes(key)) return CHANNELS[key];
+ return {name:raw||'TV',url:'https://guiaprogramaciontv.com/canales/tv-chile'};
+}
+function getText(obj,keys){for(const k of keys){if(obj&&obj[k]!=null&&typeof obj[k]==='string'&&obj[k].trim())return obj[k].trim();}return ''}
+function getDate(obj,keys){for(const k of keys){if(obj&&obj[k]!=null){let v=obj[k];if(typeof v==='number'&&v<1e12)v*=1000;let d=new Date(v);if(!isNaN(d))return d;}}return null}
+function flattenPayload(payload){
+ let roots=[payload,payload?.data,payload?.data?.items,payload?.data?.channels,payload?.items,payload?.channels,payload?.schedule,payload?.programs];
+ for(const r of roots){if(Array.isArray(r))return r;}
+ for(const r of roots){if(r&&typeof r==='object'){for(const v of Object.values(r)){if(Array.isArray(v)&&v.length&&typeof v[0]==='object')return v;}}}
+ return [];
+}
+function normalize(raw){
+ const title=getText(raw,['title','name','programTitle','program_name','event','show','contentTitle'])||'Programa sin título';
+ const channelRaw=getText(raw,['channelName','channel_name','channel','station','network','nameChannel'])||raw?.channel?.name||raw?.channel?.title||'Canal';
+ const channel=getChannel(typeof channelRaw==='object'?(channelRaw.name||channelRaw.title):channelRaw);
+ const start=getDate(raw,['start','startTime','start_time','startDate','startDateTime','begin','from','airtime','date']);
+ const end=getDate(raw,['end','endTime','end_time','endDate','endDateTime','finish','to']);
+ const desc=getText(raw,['description','summary','synopsis','overview','subtitle','detail','shortDescription']);
+ const url=getText(raw,['url','link','programUrl','webUrl'])||channel.url;
+ return {title,channel,start,end,desc,url,raw};
+}
+function categories(item){
+ const t=(item.title+' '+item.desc).toLowerCase(), out=[];
+ if(/farándula|farandula|pelambre|chisme|espectáculo|espectaculo|famosos|alfombra roja|primer plano|plan perfecto|jet set|intrusos|zona de estrellas|sígueme|sigueme/.test(t))out.push('farándula');
+ if(/opinión|opinion|debate|panel|actualidad|conversación|conversacion|matinal|contigo en la mañana|mucho gusto/.test(t))out.push('opinión');
+ if(/reality|pareja|parejas|amor|ex\b|encierro|mundos opuestos|gran hermano|eliminación|eliminacion|competencia/.test(t))out.push('reality');
+ if(/entrevista|invitad|famos|conversación|conversacion|estelar|divina comida|socios|only comparini/.test(t))out.push('entrevistas');
+ if(/humor|comedia|stand.?up|coliseo|detrás del muro|detras del muro|concurso|juego|talento|canto/.test(t))out.push('humor');
+ if(/caso|investigación|investigacion|policial|historia real|documental|atrapados|133/.test(t))out.push('historias');
+ if(/viaje|viajes|turismo|cultura|lugares que hablan|sabingo|de paseo|viajando/.test(t))out.push('viajes');
+ if(/cocina|chef|masterchef|receta|gastronomía|gastronomia/.test(t))out.push('cocina');
+ if(/noticias|noticiero|meganoticias|24 horas|teletrece|chv noticias|central|informe/.test(t))out.push('noticias');
+ if(!out.length)out.push('general');
+ return [...new Set(out)];
+}
+function score(item){
+ const selected=[...document.querySelectorAll('#prefs input:checked')].map(x=>x.value);
+ const cats=categories(item);let s=0;
+ cats.forEach(c=>{if(selected.includes(c))s+=c==='farándula'?5:c==='opinión'?4:c==='reality'?4:c==='entrevistas'?4:c==='humor'?3:2;});
+ if(item.start){const delta=(item.start-new Date())/60000;if(delta>=-120&&delta<=180)s+=1;}
+ if(/invitad|capítulo especial|capitulo especial|hoy|estreno|final|polémica|polemica/.test((item.title+' '+item.desc).toLowerCase()))s+=1;
+ return {score:s,cats};
+}
+function timeText(d){return d?new Intl.DateTimeFormat('es-CL',{timeZone:'America/Santiago',hour:'2-digit',minute:'2-digit',hour12:false}).format(d):'Horario por confirmar';}
+function itemIsNow(x){const n=new Date();return (!x.start||x.start<=n)&&(!x.end||x.end>n);}
+function render(){
+ const now=new Date(), threshold=Number($('threshold').value);
+ let list=allItems.map(x=>({...x,...score(x)}));
+ if(mode==='now') list=list.filter(x=>itemIsNow(x));
+ else list=list.filter(x=>!x.start||(x.start.toDateString()===now.toDateString()||x.start>now));
+ list=list.filter(x=>x.score>=threshold);
+ list.sort((a,b)=>b.score-a.score||(a.start||new Date(8640000000000000))-(b.start||new Date(8640000000000000)));
+ $('resultsTitle').textContent=mode==='now'?'Lo mejor para ti ahora':'Lo mejor que queda de hoy';
+ $('countLabel').textContent=`${list.length} opciones · por afinidad`;
+ if(!list.length){$('cards').innerHTML=`<div class="empty">No encontré programas con suficiente afinidad en los datos recibidos.<br><br>Prueba bajando “Solo lo mejor” o abre las guías oficiales.</div>`;return;}
+ $('cards').innerHTML=list.slice(0,30).map((x,i)=>{
+  const tm=x.start?timeText(x.start):'En emisión / hora no disponible';
+  const desc=x.desc|| (x.cats.includes('farándula')?'Programa asociado a espectáculo; los invitados de hoy no están disponibles en la guía.':x.cats.includes('noticias')?'Bloque informativo.': 'La guía no entrega una descripción detallada para esta emisión.');
+  const isBest=i===0&&x.score>=4;
+  return `<article class="card ${isBest?'best':''}"><div class="cardtop"><span class="channel">${esc(x.channel.name)}</span><span class="time">${esc(tm)}</span></div><div class="title">${esc(x.title)}</div><p class="desc">${esc(desc)}</p><div class="tags">${x.cats.filter(c=>c!=='general').map(c=>`<span class="tag">${esc(c)}</span>`).join('')}${isBest?'<span class="score">★ MUY PARA TI</span>':''}</div><div class="cardactions"><a class="btn" href="${esc(x.url)}" target="_blank" rel="noopener">Ver fuente ↗</a><button class="btn" onclick="searchDetails('${encodeURIComponent(x.title)}','${encodeURIComponent(x.channel.name)}')">Buscar invitados/temas ↗</button></div></article>`;
+ }).join('');
+}
+window.searchDetails=(title,channel)=>{const q=decodeURIComponent(title)+' '+decodeURIComponent(channel)+' hoy invitados temas Chile';window.open('https://www.google.com/search?q='+encodeURIComponent(q),'_blank','noopener');};
+async function loadData(){
+ $('liveBadge').textContent='● ACTUALIZANDO';
+ $('status').innerHTML='<strong>Consultando la guía de programación…</strong><br>Intentando obtener la parrilla actual. Si la fuente bloquea la conexión, puedes abrirla directamente desde los enlaces.';
+ let lastErr=null;
+ for(const url of API_CANDIDATES){
+  try{
+   const res=await fetch(url,{headers:{'Accept':'application/json'},cache:'no-store'});
+   if(!res.ok)throw new Error('HTTP '+res.status);
+   const json=await res.json();
+   const rows=flattenPayload(json).map(normalize).filter(x=>x.title!=='Programa sin título');
+   if(rows.length){
+    allItems=rows;lastUpdated=new Date();sourceName='Guía TV';mode='now';
+    $('liveBadge').textContent='● DATOS RECIBIDOS';
+    $('status').innerHTML=`<strong>Datos recibidos desde ${esc(sourceName)}.</strong><br>Última consulta: ${esc(chileTime())}. Actualización automática cada 5 minutos. La disponibilidad y exactitud dependen de la guía externa.`;
+    render();return;
+   }
+   throw new Error('La respuesta no contenía programas reconocibles');
+  }catch(e){lastErr=e;}
+ }
+ $('liveBadge').textContent='● FUENTE NO DISPONIBLE';
+ $('status').innerHTML=`<strong>No pude cargar la parrilla automáticamente.</strong><br>La guía pública puede bloquear consultas desde GitHub Pages o haber cambiado su API (${esc(lastErr?.message||'sin detalle')}). No mostraré horarios inventados. Abre la guía en otra pestaña y vuelve a intentar.`;
+ $('cards').innerHTML=`<div class="empty">La fuente de datos no respondió desde esta web app.<br><br><a class="btn primary" href="https://guiaprogramaciontv.com/canales/tv-chile" target="_blank" rel="noopener">Abrir guía TV Chile ↗</a><br><br>Cuando la guía esté disponible, la página ordenará los programas según tus preferencias.</div>`;
+}
+function loadPrefs(){
+ try{const p=JSON.parse(localStorage.getItem('queveo-prefs')||'null');if(p){document.querySelectorAll('#prefs input').forEach(x=>x.checked=p.categories.includes(x.value));$('threshold').value=p.threshold??1;}}catch(e){}
+ $('thresholdText').textContent='Afinidad ≥ '+$('threshold').value;
+}
+function savePrefs(){const categories=[...document.querySelectorAll('#prefs input:checked')].map(x=>x.value);localStorage.setItem('queveo-prefs',JSON.stringify({categories,threshold:Number($('threshold').value)}));render();}
+$('refreshBtn').addEventListener('click',loadData);
+$('nowBtn').addEventListener('click',()=>{mode='now';render();});
+$('tonightBtn').addEventListener('click',()=>{mode='tonight';render();});
+$('savePrefs').addEventListener('click',savePrefs);
+$('resetPrefs').addEventListener('click',()=>{document.querySelectorAll('#prefs input').forEach(x=>x.checked=DEFAULT_PREFS.includes(x.value));$('threshold').value=1;savePrefs();});
+$('threshold').addEventListener('input',()=>{$('thresholdText').textContent='Afinidad ≥ '+$('threshold').value;render();});
+document.querySelectorAll('#prefs input').forEach(x=>x.addEventListener('change',render));
+loadPrefs();loadData();setInterval(loadData,5*60*1000);
+if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) { window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js').catch(()=>{})); }
+</script>
+</body>
+</html>
