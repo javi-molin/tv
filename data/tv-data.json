@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T10:49:17.862994-03:00",
+  "updated_at": "2026-10-26T14:36:57.110349-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -49,7 +49,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Siempre hay un chileno",
+      "title": "El Tiempo",
       "time": "01:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -343,6 +343,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Siempre hay un chileno",
+      "time": "22:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Teletrece Central",
       "time": "22:30",
       "source_url": "https://www.13.cl/programacion",
@@ -441,13 +448,6 @@
     },
     {
       "channel": "Mega",
-      "title": "De paseo - Nuestras Fiestas",
-      "time": "00:30",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Familia por el Mundo",
       "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -483,14 +483,14 @@
     },
     {
       "channel": "Mega",
-      "title": "Volverías con tu ex? 2 - Lo mejor",
-      "time": "00:30",
+      "title": "Dale Play",
+      "time": "01:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "Dale Play",
+      "title": "De paseo - Nuestras Fiestas",
       "time": "01:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -505,6 +505,13 @@
     {
       "channel": "Mega",
       "title": "Selección Internacional",
+      "time": "01:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Volverías con tu ex? 2 - Lo mejor",
       "time": "01:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -533,13 +540,6 @@
     {
       "channel": "Mega",
       "title": "Tesoros de mi barrio",
-      "time": "01:30",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Viajando Ando",
       "time": "01:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -581,8 +581,8 @@
     },
     {
       "channel": "Mega",
-      "title": "Dale Play",
-      "time": "02:30",
+      "title": "Viajando Ando",
+      "time": "02:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -595,21 +595,7 @@
     },
     {
       "channel": "Mega",
-      "title": "Meganoticias Ahora",
-      "time": "02:30",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Picadas con Koke Santana",
-      "time": "02:30",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Reunión de Superados - Lo Mejor",
       "time": "02:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -630,6 +616,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Dale Play",
+      "time": "03:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Familia por el Mundo",
       "time": "03:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -638,6 +631,13 @@
     {
       "channel": "Mega",
       "title": "Los Carsongs",
+      "time": "03:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Meganoticias Ahora",
       "time": "03:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -966,6 +966,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Expo Quillota",
+      "time": "09:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Tesoros de mi barrio",
       "time": "09:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1052,6 +1059,13 @@
       "channel": "Mega",
       "title": "Vuelta a la manzana",
       "time": "12:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Expo Quillota",
+      "time": "12:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1190,6 +1204,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Expo Quillota",
+      "time": "15:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Familia por el Mundo",
       "time": "15:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1310,6 +1331,13 @@
     {
       "channel": "Mega",
       "title": "Bajo el mismo Techo",
+      "time": "17:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Expo Quillota",
       "time": "17:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1519,22 +1547,15 @@
     },
     {
       "channel": "Mega",
-      "title": "Volverías con tu ex? 2 - Lo mejor",
+      "title": "Expo Quillota",
       "time": "22:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "Coliseo",
-      "time": "22:10",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Detrás del Muro",
-      "time": "22:10",
+      "title": "Volverías con tu ex? 2 - Lo mejor",
+      "time": "22:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1561,13 +1582,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Atrapados, 133",
-      "time": "23:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Volverías con tu Ex? 2",
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1576,7 +1590,21 @@
     {
       "channel": "TVN",
       "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "00:42",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Vuelve a disfrutar de las historias de los entretenidos personajes de \"Sucupira\". Muy pronto en las...",
       "time": "02:17",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El histórico periodista de la señal pública reveló el significado de TVN para su vida y del valor...",
+      "time": "03:07",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1584,6 +1612,13 @@
       "channel": "TVN",
       "title": "Ver ahora",
       "time": "03:26",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Los participantes con delantal negro enfrentan un nuevo y exigente desafío en MasterChef Chile:...",
+      "time": "04:08",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1635,7 +1670,7 @@
       "channel": "Mega",
       "status": "ok",
       "source_url": "https://www.mega.cl/programacion/",
-      "items_found": 163,
+      "items_found": 164,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     },
     {
@@ -1649,14 +1684,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 50,
+      "items_found": 51,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 8,
+      "items_found": 11,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
