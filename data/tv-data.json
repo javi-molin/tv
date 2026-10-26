@@ -1,16 +1,10 @@
 {
-  "updated_at": "2026-10-25T22:40:52-03:00",
+  "updated_at": "2026-10-26T02:02:55.632617+00:00",
   "timezone": "America/Santiago",
-  "status": "partial",
-  "schedule_status": "available",
-  "schedule_note": "Horarios extraídos del texto visible de las páginas oficiales. Comprueba el canal para confirmar cambios.",
+  "status": "ok",
+  "schedule_status": "ok",
+  "schedule_note": "Horarios extraídos de páginas oficiales. La duración no se considera verificada.",
   "schedule_items": [
-    {
-      "channel": "Canal 13",
-      "title": "Prime",
-      "time": "00:30",
-      "source_url": "https://www.13.cl/programacion"
-    },
     {
       "channel": "Mega",
       "title": "La Hora de Jugar Trasnoche",
@@ -19,13 +13,19 @@
     },
     {
       "channel": "Mega",
-      "title": "2 - Lo mejor",
+      "title": "Volverías con tu ex? 2 - Lo mejor",
       "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
       "channel": "Mega",
       "title": "De paseo - Nuestras Fiestas",
+      "time": "00:30",
+      "source_url": "https://www.mega.cl/programacion/"
+    },
+    {
+      "channel": "Mega",
+      "title": "Dale Color",
       "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/"
     },
@@ -43,12 +43,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Dale Color",
-      "time": "00:30",
-      "source_url": "https://www.mega.cl/programacion/"
-    },
-    {
-      "channel": "Mega",
       "title": "Viajando Ando",
       "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/"
@@ -58,30 +52,6 @@
       "title": "La Cabaña",
       "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Socios por Chile 2",
-      "time": "00:40",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Vértigo Extremo",
-      "time": "00:50",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "01:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Vértigo",
-      "time": "01:00",
-      "source_url": "https://www.13.cl/programacion"
     },
     {
       "channel": "Mega",
@@ -114,24 +84,6 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "Prime",
-      "time": "01:30",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Siempre hay un chileno",
-      "time": "01:30",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Chilevisión",
-      "title": "Un imperdible estelar de Chilevisión.",
-      "time": "01:30",
-      "source_url": "https://www.chilevision.cl/page/programacion/"
-    },
-    {
       "channel": "Mega",
       "title": "Viajando Ando",
       "time": "01:30",
@@ -156,18 +108,6 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "02:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Prime",
-      "time": "02:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
       "channel": "Mega",
       "title": "Genios de la carne",
       "time": "02:00",
@@ -190,12 +130,6 @@
       "title": "Superalimentos",
       "time": "02:00",
       "source_url": "https://www.mega.cl/programacion/"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "02:15",
-      "source_url": "https://www.13.cl/programacion"
     },
     {
       "channel": "Mega",
@@ -282,12 +216,6 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "03:30",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
       "channel": "Mega",
       "title": "Tesoros de mi barrio",
       "time": "03:30",
@@ -304,36 +232,6 @@
       "title": "Huellas por Chile",
       "time": "03:30",
       "source_url": "https://www.mega.cl/programacion/"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Socios por el mundo",
-      "time": "04:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "04:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Noche",
-      "time": "04:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Milf",
-      "time": "04:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Alfombra Roja (Lo Mejor)",
-      "time": "04:00",
-      "source_url": "https://www.13.cl/programacion"
     },
     {
       "channel": "Mega",
@@ -444,12 +342,6 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "3x3",
-      "time": "06:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
       "channel": "Mega",
       "title": "Bajo el mismo Techo",
       "time": "06:00",
@@ -528,24 +420,6 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "La Gracia de Viajar",
-      "time": "07:15",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece AM",
-      "time": "07:50",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Travesía 13C: City Tour",
-      "time": "08:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
       "channel": "Mega",
       "title": "Mucho Gusto",
       "time": "08:00",
@@ -576,12 +450,6 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "Santa Misa",
-      "time": "09:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
       "channel": "Mega",
       "title": "Abriendo Pistas",
       "time": "09:00",
@@ -610,12 +478,6 @@
       "title": "Travel App",
       "time": "10:30",
       "source_url": "https://www.mega.cl/programacion/"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece a la Hora",
-      "time": "11:00",
-      "source_url": "https://www.13.cl/programacion"
     },
     {
       "channel": "Mega",
@@ -682,18 +544,6 @@
       "title": "Huellas por Chile",
       "time": "12:30",
       "source_url": "https://www.mega.cl/programacion/"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Mesa Central",
-      "time": "13:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Tu Día",
-      "time": "13:00",
-      "source_url": "https://www.13.cl/programacion"
     },
     {
       "channel": "Mega",
@@ -780,12 +630,6 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "Teletrece Tarde",
-      "time": "14:30",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
       "channel": "Mega",
       "title": "A orillas del río",
       "time": "14:30",
@@ -832,18 +676,6 @@
       "title": "Bajo el mismo Techo",
       "time": "15:00",
       "source_url": "https://www.mega.cl/programacion/"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Tarde",
-      "time": "15:20",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "El Tiempo (Tarde)",
-      "time": "15:30",
-      "source_url": "https://www.13.cl/programacion"
     },
     {
       "channel": "Mega",
@@ -918,12 +750,6 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "17:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
       "channel": "Mega",
       "title": "Acceso a lo nuestro",
       "time": "17:00",
@@ -984,12 +810,6 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "Alfombra Roja",
-      "time": "18:55",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
       "channel": "Mega",
       "title": "Disfruta la Ruta",
       "time": "18:55",
@@ -1038,24 +858,6 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "19:15",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "El Tiempo (Tarde)",
-      "time": "19:15",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Alfombra Roja",
-      "time": "19:15",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
       "channel": "Mega",
       "title": "Huellas por Chile",
       "time": "19:30",
@@ -1098,22 +900,10 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "Lugares que Hablan",
+      "channel": "Mega",
+      "title": "Volverías con tu Ex? 2",
       "time": "21:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "¡Qué Dice Chile!",
-      "time": "21:00",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Alfombra Roja",
-      "time": "21:00",
-      "source_url": "https://www.13.cl/programacion"
+      "source_url": "https://www.mega.cl/programacion/"
     },
     {
       "channel": "Mega",
@@ -1135,13 +925,13 @@
     },
     {
       "channel": "Mega",
-      "title": "2 - Lo mejor",
+      "title": "Volverías con tu ex? 2 - Lo mejor",
       "time": "21:30",
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
       "channel": "Mega",
-      "title": "2 - Lo mejor",
+      "title": "Volverías con tu ex? 2 - Lo mejor",
       "time": "22:00",
       "source_url": "https://www.mega.cl/programacion/"
     },
@@ -1170,40 +960,10 @@
       "source_url": "https://www.mega.cl/programacion/"
     },
     {
-      "channel": "Canal 13",
-      "title": "Teletrece Central",
-      "time": "22:20",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Central",
-      "time": "22:30",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "22:30",
-      "source_url": "https://www.13.cl/programacion"
-    },
-    {
-      "channel": "Chilevisión",
-      "title": "Conducido por Eduardo de la Iglesia y Fran García-Huidobro.",
-      "time": "22:30",
-      "source_url": "https://www.chilevision.cl/page/programacion/"
-    },
-    {
       "channel": "Mega",
       "title": "Coliseo",
       "time": "22:30",
       "source_url": "https://www.mega.cl/programacion/"
-    },
-    {
-      "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "22:40",
-      "source_url": "https://www.13.cl/programacion"
     },
     {
       "channel": "Mega",
@@ -1213,39 +973,81 @@
     },
     {
       "channel": "Mega",
+      "title": "Volverías con tu Ex? 2",
+      "time": "23:00",
+      "source_url": "https://www.mega.cl/programacion/"
+    },
+    {
+      "channel": "Mega",
       "title": "Atrapados, 133",
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/"
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Lunes 26 de Octubre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion"
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Martes 27 de Octubre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion"
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Miércoles 28 de Octubre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion"
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Jueves 29 de Octubre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion"
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Viernes 30 de Octubre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion"
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Domingo 25 de Octubre",
+      "time": "06:40",
+      "source_url": "https://www.13.cl/programacion"
     }
   ],
   "channel_status": [
     {
       "channel": "Mega",
       "status": "ok",
+      "count": 163,
       "source_url": "https://www.mega.cl/programacion/",
-      "count": 161,
-      "message": "Se detectaron posibles programas y horarios."
+      "message": "Se detectaron horarios en la página oficial."
     },
     {
       "channel": "Chilevisión",
-      "status": "ok",
+      "status": "no_schedule_found",
+      "count": 0,
       "source_url": "https://www.chilevision.cl/page/programacion/",
-      "count": 2,
-      "message": "Se detectaron posibles programas y horarios."
+      "message": "La página respondió, pero no se detectó una programación que se pudiera interpretar con seguridad."
     },
     {
       "channel": "Canal 13",
       "status": "ok",
+      "count": 6,
       "source_url": "https://www.13.cl/programacion",
-      "count": 39,
-      "message": "Se detectaron posibles programas y horarios."
+      "message": "Se detectaron horarios en la página oficial."
     },
     {
       "channel": "TVN",
       "status": "no_schedule_found",
-      "source_url": "https://www.tvn.cl/",
       "count": 0,
-      "message": "La página se pudo leer, pero no se identificaron horarios fiables."
+      "source_url": "https://www.tvn.cl/",
+      "message": "La página respondió, pero no se detectó una programación que se pudiera interpretar con seguridad."
     }
   ]
 }
