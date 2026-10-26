@@ -4,19 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#10110f">
-  <title>TV Chile — Guía de programación</title>
+  <meta name="theme-color" content="#101114">
+  <title>Guía de TV Chile</title>
   <style>
     :root {
-      --bg: #10110f;
-      --panel: #191a17;
-      --text: #f5f5ed;
-      --muted: #a5a69b;
-      --line: #37382f;
-      --accent: #c9fa55;
-      --red: #ff5555;
-      --channel-width: 142px;
-      --hour-width: 150px;
+      color-scheme: dark;
+      --bg: #101114;
+      --panel: #191a20;
+      --panel2: #22242c;
+      --text: #f5f5f7;
+      --muted: #a4a6b2;
+      --accent: #a6f36b;
+      --line: #30323b;
     }
 
     * { box-sizing: border-box; }
@@ -25,815 +24,594 @@
       margin: 0;
       background: var(--bg);
       color: var(--text);
-      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Helvetica, Arial, sans-serif;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
 
-    a { color: inherit; }
-
-    .topbar {
-      padding: 22px clamp(16px, 4vw, 52px);
+    header {
+      padding: 26px clamp(16px, 4vw, 48px) 20px;
       border-bottom: 1px solid var(--line);
+      background: #141519;
+    }
+
+    .topline {
       display: flex;
-      justify-content: space-between;
+      flex-wrap: wrap;
       align-items: center;
-      gap: 18px;
-      flex-wrap: wrap;
-    }
-
-    .brand {
-      font-size: 17px;
-      font-weight: 850;
-      letter-spacing: -.5px;
-    }
-
-    .brand span { color: var(--accent); }
-
-    .clock {
-      color: var(--muted);
-      font-size: 13px;
-      font-variant-numeric: tabular-nums;
-    }
-
-    main {
-      max-width: 1600px;
-      margin: 0 auto;
-      padding: 32px clamp(12px, 3vw, 40px) 60px;
-    }
-
-    .intro {
-      display: flex;
       justify-content: space-between;
-      align-items: end;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-bottom: 26px;
-    }
-
-    .eyebrow {
-      color: var(--accent);
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      font-size: 10px;
-      font-weight: 800;
-      margin-bottom: 10px;
+      gap: 12px;
     }
 
     h1 {
-      font-size: clamp(30px, 5vw, 54px);
-      line-height: 1;
-      letter-spacing: -2px;
       margin: 0;
+      font-size: clamp(25px, 4vw, 38px);
+      letter-spacing: -1.2px;
     }
 
-    .subtitle {
-      color: var(--muted);
-      margin: 12px 0 0;
-      line-height: 1.5;
-      font-size: 14px;
-      max-width: 650px;
-    }
-
-    .today {
-      color: var(--muted);
+    .live-label {
+      color: var(--accent);
       font-size: 12px;
-      text-align: right;
-      line-height: 1.7;
+      font-weight: 800;
+      letter-spacing: 1.4px;
     }
 
-    .toolbar {
+    #updated {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .filters {
       display: flex;
-      gap: 8px;
-      align-items: center;
       flex-wrap: wrap;
-      margin: 24px 0 14px;
+      gap: 8px;
+      margin-top: 22px;
     }
 
     .filter {
       border: 1px solid var(--line);
-      color: var(--muted);
-      background: transparent;
-      padding: 9px 13px;
       border-radius: 999px;
+      background: var(--panel);
+      color: var(--text);
+      padding: 9px 15px;
       cursor: pointer;
-      font-size: 12px;
+      font-size: 13px;
     }
 
-    .filter:hover,
     .filter.active {
-      color: var(--bg);
       background: var(--accent);
       border-color: var(--accent);
+      color: #101114;
+      font-weight: 800;
     }
 
-    .toolbar-note {
-      color: var(--muted);
-      font-size: 11px;
-      margin-left: auto;
+    main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px clamp(12px, 3vw, 32px) 60px;
     }
 
-    .notice {
-      padding: 13px 15px;
-      border: 1px solid var(--line);
-      background: var(--panel);
-      color: var(--muted);
-      border-radius: 10px;
-      font-size: 12px;
-      line-height: 1.6;
-      margin: 14px 0 18px;
+    .section-heading {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 16px;
     }
 
-    .notice strong { color: var(--text); }
+    h2 { margin: 0; font-size: 21px; }
 
-    .guide-shell {
-      border: 1px solid var(--line);
-      border-radius: 13px;
-      overflow: hidden;
-      background: var(--panel);
-    }
+    .muted { color: var(--muted); font-size: 13px; }
 
-    .guide-scroll {
-      overflow-x: auto;
-      overflow-y: hidden;
-      overscroll-behavior-x: contain;
-      scrollbar-color: #55564b var(--panel);
-      -webkit-overflow-scrolling: touch;
-    }
+    .channel-section { margin: 28px 0; }
 
-    .epg {
-      position: relative;
-      min-width: calc(var(--channel-width) + 24 * var(--hour-width));
-    }
-
-    .epg-header,
-    .epg-row {
-      display: grid;
-      grid-template-columns: var(--channel-width) calc(24 * var(--hour-width));
-      width: calc(var(--channel-width) + 24 * var(--hour-width));
-    }
-
-    .epg-header {
-      position: relative;
-      z-index: 5;
-      background: #1d1e1a;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .channel-heading {
+    .channel-title {
       display: flex;
       align-items: center;
-      padding: 12px;
-      font-size: 10px;
-      color: var(--muted);
-      font-weight: 800;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      border-right: 1px solid var(--line);
-      position: sticky;
-      left: 0;
-      z-index: 6;
-      background: #1d1e1a;
+      gap: 10px;
+      margin: 0 0 12px;
+      font-size: 17px;
     }
 
-    .hours {
-      display: flex;
-      width: calc(24 * var(--hour-width));
+    .channel-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--accent);
+      flex: 0 0 auto;
     }
 
-    .hour {
-      width: var(--hour-width);
-      flex: 0 0 var(--hour-width);
-      padding: 12px 10px;
-      color: var(--muted);
-      font-size: 11px;
-      border-right: 1px solid #303129;
-      font-variant-numeric: tabular-nums;
-    }
-
-    .hour.current-hour {
-      color: var(--accent);
-      font-weight: 800;
-    }
-
-    .epg-row {
-      min-height: 78px;
-      border-bottom: 1px solid var(--line);
-    }
-
-    .epg-row:last-of-type { border-bottom: 0; }
-
-    .channel-cell {
-      position: sticky;
-      left: 0;
-      z-index: 3;
-      background: #191a17;
-      border-right: 1px solid var(--line);
-      padding: 12px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 6px;
-      min-width: 0;
-    }
-
-    .channel-name {
-      font-size: 12px;
-      font-weight: 850;
-    }
-
-    .channel-status {
-      color: var(--muted);
-      font-size: 10px;
-    }
-
-    .track {
-      position: relative;
-      width: calc(24 * var(--hour-width));
-      min-height: 78px;
-      background-image: repeating-linear-gradient(
-        to right,
-        transparent 0,
-        transparent calc(var(--hour-width) - 1px),
-        #303129 calc(var(--hour-width) - 1px),
-        #303129 var(--hour-width)
-      );
+    .program-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 235px), 1fr));
+      gap: 10px;
     }
 
     .program {
-      position: absolute;
-      top: 9px;
-      bottom: 9px;
-      min-width: 2px;
-      overflow: hidden;
-      padding: 8px 10px;
-      border: 1px solid #45463b;
-      border-radius: 7px;
-      background: #282923;
-      text-decoration: none;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 5px;
-      transition: background .15s, border-color .15s;
+      display: block;
+      width: 100%;
+      min-height: 112px;
+      text-align: left;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 15px;
+      background: var(--panel);
+      color: var(--text);
+      cursor: pointer;
+      transition: border-color .15s, transform .15s, background .15s;
     }
 
-    .program:hover {
-      background: #35372b;
-      border-color: #777969;
-      z-index: 2;
-    }
-
-    .program.on-air {
-      background: #2b3820;
+    .program:hover, .program:focus-visible {
       border-color: var(--accent);
-      box-shadow: inset 3px 0 0 var(--accent);
+      background: var(--panel2);
+      transform: translateY(-2px);
+      outline: none;
     }
 
-    .program-title {
-      font-size: 11px;
+    .program-time {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 9px;
+    }
+
+    .program-name {
+      font-size: 16px;
+      line-height: 1.35;
       font-weight: 750;
-      line-height: 1.3;
       overflow-wrap: anywhere;
     }
 
-    .program-meta {
-      color: #c0c1b5;
-      font-size: 10px;
-      white-space: nowrap;
-    }
-
-    .on-air .program-meta { color: var(--accent); }
-
-    .now-line {
-      position: absolute;
-      z-index: 4;
-      top: 0;
-      bottom: 0;
-      width: 2px;
-      background: var(--red);
-      pointer-events: none;
-    }
-
-    .now-label {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      background: var(--red);
-      color: white;
-      font-size: 9px;
-      font-weight: 900;
-      padding: 4px 5px;
-      border-radius: 0 0 4px 4px;
-      letter-spacing: .5px;
-      white-space: nowrap;
-    }
-
-    .empty {
-      padding: 40px 20px;
+    .program-hint {
+      display: block;
+      margin-top: 10px;
       color: var(--muted);
-      text-align: center;
-      font-size: 13px;
+      font-size: 12px;
+    }
+
+    .empty, .notice {
+      padding: 20px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--panel);
+      color: var(--muted);
       line-height: 1.6;
     }
 
-    .legend {
-      display: flex;
-      gap: 18px;
-      flex-wrap: wrap;
-      padding: 14px 16px;
+    .notice { margin-bottom: 18px; }
+
+    footer {
+      padding: 22px;
+      text-align: center;
       color: var(--muted);
-      font-size: 11px;
+      font-size: 12px;
       border-top: 1px solid var(--line);
     }
 
-    .legend-item {
-      display: inline-flex;
-      gap: 7px;
-      align-items: center;
+    dialog {
+      width: min(560px, calc(100% - 28px));
+      max-height: min(85vh, 760px);
+      overflow: auto;
+      padding: 0;
+      border: 1px solid #41434e;
+      border-radius: 22px;
+      background: #191a20;
+      color: var(--text);
+      box-shadow: 0 24px 100px #000b;
     }
 
-    .legend-swatch {
-      width: 9px;
-      height: 9px;
-      border-radius: 3px;
-      display: inline-block;
-      background: #282923;
-      border: 1px solid #45463b;
+    dialog::backdrop {
+      background: #000b;
+      backdrop-filter: blur(5px);
     }
 
-    .legend-swatch.live {
-      background: #2b3820;
-      border-color: var(--accent);
+    .modal-content { padding: 25px; }
+
+    .modal-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 15px;
     }
 
-    .legend-swatch.now {
-      width: 2px;
-      height: 12px;
-      background: var(--red);
+    .modal-channel {
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    #modalTitle {
+      margin: 9px 0 12px;
+      font-size: clamp(24px, 5vw, 32px);
+      line-height: 1.15;
+      overflow-wrap: anywhere;
+    }
+
+    .close {
       border: 0;
-      border-radius: 0;
+      border-radius: 50%;
+      width: 38px;
+      height: 38px;
+      flex: 0 0 auto;
+      background: var(--panel2);
+      color: var(--text);
+      font-size: 23px;
+      cursor: pointer;
     }
 
-    .footer {
-      margin-top: 18px;
+    .modal-meta {
       color: var(--muted);
-      font-size: 11px;
+      font-size: 14px;
       line-height: 1.7;
     }
 
-    .footer a { color: var(--accent); text-decoration: none; }
-    .footer a:hover { text-decoration: underline; }
+    #modalSummary {
+      margin: 20px 0;
+      line-height: 1.7;
+      white-space: pre-line;
+    }
 
-    @media (max-width: 650px) {
-      :root {
-        --channel-width: 112px;
-        --hour-width: 125px;
-      }
+    .modal-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 24px;
+    }
 
-      main { padding-top: 25px; }
-      h1 { letter-spacing: -1.2px; }
-      .today { text-align: left; }
-      .toolbar-note { width: 100%; margin-left: 0; }
-      .program { padding: 7px; }
-      .program-title { font-size: 10px; }
+    .action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .action-primary {
+      background: var(--accent);
+      color: #101114;
+    }
+
+    .action-secondary {
+      border: 1px solid var(--line);
+      color: var(--text);
+      background: var(--panel2);
+    }
+
+    .hidden { display: none !important; }
+
+    @media (max-width: 500px) {
+      header { padding-top: 20px; }
+      .program-list { grid-template-columns: 1fr; }
+      .program { min-height: 95px; }
+      .modal-content { padding: 20px; }
     }
   </style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="brand">TV <span>CHILE</span> / GUÍA</div>
-    <div class="clock" id="liveClock">Cargando hora de Chile…</div>
-  </header>
+  <header>
+    <div class="topline">
+      <h1>Guía de TV Chile</h1>
+      <span class="live-label">● TELEVISIÓN ABIERTA</span>
+    </div>
+    <div id="updated">Cargando programación…</div>
 
-  <main>
-    <section class="intro">
-      <div>
-        <div class="eyebrow">Guía de televisión</div>
-        <h1>Qué están dando.</h1>
-        <p class="subtitle">
-          La programación de los canales chilenos en una sola línea de tiempo.
-          Desplázate horizontalmente para recorrer las 24 horas.
-        </p>
-      </div>
-      <div class="today" id="todayLabel"></div>
-    </section>
-
-    <div class="toolbar" id="filters">
+    <nav class="filters" aria-label="Filtrar canales">
       <button class="filter active" data-channel="Todos">Todos</button>
       <button class="filter" data-channel="Mega">Mega</button>
       <button class="filter" data-channel="Chilevisión">Chilevisión</button>
       <button class="filter" data-channel="Canal 13">Canal 13</button>
       <button class="filter" data-channel="TVN">TVN</button>
-      <span class="toolbar-note" id="updateLabel">Buscando programación…</span>
+    </nav>
+  </header>
+
+  <main>
+    <div id="statusNotice" class="notice hidden"></div>
+    <div class="section-heading">
+      <h2>Programación disponible</h2>
+      <span class="muted" id="itemCount"></span>
     </div>
-
-    <div class="notice" id="statusNotice">
-      <strong>Nota:</strong> los horarios dependen de los datos publicados por cada canal.
-      La línea roja indica la hora actual de Chile; un programa destacado en verde coincide
-      con el horario detectado en los datos disponibles.
-    </div>
-
-    <section class="guide-shell" aria-label="Guía de programación por canal">
-      <div class="guide-scroll" id="guideScroll">
-        <div class="epg" id="epg">
-          <div class="empty">Cargando la guía de programación…</div>
-        </div>
-      </div>
-      <div class="legend">
-        <span class="legend-item"><i class="legend-swatch live"></i> Horario que coincide con la hora actual</span>
-        <span class="legend-item"><i class="legend-swatch"></i> Otro horario detectado</span>
-        <span class="legend-item"><i class="legend-swatch now"></i> Hora actual</span>
-      </div>
-    </section>
-
-    <div class="footer">
-      Los bloques se posicionan según la hora de inicio. Si el origen no publica la duración,
-      la guía la estima hasta el siguiente horario detectado del mismo canal; por eso no garantiza
-      que el programa esté efectivamente al aire.<br>
-      Fuentes oficiales:
-      <a href="https://www.mega.cl/programacion/" target="_blank" rel="noopener">Mega</a> ·
-      <a href="https://www.chilevision.cl/page/programacion/" target="_blank" rel="noopener">Chilevisión</a> ·
-      <a href="https://www.13.cl/programacion" target="_blank" rel="noopener">Canal 13</a> ·
-      <a href="https://www.tvn.cl/" target="_blank" rel="noopener">TVN</a>
+    <div id="schedule">
+      <div class="empty">Cargando los datos de la guía…</div>
     </div>
   </main>
 
-  <script>
-    const CHANNELS = ["Mega", "Chilevisión", "Canal 13", "TVN"];
+  <footer>
+    Guía informativa independiente. La programación puede cambiar según el canal.
+  </footer>
 
-    const CHANNEL_URLS = {
-      "Mega": "https://www.mega.cl/programacion/",
-      "Chilevisión": "https://www.chilevision.cl/page/programacion/",
-      "Canal 13": "https://www.13.cl/programacion",
-      "TVN": "https://www.tvn.cl/"
+  <dialog id="programModal" aria-labelledby="modalTitle">
+    <div class="modal-content">
+      <div class="modal-top">
+        <div>
+          <div class="modal-channel" id="modalChannel"></div>
+          <h2 id="modalTitle"></h2>
+        </div>
+        <button class="close" id="closeModal" aria-label="Cerrar">×</button>
+      </div>
+      <div class="modal-meta" id="modalMeta"></div>
+      <p id="modalSummary"></p>
+      <div class="modal-actions">
+        <a class="action action-primary" id="watchLive" href="#" target="_blank"
+           rel="noopener noreferrer">Ver aquí ↗</a>
+        <a class="action action-secondary hidden" id="officialInfo" href="#"
+           target="_blank" rel="noopener noreferrer">Más información ↗</a>
+      </div>
+    </div>
+  </dialog>
+
+  <script>
+    const DATA_URL = "./data/tv-data.json";
+
+    const LIVE_URLS = {
+      "Mega": "https://www.mega.cl/senal-en-vivo/",
+      "Chilevisión": "https://www.chilevision.cl/senal-online/",
+      "Canal 13": "https://www.13.cl/",
+      "TVN": "https://www.tvn.cl/en-vivo"
+    };
+
+    // Solo se muestran resúmenes generales para programas reconocidos.
+    // Si no hay información suficiente, la ficha lo indica sin inventar detalles.
+    const PROGRAM_DETAILS = {
+      "mucho gusto": "Programa matinal con actualidad, entrevistas y conversación sobre los temas del día.",
+      "meganoticias amanece": "Espacio informativo con noticias y los primeros acontecimientos de la jornada.",
+      "meganoticias alerta": "Noticiero con información de actualidad nacional e internacional.",
+      "meganoticias prime": "Edición central de noticias con los principales acontecimientos del día.",
+      "contigo en la mañana": "Matinal de actualidad, noticias, entrevistas y temas ciudadanos.",
+      "contigo en directo": "Programa de actualidad que aborda noticias, temas políticos y policiales.",
+      "plan perfecto": "Espacio de entretención y espectáculos.",
+      "sabingo": "Programa familiar que recorre historias, tradiciones y lugares de Chile.",
+      "buenos días a todos": "Matinal de TVN con actualidad, entrevistas y conversación.",
+      "el medio día": "Programa de actualidad, conversación y temas de interés general.",
+      "la hora de jugar": "Programa de entretención y concursos.",
+      "dale play": "Programa de entretención y concursos musicales."
     };
 
     let allItems = [];
-    let channelStatuses = [];
-    let activeChannel = "Todos";
+    let selectedChannel = "Todos";
 
-    const $ = id => document.getElementById(id);
+    const scheduleEl = document.getElementById("schedule");
+    const modal = document.getElementById("programModal");
 
-    function chileNowParts() {
-      const parts = new Intl.DateTimeFormat("en-CA", {
-        timeZone: "America/Santiago",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit",
-        hourCycle: "h23"
-      }).formatToParts(new Date());
-
-      return Object.fromEntries(parts.map(p => [p.type, p.value]));
+    function normalize(value) {
+      return String(value || "").trim().toLocaleLowerCase("es-CL")
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     }
 
-    function chileMinutesNow() {
-      const p = chileNowParts();
-      return Number(p.hour) * 60 +
-        Number(p.minute) +
-        Number(p.second) / 60;
-    }
-
-    function todayKey() {
-      const p = chileNowParts();
-      return `${p.year}-${p.month}-${p.day}`;
-    }
-
-    function formatToday() {
-      return new Intl.DateTimeFormat("es-CL", {
-        timeZone: "America/Santiago",
-        weekday: "long",
-        day: "numeric",
-        month: "long",
-        year: "numeric"
-      }).format(new Date());
-    }
-
-    function updateClock() {
-      $("liveClock").textContent =
-        new Intl.DateTimeFormat("es-CL", {
-          timeZone: "America/Santiago",
-          hour: "2-digit",
-          minute: "2-digit",
-          second: "2-digit",
-          hourCycle: "h23"
-        }).format(new Date()) + " · HORA DE CHILE";
-
-      $("todayLabel").textContent = formatToday();
+    function escapeHTML(value) {
+      return String(value ?? "").replace(/[&<>"']/g, char => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;",
+        '"': "&quot;", "'": "&#39;"
+      })[char]);
     }
 
     function parseTime(value) {
-      if (typeof value !== "string") return null;
-
-      const match = value.trim().match(/^([01]?\d|2[0-3]):([0-5]\d)$/);
-
+      const match = String(value || "").match(/(?:^|\D)([01]?\d|2[0-3]):([0-5]\d)(?:\D|$)/);
       if (!match) return null;
-
       return Number(match[1]) * 60 + Number(match[2]);
     }
 
-    function normaliseChannel(value) {
-      const v = String(value || "")
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "");
-
-      if (v.includes("chilevision") || v === "chv") return "Chilevisión";
-      if (v.includes("mega")) return "Mega";
-      if (v.includes("canal 13") || v === "13" || v.includes("13.cl")) return "Canal 13";
-      if (v === "tvn" || v.includes("television nacional")) return "TVN";
-
-      return String(value || "").trim();
+    function todayChile() {
+      const parts = new Intl.DateTimeFormat("en-CA", {
+        timeZone: "America/Santiago",
+        year: "numeric", month: "2-digit", day: "2-digit"
+      }).formatToParts(new Date());
+      const get = type => parts.find(part => part.type === type)?.value;
+      return `${get("year")}-${get("month")}-${get("day")}`;
     }
 
-    function cleanItems(items) {
-      const seen = new Set();
+    function cleanItems(rawItems) {
+      const today = todayChile();
       const result = [];
+      const seen = new Set();
 
-      for (const raw of items || []) {
-        const channel = normaliseChannel(raw.channel);
+      for (const raw of rawItems) {
+        if (!raw || typeof raw !== "object") continue;
+
+        const channel = String(raw.channel || "").trim();
         const title = String(raw.title || "").trim();
         const time = String(raw.time || "").trim();
         const minutes = parseTime(time);
+        const date = String(raw.date || "").slice(0, 10);
 
-        if (!CHANNELS.includes(channel) || !title || minutes === null) {
-          continue;
-        }
+        if (!channel || !title || minutes === null) continue;
+        if (!Object.hasOwn(LIVE_URLS, channel)) continue;
+        if (date && /^\d{4}-\d{2}-\d{2}$/.test(date) && date !== today) continue;
 
-        // Si hay fecha explícita, solo muestra los datos del día actual.
-        if (raw.date && raw.date !== todayKey()) continue;
-
-        const key = `${channel}|${time}|${title.toLowerCase()}`;
-
+        // Evita registros repetidos exactos, pero no elimina programas distintos
+        // que legítimamente comiencen a la misma hora.
+        const key = [channel, title, time, date].join("|").toLowerCase();
         if (seen.has(key)) continue;
         seen.add(key);
 
         result.push({
           channel,
           title,
-          time,
+          time: time.match(/[0-2]?\d:[0-5]\d/)?.[0] || time,
           minutes,
-          source_url: raw.source_url || CHANNEL_URLS[channel],
-          date: raw.date || null
+          date,
+          summary: String(raw.summary || raw.description || "").trim(),
+          source_url: safeHttpURL(raw.source_url || raw.url || "")
         });
       }
 
-      return result.sort((a, b) =>
-        CHANNELS.indexOf(a.channel) - CHANNELS.indexOf(b.channel) ||
-        a.minutes - b.minutes
+      result.sort((a, b) =>
+        a.channel.localeCompare(b.channel, "es") ||
+        a.minutes - b.minutes ||
+        a.title.localeCompare(b.title, "es")
       );
+
+      return result;
     }
 
-    function getChannelStatus(channel) {
-      return channelStatuses.find(
-        status => normaliseChannel(status.channel) === channel
-      );
-    }
-
-    function escapeHTML(value) {
-      return String(value).replace(/[&<>"']/g, ch => ({
-        "&": "&amp;",
-        "<": "&lt;",
-        ">": "&gt;",
-        '"': "&quot;",
-        "'": "&#39;"
-      })[ch]);
+    function safeHttpURL(value) {
+      try {
+        const url = new URL(value);
+        return ["https:", "http:"].includes(url.protocol) ? url.href : "";
+      } catch {
+        return "";
+      }
     }
 
     function render() {
-      const epg = $("epg");
-      const now = chileMinutesNow();
-
-      const styles = getComputedStyle(document.documentElement);
-      const hourWidth =
-        parseFloat(styles.getPropertyValue("--hour-width")) || 150;
-      const channelWidth =
-        parseFloat(styles.getPropertyValue("--channel-width")) || 142;
-
-      const timelineWidth = 24 * hourWidth;
-      const channels = activeChannel === "Todos"
-        ? CHANNELS
-        : [activeChannel];
-
-      const hoursHTML = Array.from({ length: 24 }, (_, hour) => {
-        const currentHour = Math.floor(now / 60) === hour;
-
-        return `
-          <div class="hour ${currentHour ? "current-hour" : ""}">
-            ${String(hour).padStart(2, "0")}:00
-          </div>
-        `;
-      }).join("");
-
-      let html = `
-        <div class="epg-header">
-          <div class="channel-heading">Canal</div>
-          <div class="hours" style="width:${timelineWidth}px">
-            ${hoursHTML}
-          </div>
-        </div>
-      `;
-
-      for (const channel of channels) {
-        const items = allItems
-          .filter(item => item.channel === channel)
-          .sort((a, b) => a.minutes - b.minutes);
-
-        const status = getChannelStatus(channel);
-
-        const statusText = items.length
-          ? `${items.length} horarios detectados`
-          : status && status.status === "error"
-            ? "No se pudo consultar"
-            : "Sin horarios detectados";
-
-        // Horas de inicio únicas, para no crear duraciones de cero minutos.
-        const distinctStarts = [...new Set(items.map(item => item.minutes))]
-          .sort((a, b) => a - b);
-
-        html += `
-          <div class="epg-row">
-            <div class="channel-cell">
-              <div class="channel-name">${escapeHTML(channel)}</div>
-              <div class="channel-status">${escapeHTML(statusText)}</div>
-            </div>
-            <div
-              class="track"
-              data-track="${escapeHTML(channel)}"
-              style="width:${timelineWidth}px"
-            >
-        `;
-
-        for (const item of items) {
-          const start = item.minutes;
-          const nextStart = distinctStarts.find(value => value > start);
-
-          // Si no hay siguiente programa, dibuja 30 minutos como estimación.
-          const end = nextStart !== undefined
-            ? nextStart
-            : Math.min(start + 30, 1440);
-
-          const duration = Math.max(1, end - start);
-          const left = (start / 1440) * 100;
-          const width = Math.min(
-            (duration / 1440) * 100,
-            100 - left
-          );
-
-          // Los programas anteriores a la hora actual se conservan.
-          const isCurrent = now >= start && now < end;
-
-          const title = escapeHTML(item.title);
-          const source = escapeHTML(
-            item.source_url || CHANNEL_URLS[channel]
-          );
-
-          html += `
-            <a
-              class="program ${isCurrent ? "on-air" : ""}"
-              href="${source}"
-              target="_blank"
-              rel="noopener"
-              title="${title} — ${item.time}"
-              style="left:${left}%;width:${Math.max(width, 0.1)}%"
-            >
-              <span class="program-title">${title}</span>
-              <span class="program-meta">
-                ${item.time}${isCurrent ? " · AHORA" : ""}
-              </span>
-            </a>
-          `;
-        }
-
-        html += `
-            </div>
-          </div>
-        `;
-      }
-
-      epg.innerHTML = html;
-
-      // Posición de la línea roja sobre la misma escala horaria.
-      const line = document.createElement("div");
-      line.className = "now-line";
-      line.style.left =
-        `${channelWidth + (now / 1440) * timelineWidth}px`;
-      line.innerHTML = '<span class="now-label">AHORA</span>';
-
-      epg.appendChild(line);
-
-      // Centra aproximadamente la hora actual al abrir la guía.
-      if (!epg.dataset.scrolled) {
-        const scroller = $("guideScroll");
-        scroller.scrollLeft = Math.max(
-          0,
-          channelWidth + (now / 1440) * timelineWidth -
-            scroller.clientWidth * 0.35
-        );
-
-        epg.dataset.scrolled = "true";
-      }
-    }
-
-    function renderStatus(data) {
-      const scheduleStatus = data.schedule_status || data.status || "";
-
-      const updated = data.updated_at
-        ? new Date(data.updated_at).toLocaleString("es-CL", {
-            timeZone: "America/Santiago",
-            dateStyle: "short",
-            timeStyle: "short"
-          })
-        : "";
-
-      $("updateLabel").textContent = updated
-        ? `Actualizado: ${updated}`
-        : "Fecha de actualización no disponible";
-
-      const failed = channelStatuses.filter(status =>
-        status.status === "error" ||
-        status.status === "no_schedule_found"
+      const filtered = allItems.filter(item =>
+        selectedChannel === "Todos" || item.channel === selectedChannel
       );
 
-      if (!allItems.length) {
-        $("statusNotice").innerHTML =
-          "<strong>Por ahora no hay horarios utilizables.</strong> " +
-          "El sitio puede haber cambiado su estructura o no publicar la " +
-          "programación en el HTML. Revisa GitHub Actions.";
-      } else if (failed.length) {
-        $("statusNotice").innerHTML =
-          `<strong>Programación parcial.</strong> Hay horarios detectados, ` +
-          `pero ${failed.length} canal(es) no entregaron una parrilla ` +
-          "legible. Los horarios visibles no confirman una emisión en directo.";
-      } else {
-        $("statusNotice").innerHTML =
-          `<strong>Datos cargados.</strong> ${allItems.length} horarios detectados. ` +
-          "La exactitud depende de la información publicada por los canales.";
+      document.getElementById("itemCount").textContent =
+        `${filtered.length} ${filtered.length === 1 ? "programa" : "programas"}`;
+
+      if (!filtered.length) {
+        scheduleEl.innerHTML = `
+          <div class="empty">
+            No hay horarios válidos para mostrar${selectedChannel !== "Todos"
+              ? ` en ${escapeHTML(selectedChannel)}` : ""}.
+            La guía no inventa programas cuando no logra obtener la parrilla oficial.
+            Vuelve a intentarlo cuando se actualicen los datos.
+          </div>`;
+        return;
       }
 
-      if (scheduleStatus === "error") {
-        $("statusNotice").innerHTML +=
-          " Hubo un problema al recopilar la programación.";
-      }
-    }
+      const channels = selectedChannel === "Todos"
+        ? ["Mega", "Chilevisión", "Canal 13", "TVN"]
+        : [selectedChannel];
 
-    async function loadGuide() {
-      try {
-        const response = await fetch(
-          `data/tv-data.json?v=${Date.now()}`,
-          { cache: "no-store" }
-        );
+      scheduleEl.innerHTML = channels.map(channel => {
+        const items = filtered.filter(item => item.channel === channel);
+        if (!items.length) return "";
 
-        if (!response.ok) {
-          throw new Error("No se pudo cargar data/tv-data.json");
-        }
+        return `
+          <section class="channel-section">
+            <h3 class="channel-title">
+              <span class="channel-dot"></span>${escapeHTML(channel)}
+            </h3>
+            <div class="program-list">
+              ${items.map((item, index) => `
+                <button class="program" type="button"
+                  data-channel="${escapeHTML(item.channel)}"
+                  data-title="${escapeHTML(item.title)}"
+                  data-time="${escapeHTML(item.time)}"
+                  data-summary="${escapeHTML(item.summary)}"
+                  data-source="${escapeHTML(item.source_url)}"
+                  aria-label="Ver detalles de ${escapeHTML(item.title)}">
+                  <span class="program-time">${escapeHTML(item.time)}</span>
+                  <span class="program-name">${escapeHTML(item.title)}</span>
+                  <span class="program-hint">Ver detalles del programa ↗</span>
+                </button>
+              `).join("")}
+            </div>
+          </section>`;
+      }).join("");
 
-        const data = await response.json();
-
-        allItems = cleanItems(data.schedule_items || []);
-        channelStatuses = data.channel_status || [];
-
-        renderStatus(data);
-        render();
-      } catch (error) {
-        $("epg").innerHTML =
-          '<div class="empty">No se pudo cargar la guía.<br>' +
-          'Comprueba que exista <strong>data/tv-data.json</strong> ' +
-          "y contenga JSON válido.</div>";
-
-        $("updateLabel").textContent = "No se pudieron cargar los datos";
-
-        $("statusNotice").innerHTML =
-          "<strong>Error de datos.</strong> La página no pudo leer " +
-          "data/tv-data.json. Comprueba que el archivo exista y sea válido.";
-      }
-    }
-
-    $("filters").addEventListener("click", event => {
-      const button = event.target.closest("button[data-channel]");
-      if (!button) return;
-
-      activeChannel = button.dataset.channel;
-
-      document.querySelectorAll(".filter").forEach(element => {
-        element.classList.toggle("active", element === button);
+      scheduleEl.querySelectorAll(".program").forEach(button => {
+        button.addEventListener("click", () => openProgram(button.dataset));
       });
+    }
 
-      $("epg").dataset.scrolled = "";
-      render();
+    function openProgram(item) {
+      const channel = item.channel || "";
+      const title = item.title || "Programa";
+      const knownSummary = PROGRAM_DETAILS[normalize(title)];
+      const summary = item.summary || knownSummary ||
+        "No hay un resumen verificado disponible para este programa. Puedes consultar la información oficial del canal.";
+
+      document.getElementById("modalChannel").textContent = channel;
+      document.getElementById("modalTitle").textContent = title;
+      document.getElementById("modalMeta").textContent =
+        `Horario publicado: ${item.time || "No informado"} · Canal: ${channel}`;
+      document.getElementById("modalSummary").textContent = summary;
+
+      document.getElementById("watchLive").href =
+        LIVE_URLS[channel] || "https://www.tvn.cl/en-vivo";
+
+      const infoLink = document.getElementById("officialInfo");
+      const sourceURL = safeHttpURL(item.source || "");
+      if (sourceURL) {
+        infoLink.href = sourceURL;
+        infoLink.classList.remove("hidden");
+      } else {
+        infoLink.classList.add("hidden");
+        infoLink.removeAttribute("href");
+      }
+
+      if (typeof modal.showModal === "function") {
+        modal.showModal();
+      } else {
+        alert(`${title}\n${channel} · ${item.time}\n\n${summary}`);
+      }
+    }
+
+    document.querySelectorAll(".filter").forEach(button => {
+      button.addEventListener("click", () => {
+        selectedChannel = button.dataset.channel;
+        document.querySelectorAll(".filter").forEach(other => {
+          other.classList.toggle("active", other === button);
+        });
+        render();
+      });
     });
 
-    updateClock();
-    setInterval(updateClock, 1000);
+    document.getElementById("closeModal").addEventListener("click", () => modal.close());
 
-    loadGuide();
-    setInterval(loadGuide, 5 * 60 * 1000);
+    modal.addEventListener("click", event => {
+      if (event.target === modal) modal.close();
+    });
 
-    // Actualiza la posición de AHORA sin esperar a volver a cargar los datos.
-    setInterval(render, 30 * 1000);
+    async function loadSchedule() {
+      try {
+        const response = await fetch(`${DATA_URL}?t=${Date.now()}`, {
+          cache: "no-store"
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+        const data = await response.json();
+        allItems = cleanItems(Array.isArray(data.schedule_items)
+          ? data.schedule_items : []);
+
+        const dateText = data.updated_at
+          ? ` · Actualizado: ${new Date(data.updated_at).toLocaleString("es-CL", {
+              timeZone: "America/Santiago",
+              dateStyle: "short", timeStyle: "short"
+            })}`
+          : "";
+
+        document.getElementById("updated").textContent =
+          `${data.status || "Programación cargada"}${dateText}`;
+
+        const badChannels = Array.isArray(data.channel_status)
+          ? data.channel_status.filter(item =>
+              item.status && !["ok", "success"].includes(item.status))
+          : [];
+
+        const notice = document.getElementById("statusNotice");
+        if (badChannels.length) {
+          notice.textContent = "No se pudo confirmar la programación de todos los canales. " +
+            "Los horarios ausentes no se completan con datos inventados.";
+          notice.classList.remove("hidden");
+        } else {
+          notice.classList.add("hidden");
+        }
+
+        render();
+      } catch (error) {
+        document.getElementById("updated").textContent =
+          "No se pudieron cargar los datos de la programación.";
+        scheduleEl.innerHTML = `
+          <div class="empty">
+            Hubo un problema al leer data/tv-data.json.
+            Revisa que el archivo exista y que la acción de GitHub haya terminado correctamente.
+          </div>`;
+        console.error("Error cargando programación:", error);
+      }
+    }
+
+    loadSchedule();
   </script>
 </body>
 </html>
