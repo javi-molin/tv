@@ -3,8 +3,33 @@
   "updated_at": null,
   "timezone": "America/Santiago",
   "status": "waiting_for_first_run",
-  "schedule_status": "not_verified",
-  "schedule_note": "Los horarios de emisión todavía no están verificados con una fuente fiable de programación.",
-  "items": [],
-  "errors": []
+  "schedule_status": "not_found",
+  "schedule_note": "Esperando la primera consulta de las fuentes oficiales.",
+  "schedule_items": [],
+  "channel_status": [
+    {
+      "channel": "Mega",
+      "status": "pending",
+      "source_url": "https://www.mega.cl/programacion/",
+      "count": 0
+    },
+    {
+      "channel": "Chilevisión",
+      "status": "pending",
+      "source_url": "https://www.chilevision.cl/page/programacion/",
+      "count": 0
+    },
+    {
+      "channel": "Canal 13",
+      "status": "pending",
+      "source_url": "https://www.13.cl/programacion",
+      "count": 0
+    },
+    {
+      "channel": "TVN",
+      "status": "pending",
+      "source_url": "https://www.tvn.cl/",
+      "count": 0
+    }
+  ]
 }
