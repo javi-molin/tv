@@ -3,488 +3,424 @@
 # -*- coding: utf-8 -*-
 
 """
-Recolector de programación para TV Chile.
-
-Lee páginas oficiales usando únicamente la biblioteca estándar de Python.
-Guarda el resultado en data/tv-data.json.
-
-Nota: si una web carga su programación mediante JavaScript o bloquea
-las solicitudes automáticas, puede que no sea posible extraer los horarios.
+Recolector de programación para la Guía de TV Chile.
+Fuentes oficiales. Si una fuente no se puede interpretar, se registra
+el error y no se inventan horarios.
 """
 
 import json
 import re
-import time
-from datetime import datetime, timezone
+import html
+import os
+import urllib.request
+from datetime import datetime
 from html.parser import HTMLParser
-from pathlib import Path
-from urllib.error import HTTPError, URLError
-from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
 
+TZ = ZoneInfo("America/Santiago")
 
-ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_FILE = ROOT / "data" / "tv-data.json"
+SOURCES = {
+    "Mega": "https://www.mega.cl/programacion/",
+    "Chilevisión": "https://www.chilevision.cl/page/programacion/",
+    "Canal 13": "https://www.13.cl/programacion",
+    "TVN": "https://www.tvn.cl/",
+}
 
-CHANNELS = [
-    {
-        "channel": "Mega",
-        "url": "https://www.mega.cl/programacion/",
-    },
-    {
-        "channel": "Chilevisión",
-        "url": "https://www.chilevision.cl/page/programacion/",
-    },
-    {
-        "channel": "Canal 13",
-        "url": "https://www.13.cl/programacion",
-    },
-    {
-        "channel": "TVN",
-        "url": "https://www.tvn.cl/",
-    },
-]
+CANAL13_EPG = "https://www.13.cl/sites/default/files/tools/epg-canal13.json"
 
-TIME_RE = re.compile(
-    r"(?<!\d)([01]?\d|2[0-3]):([0-5]\d)(?!\d)"
+OUTPUT = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "data",
+    "tv-data.json",
 )
 
-BAD_TITLES = {
-    "programacion",
-    "programación",
-    "ver mas",
-    "ver más",
-    "leer mas",
-    "leer más",
-    "inicio",
-    "menu",
-    "menú",
-    "buscar",
-    "noticias",
-    "contacto",
-    "facebook",
-    "instagram",
-    "youtube",
-    "twitter",
-    "x",
-    "en vivo",
-    "envivo",
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (compatible; GuiaTVChile/1.0; "
+        "+https://github.com/)"
+    ),
+    "Accept": "text/html,application/json,*/*",
+    "Accept-Language": "es-CL,es;q=0.9,en;q=0.7",
 }
 
-SKIP_TAGS = {
-    "script", "style", "noscript", "svg", "iframe",
-    "header", "footer", "nav", "form", "button",
-}
+TIME_RE = re.compile(r"^(?:[01]?\d|2[0-3]):[0-5]\d$")
+TIME_IN_TEXT = re.compile(r"(?<!\d)(?:[01]?\d|2[0-3]):[0-5]\d(?!\d)")
 
 
-def clean_text(value):
-    """Normaliza espacios y caracteres invisibles."""
-    value = str(value or "").replace("\xa0", " ")
-    value = re.sub(r"[\u200b-\u200f\uFEFF]", "", value)
-    value = re.sub(r"\s+", " ", value)
-    return value.strip(" \t\r\n|·•-–—:")
-
-
-def fetch_html(url):
-    """Descarga HTML de una página oficial."""
-    request = Request(
-        url,
-        headers={
-            "User-Agent": (
-                "Mozilla/5.0 (compatible; TVChileGuide/1.0; "
-                "+https://github.com/)"
-            ),
-            "Accept": "text/html,application/xhtml+xml",
-            "Accept-Language": "es-CL,es;q=0.9,en;q=0.5",
-        },
-    )
-
-    with urlopen(request, timeout=25) as response:
-        content_type = response.headers.get("Content-Type", "")
-        raw = response.read()
-
-        charset_match = re.search(
-            r"charset=([^\s;]+)", content_type, flags=re.I
-        )
-        charset = charset_match.group(1).strip('"\'') if charset_match else "utf-8"
-
-        try:
-            return raw.decode(charset, errors="replace")
-        except LookupError:
-            return raw.decode("utf-8", errors="replace")
-
-
-class PageParser(HTMLParser):
-    """
-    Extrae texto de bloques que podrían representar programas.
-    No considera texto de scripts, navegación ni estilos.
-    """
-
-    BLOCK_TAGS = {"tr", "li", "article"}
-    BLOCK_HINTS = (
-        "program", "horario", "schedule", "parrilla",
-        "emision", "emisión", "evento", "show",
-    )
+class TextExtractor(HTMLParser):
+    """Extrae texto visible de una página, ignorando scripts y estilos."""
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
+        self.parts = []
         self.skip_depth = 0
-        self.active_blocks = []
-        self.blocks = []
-        self.jsonld_parts = []
-        self.capture_jsonld_depth = 0
 
     def handle_starttag(self, tag, attrs):
-        attrs = dict(attrs)
-        classes = str(attrs.get("class", "")).lower()
-        element_id = str(attrs.get("id", "")).lower()
-        hint_text = classes + " " + element_id
-
-        if tag in SKIP_TAGS:
+        if tag.lower() in ("script", "style", "noscript", "svg", "iframe"):
             self.skip_depth += 1
-            return
-
-        if tag == "script" and str(attrs.get("type", "")).lower() == "application/ld+json":
-            self.capture_jsonld_depth = 1
-            self.jsonld_parts.append("")
-            return
-
-        if self.skip_depth:
-            return
-
-        is_candidate = (
-            tag in self.BLOCK_TAGS
-            or any(hint in hint_text for hint in self.BLOCK_HINTS)
-        )
-
-        if is_candidate:
-            self.active_blocks.append({
-                "tag": tag,
-                "depth": 1,
-                "text": [],
-            })
-
-        for block in self.active_blocks:
-            if block["tag"] != tag or block not in self.active_blocks[-1:]:
-                # La profundidad se gestiona en los eventos de cierre.
-                pass
-
-    def handle_startendtag(self, tag, attrs):
-        self.handle_starttag(tag, attrs)
-        self.handle_endtag(tag)
+        if tag.lower() in ("br", "p", "div", "li", "article", "section"):
+            self.parts.append("\n")
 
     def handle_endtag(self, tag):
-        if self.capture_jsonld_depth:
-            if tag == "script":
-                self.capture_jsonld_depth = 0
-            return
-
-        if tag in SKIP_TAGS:
+        if tag.lower() in ("script", "style", "noscript", "svg", "iframe"):
             self.skip_depth = max(0, self.skip_depth - 1)
-            return
-
-        if self.skip_depth:
-            return
-
-        completed = []
-        for block in self.active_blocks:
-            if block["tag"] == tag:
-                text = clean_text(" ".join(block["text"]))
-                if text:
-                    self.blocks.append(text)
-                completed.append(block)
-
-        for block in completed:
-            self.active_blocks.remove(block)
+        if tag.lower() in ("p", "div", "li", "article", "section"):
+            self.parts.append("\n")
 
     def handle_data(self, data):
-        if self.capture_jsonld_depth:
-            if self.jsonld_parts:
-                self.jsonld_parts[-1] += data
-            return
+        if not self.skip_depth:
+            text = " ".join(data.split())
+            if text:
+                self.parts.append(text)
 
-        if self.skip_depth:
-            return
-
-        text = clean_text(data)
-        if not text:
-            return
-
-        for block in self.active_blocks:
-            block["text"].append(text)
+    def get_text(self):
+        return "\n".join(self.parts)
 
 
-def walk_json(value):
-    """Recorre objetos JSON-LD buscando nombres y horas de programas."""
-    if isinstance(value, dict):
-        yield value
-        for child in value.values():
-            yield from walk_json(child)
-    elif isinstance(value, list):
-        for child in value:
-            yield from walk_json(child)
+def fetch(url, timeout=25):
+    request = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        body = response.read()
+        charset = response.headers.get_content_charset() or "utf-8"
+        return body.decode(charset, errors="replace")
 
 
-def extract_jsonld(parser, channel, url):
-    items = []
-
-    for raw in parser.jsonld_parts:
-        try:
-            data = json.loads(raw)
-        except (json.JSONDecodeError, TypeError):
-            continue
-
-        for obj in walk_json(data):
-            title = (
-                obj.get("name")
-                or obj.get("headline")
-                or obj.get("title")
-            )
-
-            if not isinstance(title, str):
-                continue
-
-            start = (
-                obj.get("startDate")
-                or obj.get("startTime")
-                or obj.get("start_time")
-            )
-
-            if not isinstance(start, str):
-                continue
-
-            # ISO: 2026-10-26T20:30:00-03:00
-            iso_match = re.search(
-                r"T([01]?\d|2[0-3]):([0-5]\d)", start
-            )
-            if iso_match:
-                hour = int(iso_match.group(1))
-                minute = int(iso_match.group(2))
-                date_match = re.match(r"(\d{4}-\d{2}-\d{2})", start)
-                date_value = date_match.group(1) if date_match else None
-            else:
-                time_match = TIME_RE.search(start)
-                if not time_match:
-                    continue
-                hour = int(time_match.group(1))
-                minute = int(time_match.group(2))
-                date_value = None
-
-            title = clean_text(title)
-            if not valid_title(title):
-                continue
-
-            item = {
-                "channel": channel,
-                "title": title,
-                "time": f"{hour:02d}:{minute:02d}",
-                "source_url": url,
-            }
-            if date_value:
-                item["date"] = date_value
-            items.append(item)
-
-    return items
+def fetch_json(url):
+    raw = fetch(url)
+    return json.loads(raw)
 
 
-def valid_title(title):
-    title = clean_text(title)
-    lowered = title.lower()
+def clean_text(value):
+    value = html.unescape(str(value or ""))
+    value = re.sub(r"<[^>]+>", " ", value)
+    value = re.sub(r"\s+", " ", value).strip()
+    return value
 
-    if len(title) < 3 or len(title) > 100:
+
+def valid_title(value):
+    title = clean_text(value)
+    if not title or len(title) < 3 or len(title) > 180:
         return False
 
-    if lowered in BAD_TITLES:
+    low = title.casefold()
+    bad = (
+        "ver programa", "ver más", "ver mas", "leer más", "leer mas",
+        "programación", "programacion", "señal en vivo",
+        "señal online", "menú", "menu", "inicio", "facebook",
+        "instagram", "youtube", "publicidad",
+    )
+    if low in bad:
         return False
-
     if TIME_RE.fullmatch(title):
         return False
-
-    # Evita capturar bloques que sean solamente etiquetas de navegación.
-    if lowered.startswith(("http://", "https://", "www.")):
+    if len(re.findall(r"\d", title)) > len(title) * 0.55:
         return False
 
     return True
 
 
-def extract_block_items(blocks, channel, url):
+def add_item(items, channel, title, time_value, source_url, summary=""):
+    title = clean_text(title)
+    time_value = clean_text(time_value)
+
+    if not valid_title(title) or not TIME_RE.fullmatch(time_value):
+        return
+
+    items.append({
+        "channel": channel,
+        "title": title,
+        "time": time_value.zfill(5),
+        "source_url": source_url,
+        "summary": clean_text(summary),
+    })
+
+
+def recursive_json_events(obj, output, channel, source_url):
     """
-    Busca horarios dentro de bloques que podrían representar una emisión.
-    Los títulos largos se filtran para reducir capturas accidentales.
+    Busca objetos JSON con un nombre y un campo horario.
+    Se aceptan solo campos reconocibles; no se interpreta una fecha
+    aislada como si fuera la hora de un programa.
     """
+    if isinstance(obj, dict):
+        lowered = {str(k).lower(): v for k, v in obj.items()}
+
+        title = None
+        for key in ("title", "titulo", "name", "nombre", "programa",
+                    "program_name", "eventtitle"):
+            value = lowered.get(key)
+            if isinstance(value, str) and valid_title(value):
+                title = value
+                break
+
+        time_value = None
+        for key in ("time", "hora", "start_time", "starttime",
+                    "start", "begin", "begin_time", "horainicio"):
+            value = lowered.get(key)
+            if isinstance(value, str):
+                match = TIME_IN_TEXT.search(value)
+                if match:
+                    time_value = match.group(0)
+                    break
+            elif isinstance(value, (int, float)):
+                # Unix timestamps se manejan aparte, no como minutos.
+                continue
+
+        summary = ""
+        for key in ("description", "descripcion", "summary", "sinopsis"):
+            value = lowered.get(key)
+            if isinstance(value, str) and value.strip():
+                summary = value
+                break
+
+        if title and time_value:
+            add_item(output, channel, title, time_value, source_url, summary)
+
+        for value in obj.values():
+            recursive_json_events(value, output, channel, source_url)
+
+    elif isinstance(obj, list):
+        for value in obj:
+            recursive_json_events(value, output, channel, source_url)
+
+
+def parse_json_ld(page, channel, source_url):
     items = []
-    seen = set()
+    pattern = re.compile(
+        r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+        re.I | re.S,
+    )
 
-    for block in blocks:
-        text = clean_text(block)
-
-        if len(text) > 260:
+    for match in pattern.finditer(page):
+        try:
+            data = json.loads(match.group(1).strip())
+        except (ValueError, TypeError):
             continue
 
-        matches = list(TIME_RE.finditer(text))
-        if len(matches) != 1:
-            continue
-
-        match = matches[0]
-        time_value = f"{int(match.group(1)):02d}:{match.group(2)}"
-
-        # Retira la hora y separadores del texto candidato.
-        title = text[:match.start()] + " " + text[match.end():]
-        title = clean_text(title)
-
-        # Si queda más texto después de la hora, puede ser una descripción.
-        # Preferimos la parte más cercana antes de la hora cuando es legible.
-        if " | " in title:
-            title = title.split(" | ")[0].strip()
-
-        if not valid_title(title):
-            continue
-
-        key = (channel, time_value, title.lower())
-        if key in seen:
-            continue
-        seen.add(key)
-
-        items.append({
-            "channel": channel,
-            "title": title,
-            "time": time_value,
-            "source_url": url,
-        })
+        recursive_json_events(data, items, channel, source_url)
 
     return items
 
 
-def collect_channel(channel_info):
-    channel = channel_info["channel"]
-    url = channel_info["url"]
+def parse_channel13_epg():
+    """
+    Intenta leer el EPG JSON publicado por Canal 13.
+    La estructura puede cambiar; si no se reconocen sus campos,
+    la fuente queda marcada como no interpretable.
+    """
+    items = []
+    data = fetch_json(CANAL13_EPG)
+    recursive_json_events(data, items, "Canal 13", CANAL13_EPG)
+    return deduplicate(items)
+
+
+def parse_html_schedule(channel, url, page):
+    """
+    Parser de respaldo para páginas que publican horarios como texto.
+    Se empareja cada hora con un título cercano, y se descartan
+    enlaces de navegación y textos que no parecen nombres de programas.
+    Requiere revisión si el sitio cambia su estructura.
+    """
+    items = []
+    extractor = TextExtractor()
+    extractor.feed(page)
+    lines = [
+        clean_text(line)
+        for line in extractor.get_text().splitlines()
+        if clean_text(line)
+    ]
+
+    for i, line in enumerate(lines):
+        time_match = TIME_IN_TEXT.fullmatch(line)
+        if not time_match:
+            continue
+
+        time_value = time_match.group(0)
+
+        # En algunas parrillas el nombre va antes de la hora y en otras
+        # aparece inmediatamente después. Se prueban ambos lados.
+        candidates = []
+        if i > 0:
+            candidates.append(lines[i - 1])
+        if i + 1 < len(lines):
+            candidates.append(lines[i + 1])
+
+        title = next((candidate for candidate in candidates
+                      if valid_title(candidate)), None)
+
+        if title:
+            add_item(items, channel, title, time_value, url)
+
+    # El parser de texto no garantiza que cada pareja sea un programa real.
+    # Se eliminan duplicados exactos; la acción registra cuántos obtuvo.
+    return deduplicate(items)
+
+
+def deduplicate(items):
+    unique = {}
+    for item in items:
+        key = (
+            item.get("channel", ""),
+            item.get("title", "").casefold(),
+            item.get("time", ""),
+        )
+        if key not in unique:
+            unique[key] = item
+        elif not unique[key].get("summary") and item.get("summary"):
+            unique[key]["summary"] = item["summary"]
+    return list(unique.values())
+
+
+def collect_channel(channel, url):
+    errors = []
+    items = []
 
     try:
-        html = fetch_html(url)
+        page = fetch(url)
+        items.extend(parse_json_ld(page, channel, url))
+        items.extend(parse_html_schedule(channel, url, page))
+    except Exception as exc:
+        errors.append(f"No se pudo leer la página oficial: {exc}")
 
-        parser = PageParser()
-        parser.feed(html)
-        parser.close()
+    items = deduplicate(items)
 
-        # Primero prioriza los datos estructurados.
-        items = extract_jsonld(parser, channel, url)
-
-        # Si no hay JSON-LD útil, intenta bloques de programación del HTML.
-        if not items:
-            items = extract_block_items(parser.blocks, channel, url)
-
-        # Deduplicación final.
-        unique = {}
-        for item in items:
-            key = (
-                item["channel"],
-                item["time"],
-                item["title"].casefold(),
-            )
-            unique[key] = item
-
-        items = sorted(
-            unique.values(),
-            key=lambda item: item["time"]
-        )
-
-        if items:
-            return items, {
-                "channel": channel,
-                "status": "ok",
-                "count": len(items),
-                "source_url": url,
-                "message": "Se detectaron horarios en la página oficial.",
-            }
-
+    if not items:
         return [], {
             "channel": channel,
             "status": "no_schedule_found",
-            "count": 0,
             "source_url": url,
+            "items_found": 0,
             "message": (
-                "La página respondió, pero no se detectó una programación "
-                "que se pudiera interpretar con seguridad."
+                "; ".join(errors) if errors
+                else "La página se pudo consultar, pero no se detectó una parrilla interpretable."
             ),
         }
 
-    except (HTTPError, URLError, TimeoutError, OSError, ValueError) as exc:
-        return [], {
-            "channel": channel,
-            "status": "error",
-            "count": 0,
-            "source_url": url,
-            "message": f"No se pudo consultar la página: {type(exc).__name__}",
-        }
-    except Exception as exc:
-        return [], {
-            "channel": channel,
-            "status": "error",
-            "count": 0,
-            "source_url": url,
-            "message": f"Error al procesar la página: {type(exc).__name__}",
-        }
+    return items, {
+        "channel": channel,
+        "status": "ok",
+        "source_url": url,
+        "items_found": len(items),
+        "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura.",
+    }
 
 
 def main():
+    now = datetime.now(TZ)
     all_items = []
-    channel_status = []
+    statuses = []
 
-    for channel_info in CHANNELS:
-        items, status = collect_channel(channel_info)
-        all_items.extend(items)
-        channel_status.append(status)
+    for channel, url in SOURCES.items():
+        try:
+            if channel == "Canal 13":
+                try:
+                    items = parse_json_ld(
+                        fetch(url), channel, url
+                    )
+                except Exception:
+                    items = []
 
-        print(
-            f'{channel_info["channel"]}: '
-            f'{status["status"]} ({len(items)} horarios)'
-        )
+                try:
+                    epg_items = parse_json_ld(
+                        fetch(CANAL13_EPG), channel, CANAL13_EPG
+                    )
+                except Exception:
+                    epg_items = []
 
-        # Evita hacer solicitudes seguidas demasiado rápido.
-        time.sleep(1)
+                try:
+                    epg_items.extend(parse_json_ld(
+                        json.dumps(fetch_json(CANAL13_EPG)),
+                        channel,
+                        CANAL13_EPG,
+                    ))
+                    recursive_json_events(
+                        fetch_json(CANAL13_EPG),
+                        epg_items,
+                        channel,
+                        CANAL13_EPG,
+                    )
+                except Exception:
+                    pass
 
-    # Deduplicación global por canal, hora y título.
-    deduplicated = {}
-    for item in all_items:
-        key = (
-            item["channel"],
-            item["time"],
-            item["title"].casefold(),
-        )
-        deduplicated[key] = item
+                if not epg_items:
+                    try:
+                        page = fetch(url)
+                        epg_items = parse_html_schedule(channel, url, page)
+                    except Exception:
+                        epg_items = []
 
-    all_items = sorted(
-        deduplicated.values(),
-        key=lambda item: (
-            ["Mega", "Chilevisión", "Canal 13", "TVN"].index(item["channel"]),
-            item["time"],
-        ),
+                items = deduplicate(items + epg_items)
+                if items:
+                    all_items.extend(items)
+                    statuses.append({
+                        "channel": channel,
+                        "status": "ok",
+                        "source_url": CANAL13_EPG,
+                        "items_found": len(items),
+                        "message": "Datos obtenidos de fuentes oficiales.",
+                    })
+                else:
+                    statuses.append({
+                        "channel": channel,
+                        "status": "no_schedule_found",
+                        "source_url": CANAL13_EPG,
+                        "items_found": 0,
+                        "message": "No se pudo interpretar una parrilla válida desde el EPG.",
+                    })
+                continue
+
+            items, status = collect_channel(channel, url)
+            all_items.extend(items)
+            statuses.append(status)
+
+        except Exception as exc:
+            statuses.append({
+                "channel": channel,
+                "status": "error",
+                "source_url": url,
+                "items_found": 0,
+                "message": str(exc),
+            })
+
+    all_items = deduplicate(all_items)
+    all_items.sort(key=lambda item: (
+        item.get("channel", ""),
+        item.get("time", ""),
+        item.get("title", ""),
+    ))
+
+    os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
+
+    success_count = sum(
+        1 for status in statuses if status["status"] == "ok"
     )
 
-    successful = sum(
-        1 for status in channel_status if status["status"] == "ok"
-    )
-
-    data = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
+    result = {
+        "updated_at": now.isoformat(),
         "timezone": "America/Santiago",
-        "status": "ok" if successful else "error",
-        "schedule_status": "ok" if all_items else "error",
+        "status": (
+            f"Actualización ejecutada: {success_count} de "
+            f"{len(SOURCES)} canales con datos detectados."
+        ),
+        "schedule_status": (
+            "ok" if success_count == len(SOURCES) else "partial"
+        ),
         "schedule_note": (
-            "Horarios extraídos de páginas oficiales. "
-            "La duración no se considera verificada."
+            "Los horarios detectados provienen de páginas oficiales. "
+            "Un canal sin datos interpretables se informa como tal; "
+            "no se completan horarios con datos inventados."
         ),
         "schedule_items": all_items,
-        "channel_status": channel_status,
+        "channel_status": statuses,
     }
 
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_FILE.write_text(
-        json.dumps(data, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    with open(OUTPUT, "w", encoding="utf-8") as file:
+        json.dump(result, file, ensure_ascii=False, indent=2)
 
-    print(f"\nTotal de horarios detectados: {len(all_items)}")
-    print(f"Archivo guardado en: {OUTPUT_FILE}")
+    print(json.dumps({
+        "output": OUTPUT,
+        "items_total": len(all_items),
+        "channels": statuses,
+    }, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
