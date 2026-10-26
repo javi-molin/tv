@@ -1,19 +1,20 @@
+
 {
-  "name": "¿Qué veo hoy? — TV Chile",
-  "short_name": "¿Qué veo?",
-  "description": "Guía de televisión chilena ordenada según tus gustos.",
+  "name": "Qué ver Chile",
+  "short_name": "Qué ver",
+  "description": "Guía de televisión chilena, farándula y entretención.",
+  "lang": "es-CL",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#111016",
-  "theme_color": "#17151d",
-  "lang": "es-CL",
+  "background_color": "#f6f5f2",
+  "theme_color": "#171717",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "./icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }
