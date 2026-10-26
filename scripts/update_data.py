@@ -2,246 +2,212 @@
 import json
 import os
 import re
+import html
 import urllib.request
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from html.parser import HTMLParser
 
 OUTPUT = "data/tv-data.json"
-TIMEZONE = ZoneInfo("America/Santiago")
+TZ = ZoneInfo("America/Santiago")
 
 CHANNELS = [
-    {
-        "channel": "Mega",
-        "url": "https://www.mega.cl/programacion/",
-    },
-    {
-        "channel": "Chilevisión",
-        "url": "https://www.chilevision.cl/page/programacion/",
-    },
-    {
-        "channel": "Canal 13",
-        "url": "https://www.13.cl/programacion",
-    },
-    {
-        "channel": "TVN",
-        "url": "https://www.tvn.cl/",
-    },
+    ("Mega", "https://www.mega.cl/programacion/"),
+    ("Chilevisión", "https://www.chilevision.cl/page/programacion/"),
+    ("Canal 13", "https://www.13.cl/programacion"),
+    ("TVN", "https://www.tvn.cl/"),
 ]
+
+TIME_RE = re.compile(r"(?<!\d)([01]?\d|2[0-3]):([0-5]\d)(?!\d)")
+BLOCK_TAGS = {
+    "br", "p", "div", "li", "tr", "td", "th",
+    "section", "article", "h1", "h2", "h3",
+    "h4", "header", "footer"
+}
 
 
 def clean(value):
-    if not isinstance(value, str):
-        return ""
-    return re.sub(r"\s+", " ", value).strip()
+    value = html.unescape(value or "")
+    return re.sub(r"\s+", " ", value).strip(" \t\r\n|–—-:")
 
 
-class JsonLdParser(HTMLParser):
-    """Recopila bloques JSON-LD publicados en el HTML de cada fuente."""
-
+class VisibleTextParser(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.in_jsonld = False
-        self.current = []
-        self.blocks = []
+        self.parts = []
+        self.skip = 0
 
     def handle_starttag(self, tag, attrs):
-        attrs = dict(attrs)
-        if tag.lower() == "script" and "ld+json" in attrs.get("type", "").lower():
-            self.in_jsonld = True
-            self.current = []
-
-    def handle_data(self, data):
-        if self.in_jsonld:
-            self.current.append(data)
+        if tag.lower() in ("script", "style", "noscript", "svg"):
+            self.skip += 1
+        elif not self.skip and tag.lower() in BLOCK_TAGS:
+            self.parts.append(" ")
 
     def handle_endtag(self, tag):
-        if tag.lower() == "script" and self.in_jsonld:
-            raw = "".join(self.current).strip()
-            if raw:
-                try:
-                    self.blocks.append(json.loads(raw))
-                except (json.JSONDecodeError, TypeError):
-                    pass
-            self.in_jsonld = False
-            self.current = []
+        if tag.lower() in ("script", "style", "noscript", "svg"):
+            self.skip = max(0, self.skip - 1)
+        elif not self.skip and tag.lower() in BLOCK_TAGS:
+            self.parts.append(" ")
+
+    def handle_data(self, data):
+        if not self.skip:
+            self.parts.append(data)
+
+    def get_text(self):
+        return clean(" ".join(self.parts))
 
 
-def fetch_jsonld(url):
+def fetch_page(url):
     request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": (
-                "Mozilla/5.0 (compatible; TVChilenaScheduleBot/1.0)"
-            ),
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/131 Safari/537.36",
             "Accept": "text/html,application/xhtml+xml",
             "Accept-Language": "es-CL,es;q=0.9",
         },
     )
-
-    with urllib.request.urlopen(request, timeout=25) as response:
-        html = response.read().decode(
-            response.headers.get_content_charset() or "utf-8",
-            errors="replace",
-        )
-
-    parser = JsonLdParser()
-    parser.feed(html)
-    return parser.blocks
+    with urllib.request.urlopen(request, timeout=30) as response:
+        raw = response.read()
+        charset = response.headers.get_content_charset() or "utf-8"
+    return raw.decode(charset, errors="replace")
 
 
-def walk_json(value):
-    """Recorre objetos y listas dentro de JSON-LD."""
+def title_is_valid(title):
+    title = clean(title)
 
-    if isinstance(value, dict):
-        yield value
-        for child in value.values():
-            yield from walk_json(child)
-    elif isinstance(value, list):
-        for child in value:
-            yield from walk_json(child)
+    if len(title) < 3 or len(title) > 100:
+        return False
+
+    lowered = title.casefold()
+
+    unwanted = [
+        "programación", "programacion", "inicio",
+        "contacto", "privacidad", "cookies",
+        "facebook", "instagram", "youtube",
+        "lunes", "martes", "miércoles", "miercoles",
+        "jueves", "viernes", "sábado", "sabado", "domingo",
+        "ver más", "ver mas", "leer más", "leer mas",
+        "noticias recientes", "todos los derechos reservados",
+    ]
+
+    if any(word in lowered for word in unwanted):
+        return False
+
+    if not re.search(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]", title):
+        return False
+
+    # Evita tomar bloques de texto descriptivo como nombre del programa.
+    if len(title.split()) > 10:
+        return False
+
+    return True
 
 
-def parse_datetime(value):
-    if not isinstance(value, str) or not value.strip():
-        return None
+def extract_schedule(channel, url, page_html):
+    parser = VisibleTextParser()
+    parser.feed(page_html)
+    text = parser.get_text()
 
-    value = value.strip()
-    try:
-        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
-        if parsed.tzinfo is None:
-            parsed = parsed.replace(tzinfo=TIMEZONE)
-        return parsed.astimezone(TIMEZONE)
-    except ValueError:
-        return None
-
-
-def extract_schedule(channel, source_url, blocks):
+    matches = list(TIME_RE.finditer(text))
     found = {}
 
-    for block in blocks:
-        for item in walk_json(block):
-            title = clean(
-                item.get("name")
-                or item.get("headline")
-                or item.get("title")
-            )
+    for index, match in enumerate(matches):
+        # En las parrillas habituales el nombre del programa aparece
+        # inmediatamente antes de su hora.
+        previous_end = matches[index - 1].end() if index > 0 else 0
+        title = clean(text[previous_end:match.start()])
 
-            # No se aceptan objetos sin nombre ni hora de inicio verificable.
-            start_value = (
-                item.get("startDate")
-                or item.get("startTime")
-                or item.get("start_time")
-                or item.get("startDateTime")
-            )
-            start = parse_datetime(start_value)
+        # El texto inicial puede contener navegación y encabezados.
+        # Se toma solo el fragmento final, no todo el bloque.
+        title = re.split(r"[.!?]\s+", title)[-1].strip()
 
-            if not title or not start:
-                continue
+        if not title_is_valid(title):
+            continue
 
-            # Una fecha sin hora no sirve para construir una parrilla horaria.
-            if isinstance(start_value, str) and "T" not in start_value:
-                continue
+        hour = int(match.group(1))
+        minute = int(match.group(2))
+        time = f"{hour:02d}:{minute:02d}"
 
-            # Evita elementos que parecen metadatos genéricos y no programas.
-            if len(title) > 180:
-                continue
+        item = {
+            "channel": channel,
+            "title": title,
+            "time": time,
+            "source_url": url,
+        }
 
-            url = item.get("url")
-            if not isinstance(url, str) or not url.startswith("https://"):
-                url = source_url
-
-            entry = {
-                "channel": channel,
-                "title": title,
-                "date": start.date().isoformat(),
-                "time": start.strftime("%H:%M"),
-                "source_url": url,
-            }
-
-            key = (entry["date"], entry["time"], entry["title"].casefold())
-            found[key] = entry
+        key = (channel, time, title.casefold())
+        found[key] = item
 
     return list(found.values())
 
 
 def main():
-    now = datetime.now(TIMEZONE).isoformat(timespec="seconds")
-    schedule_items = []
-    channel_status = []
+    updated_at = datetime.now(TZ).isoformat(timespec="seconds")
+    all_items = []
+    statuses = []
 
-    for channel_info in CHANNELS:
-        channel = channel_info["channel"]
-        url = channel_info["url"]
-
+    for channel, url in CHANNELS:
         try:
-            blocks = fetch_jsonld(url)
-            entries = extract_schedule(channel, url, blocks)
-            schedule_items.extend(entries)
+            page = fetch_page(url)
+            entries = extract_schedule(channel, url, page)
 
-            channel_status.append({
+            statuses.append({
                 "channel": channel,
                 "status": "ok" if entries else "no_schedule_found",
                 "source_url": url,
                 "count": len(entries),
                 "message": (
-                    "Se identificaron horarios."
-                    if entries
-                    else "La página no entregó horarios estructurados reconocibles."
+                    "Se detectaron posibles programas y horarios."
+                    if entries else
+                    "La página se pudo leer, pero no se identificaron horarios fiables."
                 ),
             })
 
+            all_items.extend(entries)
             print(f"{channel}: {len(entries)} horarios detectados")
 
         except Exception as exc:
-            channel_status.append({
+            statuses.append({
                 "channel": channel,
                 "status": "error",
                 "source_url": url,
                 "count": 0,
                 "message": str(exc)[:250],
             })
-            print(f"Error consultando {channel}: {exc}")
+            print(f"{channel}: error al consultar la página: {exc}")
 
-    # Elimina duplicados sin inventar ni completar horarios.
+    # Elimina duplicados y ordena por hora.
     unique = {}
-    for item in schedule_items:
+    for item in all_items:
         key = (
             item["channel"],
-            item["date"],
             item["time"],
             item["title"].casefold(),
         )
         unique[key] = item
 
-    schedule_items = sorted(
+    all_items = sorted(
         unique.values(),
-        key=lambda item: (item["date"], item["time"], item["channel"]),
+        key=lambda item: (item["time"], item["channel"]),
+    )
+
+    has_errors = any(
+        status["status"] != "ok" for status in statuses
     )
 
     data = {
-        "updated_at": now,
+        "updated_at": updated_at,
         "timezone": "America/Santiago",
-        "status": (
-            "ok"
-            if channel_status and all(
-                entry["status"] == "ok" for entry in channel_status
-            )
-            else "partial"
-        ),
-        "schedule_status": (
-            "available" if schedule_items else "not_found"
-        ),
+        "status": "partial" if has_errors else "ok",
+        "schedule_status": "available" if all_items else "not_found",
         "schedule_note": (
-            "Horarios identificados en datos estructurados de fuentes oficiales. "
-            "Confirma cambios en la web del canal."
-            if schedule_items
-            else
-            "No se identificaron horarios estructurados. "
-            "No se han inventado horarios."
+            "Horarios extraídos del texto visible de las páginas oficiales. "
+            "Comprueba el canal para confirmar cambios."
+            if all_items else
+            "No se detectaron horarios en las páginas consultadas."
         ),
-        "schedule_items": schedule_items,
-        "channel_status": channel_status,
+        "schedule_items": all_items,
+        "channel_status": statuses,
     }
 
     os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
@@ -249,8 +215,8 @@ def main():
         json.dump(data, file, ensure_ascii=False, indent=2)
 
     print(
-        f"Actualización terminada: {len(schedule_items)} horarios; "
-        f"archivo generado en {OUTPUT}"
+        f"Resultado: {len(all_items)} horarios en total. "
+        f"Archivo: {OUTPUT}"
     )
 
 
