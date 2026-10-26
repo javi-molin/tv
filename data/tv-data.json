@@ -1,0 +1,10 @@
+
+{
+  "updated_at": null,
+  "timezone": "America/Santiago",
+  "status": "waiting_for_first_run",
+  "schedule_status": "not_verified",
+  "schedule_note": "Los horarios de emisión todavía no están verificados con una fuente fiable de programación.",
+  "items": [],
+  "errors": []
+}
