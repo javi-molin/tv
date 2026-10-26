@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T02:02:55.632617+00:00",
+  "updated_at": "2026-10-26T05:13:14.745215+00:00",
   "timezone": "America/Santiago",
   "status": "ok",
   "schedule_status": "ok",
@@ -1015,9 +1015,27 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo 25 de Octubre",
-      "time": "06:40",
+      "title": "Sábado 31 de Octubre",
+      "time": "06:35",
       "source_url": "https://www.13.cl/programacion"
+    },
+    {
+      "channel": "TVN",
+      "title": "Pronóstico del tiempo: Miércoles 21 de octubre 2026",
+      "time": "03:26",
+      "source_url": "https://www.tvn.cl/"
+    },
+    {
+      "channel": "TVN",
+      "title": "BUENOS DÍAS A TODOS Lunes a viernes horas Con Monserrat Álvarez y Eduardo Fuentes Ver programa",
+      "time": "08:00",
+      "source_url": "https://www.tvn.cl/"
+    },
+    {
+      "channel": "TVN",
+      "title": "EL MEDIO DÍA Lunes a viernes HRS. Con Daniel Fuenzalida Ver programa",
+      "time": "11:00",
+      "source_url": "https://www.tvn.cl/"
     }
   ],
   "channel_status": [
@@ -1044,10 +1062,10 @@
     },
     {
       "channel": "TVN",
-      "status": "no_schedule_found",
-      "count": 0,
+      "status": "ok",
+      "count": 3,
       "source_url": "https://www.tvn.cl/",
-      "message": "La página respondió, pero no se detectó una programación que se pudiera interpretar con seguridad."
+      "message": "Se detectaron horarios en la página oficial."
     }
   ]
 }
