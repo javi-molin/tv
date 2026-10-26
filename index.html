@@ -2,552 +2,234 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#171717">
-  <meta name="description" content="Encuentra la programación de la televisión chilena, revisa los horarios y descubre qué ver hoy.">
-  <title>TV Chilena | ¿Qué ver hoy?</title>
-
-  <style>
-    :root {
-      color-scheme: light;
-      --bg: #f6f5f2;
-      --surface: #ffffff;
-      --text: #191919;
-      --muted: #707070;
-      --border: #e8e6e1;
-      --accent: #d9ff64;
-      --radius: 18px;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.5;
-    }
-
-    a {
-      color: inherit;
-    }
-
-    button {
-      font: inherit;
-    }
-
-    .topbar {
-      background: var(--text);
-      color: white;
-      padding: 17px 22px;
-    }
-
-    .topbar-inner {
-      max-width: 1120px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 16px;
-    }
-
-    .brand {
-      font-size: 15px;
-      font-weight: 850;
-      letter-spacing: 1.5px;
-    }
-
-    .brand span {
-      color: var(--accent);
-    }
-
-    .live-label {
-      font-size: 11px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      color: #dedede;
-    }
-
-    main {
-      width: min(1120px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 35px 0 55px;
-    }
-
-    .hero {
-      padding: 30px;
-      background: var(--accent);
-      border-radius: 24px;
-      margin-bottom: 30px;
-    }
-
-    .eyebrow {
-      font-size: 11px;
-      font-weight: 800;
-      letter-spacing: 1.6px;
-      text-transform: uppercase;
-      margin: 0 0 12px;
-    }
-
-    h1 {
-      font-size: clamp(36px, 7vw, 64px);
-      line-height: 0.98;
-      letter-spacing: -2.8px;
-      margin: 0 0 16px;
-      max-width: 700px;
-    }
-
-    .hero p:last-child {
-      margin-bottom: 0;
-      max-width: 620px;
-    }
-
-    .section-heading {
-      display: flex;
-      justify-content: space-between;
-      align-items: end;
-      gap: 15px;
-      margin: 34px 0 17px;
-    }
-
-    h2 {
-      font-size: clamp(23px, 4vw, 30px);
-      line-height: 1.15;
-      letter-spacing: -0.8px;
-      margin: 0;
-    }
-
-    .section-description {
-      color: var(--muted);
-      font-size: 14px;
-      margin: 7px 0 0;
-    }
-
-    .channels {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .channel {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 19px;
-      min-width: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 10px;
-    }
-
-    .channel-name {
-      font-size: 20px;
-      font-weight: 850;
-      letter-spacing: -0.5px;
-    }
-
-    .channel p {
-      color: var(--muted);
-      font-size: 13px;
-      margin: 0;
-      flex: 1;
-    }
-
-    .link-button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-      text-decoration: none;
-      border-radius: 10px;
-      background: var(--text);
-      color: white;
-      padding: 11px 14px;
-      font-size: 13px;
-      font-weight: 750;
-      margin-top: 4px;
-      transition: opacity 0.2s;
-    }
-
-    .link-button:hover {
-      opacity: 0.8;
-    }
-
-    .link-button.secondary {
-      color: var(--text);
-      background: #efeee9;
-    }
-
-    .schedule-panel {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 22px;
-      overflow: hidden;
-    }
-
-    .schedule-header {
-      padding: 22px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
-      flex-wrap: wrap;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .schedule-header p {
-      margin: 7px 0 0;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .schedule-actions {
-      display: flex;
-      gap: 9px;
-      flex-wrap: wrap;
-    }
-
-    .schedule-frame {
-      display: block;
-      width: 100%;
-      height: 780px;
-      border: 0;
-      background: white;
-    }
-
-    .fallback {
-      padding: 22px;
-      background: #fbfaf7;
-      border-top: 1px solid var(--border);
-    }
-
-    .fallback p {
-      margin: 0 0 12px;
-      font-size: 13px;
-      color: var(--muted);
-    }
-
-    .notice {
-      display: flex;
-      gap: 12px;
-      align-items: flex-start;
-      padding: 16px;
-      background: #fff8df;
-      border: 1px solid #f0e4b8;
-      border-radius: 14px;
-      margin-top: 17px;
-      font-size: 13px;
-      color: #65552b;
-    }
-
-    .notice strong {
-      display: block;
-      margin-bottom: 3px;
-    }
-
-    .how-it-works {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
-      margin-top: 18px;
-    }
-
-    .info-card {
-      padding: 19px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-    }
-
-    .info-card .number {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 30px;
-      height: 30px;
-      background: var(--accent);
-      border-radius: 50%;
-      font-size: 13px;
-      font-weight: 850;
-      margin-bottom: 12px;
-    }
-
-    .info-card h3 {
-      font-size: 15px;
-      margin: 0 0 6px;
-    }
-
-    .info-card p {
-      font-size: 13px;
-      color: var(--muted);
-      margin: 0;
-    }
-
-    footer {
-      border-top: 1px solid var(--border);
-      margin-top: 42px;
-      padding-top: 22px;
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    footer a {
-      margin-right: 14px;
-    }
-
-    @media (max-width: 760px) {
-      main {
-        width: min(100% - 22px, 600px);
-        padding-top: 20px;
-      }
-
-      .topbar {
-        padding: 15px;
-      }
-
-      .hero {
-        padding: 23px;
-        border-radius: 19px;
-      }
-
-      h1 {
-        letter-spacing: -1.8px;
-      }
-
-      .channels {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-
-      .channel {
-        padding: 15px;
-      }
-
-      .channel-name {
-        font-size: 18px;
-      }
-
-      .schedule-frame {
-        height: 650px;
-      }
-
-      .how-it-works {
-        grid-template-columns: 1fr;
-      }
-
-      .schedule-header {
-        padding: 17px;
-      }
-    }
-
-    @media (max-width: 360px) {
-      .channels {
-        grid-template-columns: 1fr;
-      }
-
-      .live-label {
-        font-size: 9px;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#171717">
+<title>TV Chilena | ¿Qué ver hoy?</title>
+<style>
+:root{--bg:#f6f5f2;--surface:#fff;--text:#191919;--muted:#707070;--border:#e8e6e1;--accent:#d9ff64}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit}
+.topbar{background:var(--text);color:#fff;padding:17px 22px}
+.topbar-inner,main{max-width:1120px;margin:auto}
+.topbar-inner{display:flex;justify-content:space-between;gap:12px}
+.brand{font-weight:850;letter-spacing:1.5px}
+.brand span{color:var(--accent)}
+main{width:calc(100% - 32px);padding:32px 0 55px}
+.hero{padding:30px;background:var(--accent);border-radius:22px;margin-bottom:30px}
+h1{font-size:clamp(36px,7vw,64px);line-height:1;letter-spacing:-2px;margin:8px 0 16px}
+.eyebrow{font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}
+.section-heading{margin:32px 0 15px}
+h2{font-size:clamp(23px,4vw,30px);margin:0}
+.muted,.section-description{color:var(--muted);font-size:14px}
+.channels{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.channel,.schedule-panel,.program,.info-card{background:var(--surface);border:1px solid var(--border);border-radius:16px}
+.channel{padding:18px;display:flex;flex-direction:column;gap:9px}
+.channel p{font-size:13px;color:var(--muted);flex:1}
+.link-button,button{display:inline-block;border:0;border-radius:10px;background:var(--text);color:#fff;text-decoration:none;padding:10px 13px;font-size:13px;font-weight:750;cursor:pointer}
+.schedule-header,.filters{padding:18px 22px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.schedule-header p{margin:5px 0;color:var(--muted);font-size:13px}
+.filters{justify-content:flex-start}
+.filters select{padding:9px;border:1px solid var(--border);border-radius:9px;background:#fff}
+.schedule-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:16px}
+.program{padding:14px;display:grid;grid-template-columns:60px 1fr;gap:12px}
+.program-time{font-weight:850;font-size:16px}
+.program-title{font-weight:800;margin:0 0 4px}
+.program-meta{font-size:12px;color:var(--muted)}
+.program a{font-size:12px}
+.status{padding:16px 22px 0;color:var(--muted);font-size:13px}
+.empty{padding:20px;color:var(--muted);font-size:14px}
+.notice{padding:15px;margin-top:15px;background:#fff8df;border:1px solid #f0e4b8;border-radius:13px;font-size:13px;color:#65552b}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.info-card{padding:18px}
+.info-card h3{font-size:15px;margin:0 0 6px}
+.info-card p{font-size:13px;color:var(--muted);margin:0}
+footer{border-top:1px solid var(--border);margin-top:38px;padding-top:20px;font-size:12px;color:var(--muted)}
+footer a{margin-right:12px}
+@media(max-width:760px){main{padding-top:20px}.hero{padding:22px}.channels{grid-template-columns:repeat(2,minmax(0,1fr))}.schedule-grid{grid-template-columns:1fr;padding:10px}.cards{grid-template-columns:1fr}}
+@media(max-width:360px){.channels{grid-template-columns:1fr}}
+</style>
 </head>
-
 <body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <div class="brand">TV <span>CHILENA</span></div>
-      <div class="live-label">Tu guía de televisión</div>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">TV <span>CHILENA</span></div>
+    <div style="color:#ddd">Tu guía de televisión</div>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <p class="eyebrow">Televisión chilena · En un solo lugar</p>
+  <h1>¿Qué ver hoy?</h1>
+  <p>Revisa la programación detectada en las fuentes oficiales de los canales, ordenada en un solo lugar.</p>
+</section>
+
+<section>
+  <div class="section-heading">
+    <h2>Tus canales</h2>
+    <p class="section-description">Accesos directos a las fuentes oficiales.</p>
+  </div>
+  <div class="channels">
+    <article class="channel">
+      <strong>Mega</strong>
+      <p>Matinales, realities, teleseries y entretención.</p>
+      <a class="link-button" href="https://www.mega.cl/programacion/" target="_blank" rel="noopener">Ver programación ↗</a>
+    </article>
+    <article class="channel">
+      <strong>Chilevisión</strong>
+      <p>Actualidad, farándula, realities y programas en vivo.</p>
+      <a class="link-button" href="https://www.chilevision.cl/page/programacion/" target="_blank" rel="noopener">Ver programación ↗</a>
+    </article>
+    <article class="channel">
+      <strong>Canal 13</strong>
+      <p>Entretención, espectáculos, realities y noticias.</p>
+      <a class="link-button" href="https://www.13.cl/programacion" target="_blank" rel="noopener">Ver programación ↗</a>
+    </article>
+    <article class="channel">
+      <strong>TVN</strong>
+      <p>Programas, teleseries y actualidad.</p>
+      <a class="link-button" href="https://www.tvn.cl/" target="_blank" rel="noopener">Sitio oficial ↗</a>
+    </article>
+  </div>
+</section>
+
+<section>
+  <div class="section-heading">
+    <h2>Parrilla de televisión</h2>
+    <p class="section-description">Solo se muestran horarios que el sistema logra identificar en las fuentes oficiales.</p>
+  </div>
+  <div class="schedule-panel">
+    <div class="schedule-header">
+      <div>
+        <strong>Programación recopilada</strong>
+        <p>Los horarios pueden cambiar; confirma en la fuente oficial.</p>
+      </div>
+      <button id="refresh" type="button">Actualizar datos ↻</button>
     </div>
-  </header>
+    <div class="filters">
+      <label for="channel">Canal</label>
+      <select id="channel">
+        <option value="all">Todos</option>
+        <option value="Mega">Mega</option>
+        <option value="Chilevisión">Chilevisión</option>
+        <option value="Canal 13">Canal 13</option>
+        <option value="TVN">TVN</option>
+      </select>
+      <label for="day">Día</label>
+      <select id="day">
+        <option value="today">Hoy</option>
+        <option value="all">Todos los días disponibles</option>
+      </select>
+    </div>
+    <div id="status" class="status" role="status">Cargando programación…</div>
+    <div id="programs" class="schedule-grid"></div>
+  </div>
+  <div class="notice">
+    <strong>Importante:</strong> GitHub Actions recopila los datos periódicamente. El botón actualiza los datos que la web carga, pero no fuerza por sí solo una consulta nueva a los canales. Si un canal bloquea la consulta o cambia su página, sus horarios pueden no aparecer.
+  </div>
+</section>
 
-  <main>
-    <section class="hero">
-      <p class="eyebrow">Televisión chilena · En un solo lugar</p>
-      <h1>¿Qué ver hoy?</h1>
-      <p>
-        Revisa la programación de los canales chilenos, consulta los horarios
-        y encuentra los programas que te interesan.
-      </p>
-    </section>
+<section>
+  <div class="section-heading"><h2>Cómo funciona</h2></div>
+  <div class="cards">
+    <article class="info-card"><h3>Fuentes oficiales</h3><p>La programación se intenta leer desde páginas de los propios canales.</p></article>
+    <article class="info-card"><h3>Actualización automática</h3><p>GitHub Actions ejecuta el recopilador de forma periódica.</p></article>
+    <article class="info-card"><h3>Sin horarios inventados</h3><p>Si no se identifica una hora fiable, no se muestra como horario confirmado.</p></article>
+  </div>
+</section>
 
-    <section aria-labelledby="channels-title">
-      <div class="section-heading">
+<footer>
+  <p>Guía independiente. Los nombres de canales y programas pertenecen a sus titulares.</p>
+  <a href="https://www.mega.cl/programacion/" target="_blank" rel="noopener">Mega</a>
+  <a href="https://www.chilevision.cl/page/programacion/" target="_blank" rel="noopener">Chilevisión</a>
+  <a href="https://www.13.cl/programacion" target="_blank" rel="noopener">Canal 13</a>
+  <a href="https://www.tvn.cl/" target="_blank" rel="noopener">TVN</a>
+</footer>
+</main>
+
+<script>
+const $ = selector => document.querySelector(selector);
+let items = [];
+
+function safe(value) {
+  return String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+  })[char]);
+}
+
+function todayKey() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone:"America/Santiago", year:"numeric", month:"2-digit", day:"2-digit"
+  }).formatToParts(new Date());
+  const values = {};
+  parts.forEach(part => values[part.type] = part.value);
+  return values.year + "-" + values.month + "-" + values.day;
+}
+
+function render() {
+  const channel = $("#channel").value;
+  const day = $("#day").value;
+  const today = todayKey();
+
+  const filtered = items.filter(item =>
+    (channel === "all" || item.channel === channel) &&
+    (day === "all" || !item.date || item.date === today)
+  ).sort((a,b) =>
+    (a.date || "").localeCompare(b.date || "") ||
+    (a.time || "99:99").localeCompare(b.time || "99:99")
+  );
+
+  $("#programs").innerHTML = filtered.length
+    ? filtered.map(item => `
+      <article class="program">
+        <div class="program-time">${safe(item.time || "—")}</div>
         <div>
-          <h2 id="channels-title">Tus canales</h2>
-          <p class="section-description">
-            Accede a la programación disponible de cada señal.
-          </p>
+          <p class="program-title">${safe(item.title)}</p>
+          <div class="program-meta">${safe(item.channel)}${item.date ? " · " + safe(item.date) : ""}</div>
+          ${item.source_url ? `<a href="${safe(item.source_url)}" target="_blank" rel="noopener">Fuente oficial ↗</a>` : ""}
         </div>
-      </div>
+      </article>`).join("")
+    : '<div class="empty">No hay horarios identificados para estos filtros. Visita la página oficial del canal mediante los enlaces de arriba.</div>';
+}
 
-      <div class="channels">
-        <article class="channel">
-          <div class="channel-name">Mega</div>
-          <p>Matinales, realities, teleseries y entretención.</p>
-          <a class="link-button"
-             href="https://www.mega.cl/programacion/"
-             target="_blank"
-             rel="noopener noreferrer">
-            Ver programación ↗
-          </a>
-        </article>
+async function loadData() {
+  const button = $("#refresh");
+  button.disabled = true;
+  $("#status").textContent = "Cargando datos de programación…";
 
-        <article class="channel">
-          <div class="channel-name">Chilevisión</div>
-          <p>Actualidad, farándula, realities y programas en vivo.</p>
-          <a class="link-button"
-             href="https://www.chilevision.cl/page/programacion/"
-             target="_blank"
-             rel="noopener noreferrer">
-            Ver programación ↗
-          </a>
-        </article>
+  try {
+    const response = await fetch("./data/tv-data.json?t=" + Date.now(), {cache:"no-store"});
+    if (!response.ok) throw new Error("HTTP " + response.status);
+    const data = await response.json();
 
-        <article class="channel">
-          <div class="channel-name">Canal 13</div>
-          <p>Entretención, espectáculos, realities y noticias.</p>
-          <a class="link-button"
-             href="https://www.13.cl/programacion"
-             target="_blank"
-             rel="noopener noreferrer">
-            Ver programación ↗
-          </a>
-        </article>
+    items = Array.isArray(data.schedule_items) ? data.schedule_items : [];
+    const date = data.updated_at ? new Date(data.updated_at) : null;
+    const stamp = date && !isNaN(date)
+      ? date.toLocaleString("es-CL", {timeZone:"America/Santiago"})
+      : "sin actualización registrada";
+    const failures = (data.channel_status || [])
+      .filter(channel => channel.status !== "ok")
+      .map(channel => channel.channel);
 
-        <article class="channel">
-          <div class="channel-name">TVN</div>
-          <p>Programas, teleseries, actualidad y señal pública.</p>
-          <a class="link-button"
-             href="https://www.tvn.cl/"
-             target="_blank"
-             rel="noopener noreferrer">
-            Visitar TVN ↗
-          </a>
-        </article>
-      </div>
-    </section>
+    $("#status").textContent =
+      "Última actualización: " + stamp + ". " + items.length +
+      " horarios detectados." +
+      (failures.length ? " Fuentes sin datos: " + failures.join(", ") + "." : "");
+    render();
+  } catch (error) {
+    $("#status").textContent = "No se pudo cargar la programación: " + error.message;
+    $("#programs").innerHTML = '<div class="empty">Comprueba que exista data/tv-data.json y vuelve a intentarlo.</div>';
+  } finally {
+    button.disabled = false;
+  }
+}
 
-    <section aria-labelledby="schedule-title">
-      <div class="section-heading">
-        <div>
-          <h2 id="schedule-title">Parrilla de televisión</h2>
-          <p class="section-description">
-            Consulta los horarios publicados en la guía externa.
-          </p>
-        </div>
-      </div>
-
-      <div class="schedule-panel">
-        <div class="schedule-header">
-          <div>
-            <strong>Programación de TV chilena</strong>
-            <p>Guía externa · Horarios sujetos a cambios</p>
-          </div>
-
-          <div class="schedule-actions">
-            <a class="link-button"
-               href="https://pantallazo.cl/programacion-tv/"
-               target="_blank"
-               rel="noopener noreferrer">
-              Abrir parrilla completa ↗
-            </a>
-          </div>
-        </div>
-
-        <iframe
-          class="schedule-frame"
-          src="https://pantallazo.cl/programacion-tv/"
-          title="Guía de programación de televisión chilena"
-          loading="lazy"
-          referrerpolicy="strict-origin-when-cross-origin">
-        </iframe>
-
-        <div class="fallback">
-          <p>
-            ¿La parrilla no aparece arriba? Algunas páginas no permiten
-            mostrarse dentro de otros sitios. Abre la guía directamente:
-          </p>
-          <a class="link-button secondary"
-             href="https://pantallazo.cl/programacion-tv/"
-             target="_blank"
-             rel="noopener noreferrer">
-            Consultar guía en Pantallazo ↗
-          </a>
-        </div>
-      </div>
-
-      <div class="notice">
-        <div aria-hidden="true">ⓘ</div>
-        <div>
-          <strong>Sobre los horarios</strong>
-          Esta página enlaza las fuentes originales. La disponibilidad de la
-          parrilla integrada depende del sitio externo y no se garantiza que
-          todos los horarios se puedan visualizar aquí.
-        </div>
-      </div>
-    </section>
-
-    <section aria-labelledby="next-title">
-      <div class="section-heading">
-        <div>
-          <h2 id="next-title">Cómo consultar la programación</h2>
-          <p class="section-description">
-            Accede a las fuentes de cada canal para revisar sus horarios.
-          </p>
-        </div>
-      </div>
-
-      <div class="how-it-works">
-        <article class="info-card">
-          <div class="number">1</div>
-          <h3>Elige un canal</h3>
-          <p>Usa los accesos directos de Mega, Chilevisión, Canal 13 o TVN.</p>
-        </article>
-
-        <article class="info-card">
-          <div class="number">2</div>
-          <h3>Revisa los horarios</h3>
-          <p>Consulta la programación que publica el canal o la guía externa.</p>
-        </article>
-
-        <article class="info-card">
-          <div class="number">3</div>
-          <h3>Confirma antes de verlo</h3>
-          <p>Los horarios pueden cambiar y algunas emisiones son especiales.</p>
-        </article>
-      </div>
-    </section>
-
-    <footer>
-      <p>
-        Guía independiente de consulta. Los nombres de los canales y programas
-        pertenecen a sus respectivos titulares.
-      </p>
-      <a href="https://pantallazo.cl/programacion-tv/"
-         target="_blank"
-         rel="noopener noreferrer">Fuente de programación</a>
-      <a href="https://www.mega.cl/programacion/"
-         target="_blank"
-         rel="noopener noreferrer">Mega</a>
-      <a href="https://www.chilevision.cl/page/programacion/"
-         target="_blank"
-         rel="noopener noreferrer">Chilevisión</a>
-      <a href="https://www.13.cl/programacion"
-         target="_blank"
-         rel="noopener noreferrer">Canal 13</a>
-      <a href="https://www.tvn.cl/"
-         target="_blank"
-         rel="noopener noreferrer">TVN</a>
-    </footer>
-  </main>
+$("#refresh").addEventListener("click", loadData);
+$("#channel").addEventListener("change", render);
+$("#day").addEventListener("change", render);
+loadData();
+</script>
 </body>
 </html>
