@@ -1,35 +1,38 @@
-
 {
-  "updated_at": null,
+  "updated_at": "2026-10-25T22:37:03-03:00",
   "timezone": "America/Santiago",
-  "status": "waiting_for_first_run",
+  "status": "partial",
   "schedule_status": "not_found",
-  "schedule_note": "Esperando la primera consulta de las fuentes oficiales.",
+  "schedule_note": "No se identificaron horarios estructurados. No se han inventado horarios.",
   "schedule_items": [],
   "channel_status": [
     {
       "channel": "Mega",
-      "status": "pending",
+      "status": "no_schedule_found",
       "source_url": "https://www.mega.cl/programacion/",
-      "count": 0
+      "count": 0,
+      "message": "La página no entregó horarios estructurados reconocibles."
     },
     {
       "channel": "Chilevisión",
-      "status": "pending",
+      "status": "no_schedule_found",
       "source_url": "https://www.chilevision.cl/page/programacion/",
-      "count": 0
+      "count": 0,
+      "message": "La página no entregó horarios estructurados reconocibles."
     },
     {
       "channel": "Canal 13",
-      "status": "pending",
+      "status": "no_schedule_found",
       "source_url": "https://www.13.cl/programacion",
-      "count": 0
+      "count": 0,
+      "message": "La página no entregó horarios estructurados reconocibles."
     },
     {
       "channel": "TVN",
-      "status": "pending",
+      "status": "no_schedule_found",
       "source_url": "https://www.tvn.cl/",
-      "count": 0
+      "count": 0,
+      "message": "La página no entregó horarios estructurados reconocibles."
     }
   ]
 }
