@@ -10,7 +10,6 @@
     :root {
       --bg: #10110f;
       --panel: #191a17;
-      --panel2: #20211d;
       --text: #f5f5ed;
       --muted: #a5a69b;
       --line: #37382f;
@@ -158,6 +157,7 @@
       overflow-y: hidden;
       overscroll-behavior-x: contain;
       scrollbar-color: #55564b var(--panel);
+      -webkit-overflow-scrolling: touch;
     }
 
     .epg {
@@ -168,12 +168,12 @@
     .epg-header,
     .epg-row {
       display: grid;
-      grid-template-columns: var(--channel-width) 1fr;
+      grid-template-columns: var(--channel-width) calc(24 * var(--hour-width));
+      width: calc(var(--channel-width) + 24 * var(--hour-width));
     }
 
     .epg-header {
-      position: sticky;
-      top: 0;
+      position: relative;
       z-index: 5;
       background: #1d1e1a;
       border-bottom: 1px solid var(--line);
@@ -189,6 +189,10 @@
       letter-spacing: 1px;
       text-transform: uppercase;
       border-right: 1px solid var(--line);
+      position: sticky;
+      left: 0;
+      z-index: 6;
+      background: #1d1e1a;
     }
 
     .hours {
@@ -216,7 +220,7 @@
       border-bottom: 1px solid var(--line);
     }
 
-    .epg-row:last-child { border-bottom: 0; }
+    .epg-row:last-of-type { border-bottom: 0; }
 
     .channel-cell {
       position: sticky;
@@ -229,6 +233,7 @@
       flex-direction: column;
       justify-content: center;
       gap: 6px;
+      min-width: 0;
     }
 
     .channel-name {
@@ -456,6 +461,7 @@
 
   <script>
     const CHANNELS = ["Mega", "Chilevisión", "Canal 13", "TVN"];
+
     const CHANNEL_URLS = {
       "Mega": "https://www.mega.cl/programacion/",
       "Chilevisión": "https://www.chilevision.cl/page/programacion/",
@@ -467,7 +473,7 @@
     let channelStatuses = [];
     let activeChannel = "Todos";
 
-    const $ = (id) => document.getElementById(id);
+    const $ = id => document.getElementById(id);
 
     function chileNowParts() {
       const parts = new Intl.DateTimeFormat("en-CA", {
@@ -486,7 +492,9 @@
 
     function chileMinutesNow() {
       const p = chileNowParts();
-      return Number(p.hour) * 60 + Number(p.minute) + Number(p.second) / 60;
+      return Number(p.hour) * 60 +
+        Number(p.minute) +
+        Number(p.second) / 60;
     }
 
     function todayKey() {
@@ -505,30 +513,39 @@
     }
 
     function updateClock() {
-      $("liveClock").textContent = new Intl.DateTimeFormat("es-CL", {
-        timeZone: "America/Santiago",
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit",
-        hourCycle: "h23"
-      }).format(new Date()) + " · HORA DE CHILE";
+      $("liveClock").textContent =
+        new Intl.DateTimeFormat("es-CL", {
+          timeZone: "America/Santiago",
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+          hourCycle: "h23"
+        }).format(new Date()) + " · HORA DE CHILE";
 
       $("todayLabel").textContent = formatToday();
     }
 
     function parseTime(value) {
       if (typeof value !== "string") return null;
+
       const match = value.trim().match(/^([01]?\d|2[0-3]):([0-5]\d)$/);
+
       if (!match) return null;
+
       return Number(match[1]) * 60 + Number(match[2]);
     }
 
     function normaliseChannel(value) {
-      const v = String(value || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+      const v = String(value || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+
       if (v.includes("chilevision") || v === "chv") return "Chilevisión";
       if (v.includes("mega")) return "Mega";
       if (v.includes("canal 13") || v === "13" || v.includes("13.cl")) return "Canal 13";
       if (v === "tvn" || v.includes("television nacional")) return "TVN";
+
       return String(value || "").trim();
     }
 
@@ -542,10 +559,15 @@
         const time = String(raw.time || "").trim();
         const minutes = parseTime(time);
 
-        if (!CHANNELS.includes(channel) || !title || minutes === null) continue;
+        if (!CHANNELS.includes(channel) || !title || minutes === null) {
+          continue;
+        }
+
+        // Si hay fecha explícita, solo muestra los datos del día actual.
         if (raw.date && raw.date !== todayKey()) continue;
 
         const key = `${channel}|${time}|${title.toLowerCase()}`;
+
         if (seen.has(key)) continue;
         seen.add(key);
 
@@ -566,7 +588,9 @@
     }
 
     function getChannelStatus(channel) {
-      return channelStatuses.find(s => normaliseChannel(s.channel) === channel);
+      return channelStatuses.find(
+        status => normaliseChannel(status.channel) === channel
+      );
     }
 
     function escapeHTML(value) {
@@ -582,20 +606,34 @@
     function render() {
       const epg = $("epg");
       const now = chileMinutesNow();
-      const hourWidth = parseFloat(
-        getComputedStyle(document.documentElement).getPropertyValue("--hour-width")
-      ) || 150;
+
+      const styles = getComputedStyle(document.documentElement);
+      const hourWidth =
+        parseFloat(styles.getPropertyValue("--hour-width")) || 150;
+      const channelWidth =
+        parseFloat(styles.getPropertyValue("--channel-width")) || 142;
+
       const timelineWidth = 24 * hourWidth;
-      const channels = activeChannel === "Todos" ? CHANNELS : [activeChannel];
+      const channels = activeChannel === "Todos"
+        ? CHANNELS
+        : [activeChannel];
+
       const hoursHTML = Array.from({ length: 24 }, (_, hour) => {
-        const isCurrent = Math.floor(now / 60) === hour;
-        return `<div class="hour ${isCurrent ? "current-hour" : ""}">${String(hour).padStart(2, "0")}:00</div>`;
+        const currentHour = Math.floor(now / 60) === hour;
+
+        return `
+          <div class="hour ${currentHour ? "current-hour" : ""}">
+            ${String(hour).padStart(2, "0")}:00
+          </div>
+        `;
       }).join("");
 
       let html = `
         <div class="epg-header">
           <div class="channel-heading">Canal</div>
-          <div class="hours">${hoursHTML}</div>
+          <div class="hours" style="width:${timelineWidth}px">
+            ${hoursHTML}
+          </div>
         </div>
       `;
 
@@ -605,11 +643,16 @@
           .sort((a, b) => a.minutes - b.minutes);
 
         const status = getChannelStatus(channel);
-        let statusText = items.length
+
+        const statusText = items.length
           ? `${items.length} horarios detectados`
-          : (status && status.status === "error"
+          : status && status.status === "error"
             ? "No se pudo consultar"
-            : "Sin horarios detectados");
+            : "Sin horarios detectados";
+
+        // Horas de inicio únicas, para no crear duraciones de cero minutos.
+        const distinctStarts = [...new Set(items.map(item => item.minutes))]
+          .sort((a, b) => a - b);
 
         html += `
           <div class="epg-row">
@@ -617,32 +660,55 @@
               <div class="channel-name">${escapeHTML(channel)}</div>
               <div class="channel-status">${escapeHTML(statusText)}</div>
             </div>
-            <div class="track" data-track="${escapeHTML(channel)}" style="width:${timelineWidth}px">
-              ${items.map((item, index) => {
-                const next = items[index + 1];
-                let end = next ? next.minutes : Math.min(item.minutes + 30, 1440);
+            <div
+              class="track"
+              data-track="${escapeHTML(channel)}"
+              style="width:${timelineWidth}px"
+            >
+        `;
 
-                // Si el siguiente horario está antes del actual, no dibujar un bloque invertido.
-                if (end <= item.minutes) end = Math.min(item.minutes + 10, 1440);
+        for (const item of items) {
+          const start = item.minutes;
+          const nextStart = distinctStarts.find(value => value > start);
 
-                const duration = Math.max(10, end - item.minutes);
-                const left = item.minutes / 1440 * 100;
-                const width = Math.min(duration / 1440 * 100, 100 - left);
-                const isCurrent = now >= item.minutes && now < end;
-                const title = escapeHTML(item.title);
-                const meta = `${item.time}${isCurrent ? " · AHORA" : ""}`;
-                const source = escapeHTML(item.source_url || CHANNEL_URLS[channel]);
+          // Si no hay siguiente programa, dibuja 30 minutos como estimación.
+          const end = nextStart !== undefined
+            ? nextStart
+            : Math.min(start + 30, 1440);
 
-                return `
-                  <a class="program ${isCurrent ? "on-air" : ""}"
-                     href="${source}" target="_blank" rel="noopener"
-                     title="${title} — ${item.time}"
-                     style="left:${left}%;width:${Math.max(width, 0.15)}%">
-                    <span class="program-title">${title}</span>
-                    <span class="program-meta">${meta}</span>
-                  </a>
-                `;
-              }).join("")}
+          const duration = Math.max(1, end - start);
+          const left = (start / 1440) * 100;
+          const width = Math.min(
+            (duration / 1440) * 100,
+            100 - left
+          );
+
+          // Los programas anteriores a la hora actual se conservan.
+          const isCurrent = now >= start && now < end;
+
+          const title = escapeHTML(item.title);
+          const source = escapeHTML(
+            item.source_url || CHANNEL_URLS[channel]
+          );
+
+          html += `
+            <a
+              class="program ${isCurrent ? "on-air" : ""}"
+              href="${source}"
+              target="_blank"
+              rel="noopener"
+              title="${title} — ${item.time}"
+              style="left:${left}%;width:${Math.max(width, 0.1)}%"
+            >
+              <span class="program-title">${title}</span>
+              <span class="program-meta">
+                ${item.time}${isCurrent ? " · AHORA" : ""}
+              </span>
+            </a>
+          `;
+        }
+
+        html += `
             </div>
           </div>
         `;
@@ -650,27 +716,31 @@
 
       epg.innerHTML = html;
 
-      // Línea de hora actual sobre toda la guía.
-      const x = now / 1440 * timelineWidth;
+      // Posición de la línea roja sobre la misma escala horaria.
       const line = document.createElement("div");
       line.className = "now-line";
-      line.style.left = `calc(var(--channel-width) + ${x}px)`;
+      line.style.left =
+        `${channelWidth + (now / 1440) * timelineWidth}px`;
       line.innerHTML = '<span class="now-label">AHORA</span>';
+
       epg.appendChild(line);
 
-      // Llevar la guía cerca de la hora actual al cargar.
+      // Centra aproximadamente la hora actual al abrir la guía.
       if (!epg.dataset.scrolled) {
         const scroller = $("guideScroll");
-        const channelWidth = parseFloat(
-          getComputedStyle(document.documentElement).getPropertyValue("--channel-width")
-        ) || 142;
-        scroller.scrollLeft = Math.max(0, channelWidth + x - scroller.clientWidth * 0.35);
+        scroller.scrollLeft = Math.max(
+          0,
+          channelWidth + (now / 1440) * timelineWidth -
+            scroller.clientWidth * 0.35
+        );
+
         epg.dataset.scrolled = "true";
       }
     }
 
     function renderStatus(data) {
       const scheduleStatus = data.schedule_status || data.status || "";
+
       const updated = data.updated_at
         ? new Date(data.updated_at).toLocaleString("es-CL", {
             timeZone: "America/Santiago",
@@ -683,20 +753,21 @@
         ? `Actualizado: ${updated}`
         : "Fecha de actualización no disponible";
 
-      const failed = (channelStatuses || []).filter(s =>
-        s.status === "error" || s.status === "no_schedule_found"
+      const failed = channelStatuses.filter(status =>
+        status.status === "error" ||
+        status.status === "no_schedule_found"
       );
 
       if (!allItems.length) {
         $("statusNotice").innerHTML =
           "<strong>Por ahora no hay horarios utilizables.</strong> " +
-          "El sitio puede haber cambiado su estructura o no publicar la programación en el HTML. " +
-          "Revisa el estado de actualización de GitHub Actions.";
+          "El sitio puede haber cambiado su estructura o no publicar la " +
+          "programación en el HTML. Revisa GitHub Actions.";
       } else if (failed.length) {
         $("statusNotice").innerHTML =
-          `<strong>Programación parcial.</strong> Hay horarios detectados, pero ${failed.length} canal(es) ` +
-          "no entregaron una parrilla que se pudiera leer automáticamente. " +
-          "Los horarios visibles no son una confirmación de emisión en directo.";
+          `<strong>Programación parcial.</strong> Hay horarios detectados, ` +
+          `pero ${failed.length} canal(es) no entregaron una parrilla ` +
+          "legible. Los horarios visibles no confirman una emisión en directo.";
       } else {
         $("statusNotice").innerHTML =
           `<strong>Datos cargados.</strong> ${allItems.length} horarios detectados. ` +
@@ -704,18 +775,24 @@
       }
 
       if (scheduleStatus === "error") {
-        $("statusNotice").innerHTML += " Hubo un problema al recopilar la programación.";
+        $("statusNotice").innerHTML +=
+          " Hubo un problema al recopilar la programación.";
       }
     }
 
     async function loadGuide() {
       try {
-        const response = await fetch(`data/tv-data.json?v=${Date.now()}`, {
-          cache: "no-store"
-        });
-        if (!response.ok) throw new Error("No se pudo cargar data/tv-data.json");
+        const response = await fetch(
+          `data/tv-data.json?v=${Date.now()}`,
+          { cache: "no-store" }
+        );
+
+        if (!response.ok) {
+          throw new Error("No se pudo cargar data/tv-data.json");
+        }
 
         const data = await response.json();
+
         allItems = cleanItems(data.schedule_items || []);
         channelStatuses = data.channel_status || [];
 
@@ -724,11 +801,14 @@
       } catch (error) {
         $("epg").innerHTML =
           '<div class="empty">No se pudo cargar la guía.<br>' +
-          'Comprueba que exista el archivo <strong>data/tv-data.json</strong> en el repositorio.</div>';
+          'Comprueba que exista <strong>data/tv-data.json</strong> ' +
+          "y contenga JSON válido.</div>";
+
         $("updateLabel").textContent = "No se pudieron cargar los datos";
+
         $("statusNotice").innerHTML =
-          "<strong>Error de datos.</strong> La página no pudo leer data/tv-data.json. " +
-          "Comprueba que el archivo exista y contenga JSON válido.";
+          "<strong>Error de datos.</strong> La página no pudo leer " +
+          "data/tv-data.json. Comprueba que el archivo exista y sea válido.";
       }
     }
 
@@ -737,8 +817,9 @@
       if (!button) return;
 
       activeChannel = button.dataset.channel;
-      document.querySelectorAll(".filter").forEach(el => {
-        el.classList.toggle("active", el === button);
+
+      document.querySelectorAll(".filter").forEach(element => {
+        element.classList.toggle("active", element === button);
       });
 
       $("epg").dataset.scrolled = "";
@@ -747,8 +828,12 @@
 
     updateClock();
     setInterval(updateClock, 1000);
+
     loadGuide();
     setInterval(loadGuide, 5 * 60 * 1000);
+
+    // Actualiza la posición de AHORA sin esperar a volver a cargar los datos.
+    setInterval(render, 30 * 1000);
   </script>
 </body>
 </html>
