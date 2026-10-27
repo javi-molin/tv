@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T03:46:59.528735-03:00",
+  "updated_at": "2026-10-27T10:08:19.968235-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -42,7 +42,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "El Tiempo",
+      "title": "Siempre hay un chileno",
       "time": "01:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -372,13 +372,6 @@
     {
       "channel": "Canal 13",
       "title": "El Tiempo",
-      "time": "22:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Siempre hay un chileno",
       "time": "22:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1561,15 +1554,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
-      "time": "00:42",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Vuelve a disfrutar de las historias de los entretenidos personajes de \"Sucupira\". Muy pronto en las...",
-      "time": "02:17",
+      "title": "Ver ahora",
+      "time": "03:01",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1582,21 +1568,21 @@
     },
     {
       "channel": "TVN",
-      "title": "Pronóstico del tiempo: Martes 27 de octubre | TV Tiempo",
+      "title": "Alberto nos compartió un audio de la llamada que le hizo a su hermano en el momento en que el...",
       "time": "03:12",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Los participantes con delantal negro enfrentan un nuevo y exigente desafío en MasterChef Chile:...",
-      "time": "04:08",
+      "title": "Carmina presenta el video donde Max y Nina se besan apasionadamente. Todos en casa quedan impactados...",
+      "time": "03:16",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "En la Región Metropolitana comenzaremos este martes con un cielo gris, pero rápidamente se...",
+      "title": "La medida rige de manera puntual para tres establecimientos ubicados dentro del polígono de riesgo...",
       "time": "05:48",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1617,13 +1603,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Carmina llega a la cárcel donde está Nina para ofrecerle un acuerdo y poder salir en libertad. La...",
-      "time": "07:18",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Miércoles 21 de octubre de 2026",
       "time": "09:51",
       "source_url": "https://www.tvn.cl/",
@@ -1631,8 +1610,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Aunque logró un buen sabor en el pescado, Alicia no convenció a los jueces con su preparación debido...",
-      "time": "13:15",
+      "title": "Destacamos en TVN",
+      "time": "13:29",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1663,14 +1642,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 56,
+      "items_found": 55,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 12,
+      "items_found": 10,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
