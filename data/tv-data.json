@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T10:08:19.968235-03:00",
+  "updated_at": "2026-10-27T15:53:45.126743-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -42,14 +42,14 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Siempre hay un chileno",
+      "title": "El Tiempo",
       "time": "01:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué dice Chile! Prime",
+      "title": "Vértigo Extremo",
       "time": "01:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -372,6 +372,13 @@
     {
       "channel": "Canal 13",
       "title": "El Tiempo",
+      "time": "22:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Siempre hay un chileno",
       "time": "22:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1554,15 +1561,29 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:01",
+      "title": "La chef Fernanda Fuentes junto a los jueces despidieron a la querida aspirante de chef quien debió...",
+      "time": "01:34",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "El momento fue captado por las cámaras de 24 Horas (TVN) en Las Condes. En el lugar se desarrollan...",
-      "time": "03:11",
+      "title": "Este domingo recibimos las primeras ideas para diseñar al futuro corpóreo de nuestro programa en...",
+      "time": "02:07",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacados MasterChef",
+      "time": "02:52",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "03:01",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1575,8 +1596,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Carmina presenta el video donde Max y Nina se besan apasionadamente. Todos en casa quedan impactados...",
+      "title": "Tras su emotiva eliminación de MasterChef Chile, Alicia visitó el react donde agradeció el cariño...",
       "time": "03:16",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La conductora del programa no aguantó sus lágrimas para destacar la enorme calidad humana de Alicia,...",
+      "time": "03:37",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1610,8 +1638,29 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "Nicolás sorprendió gratamente a los jueces con el increíble sabor de su preparación de trucha. El...",
+      "time": "13:15",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La meteoróloga de TVN nos hizo una clase sobre lo que se espera para los próximos meses donde hay...",
       "time": "13:29",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "15:46",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Revive todos los detalles de la Red Bull Batalla Regional Sur 2026 con nuestro react especial....",
+      "time": "16:00",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1642,14 +1691,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 55,
+      "items_found": 56,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 10,
+      "items_found": 16,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
