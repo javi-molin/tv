@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T12:55:28.157766-03:00",
+  "updated_at": "2026-10-28T17:57:35.923432-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1555,6 +1555,13 @@
     {
       "channel": "TVN",
       "title": "Destacamos en TVN",
+      "time": "01:57",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "A menos de un mes de su estreno, el programa de TVN sigue creciendo en sintonía.",
       "time": "02:01",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1617,7 +1624,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Carmina ayuda a Janaína luego que su hijo sufriera un accidente. Esto obliga a la mujer a realizar...",
+      "title": "Este miércoles comenzó con un gran desastre en España con un accidente que ha dejado al menos 30...",
       "time": "12:45",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1677,7 +1684,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 15,
+      "items_found": 16,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
