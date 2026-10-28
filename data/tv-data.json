@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T05:56:13.777291-03:00",
+  "updated_at": "2026-10-28T12:55:28.157766-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1561,14 +1561,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Este domingo recibimos las primeras ideas para diseñar al futuro corpóreo de nuestro programa en...",
-      "time": "02:07",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "El chef nos preparó unos pulpitos para disfrutar del programa y para aprovechar el tiempo, Fran lo...",
       "time": "02:11",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1582,15 +1575,22 @@
     },
     {
       "channel": "TVN",
-      "title": "Luciana Echeverría, Matías Oviedo, Cristóbal Gallardo, Antonia Reyes y Gabriela Ahumada protagonizan...",
-      "time": "03:09",
+      "title": "La conductora del programa no aguantó sus lágrimas para destacar la enorme calidad humana de Alicia,...",
+      "time": "03:37",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La conductora del programa no aguantó sus lágrimas para destacar la enorme calidad humana de Alicia,...",
-      "time": "03:37",
+      "title": "Juan Manuel Pena Passaro lideró el react junto a Fran Medina y nos preparó unas ricas ricas pizzas...",
+      "time": "03:48",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacados MasterChef",
+      "time": "04:19",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1617,22 +1617,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Nicolás sorprendió gratamente a los jueces con el increíble sabor de su preparación de trucha. El...",
-      "time": "13:15",
+      "title": "Carmina ayuda a Janaína luego que su hijo sufriera un accidente. Esto obliga a la mujer a realizar...",
+      "time": "12:45",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La meteoróloga de TVN nos hizo una clase sobre lo que se espera para los próximos meses donde hay...",
-      "time": "13:29",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Carmina presenta el video donde Max y Nina se besan apasionadamente. Todos en casa quedan impactados...",
-      "time": "15:46",
+      "title": "Antes de cada emisión, la dupla cocina en vivo y después disfrutan lo que cocinaron viendo el...",
+      "time": "14:39",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1640,6 +1633,20 @@
       "channel": "TVN",
       "title": "Revive todos los detalles de la Red Bull Batalla Regional Sur 2026 con nuestro react especial....",
       "time": "16:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Más de 100 vehículos comenzarán a ser rematados desde hoy en Quilicura. Conoce las condiciones para...",
+      "time": "17:20",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Conversamos con el académico Víctor Silva quien nos explicó la complicada situación que generó la...",
+      "time": "20:19",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1670,7 +1677,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 14,
+      "items_found": 15,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
