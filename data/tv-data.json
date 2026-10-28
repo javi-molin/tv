@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-27T23:07:17.765144-03:00",
+  "updated_at": "2026-10-28T05:56:13.777291-03:00",
   "timezone": "America/Santiago",
-  "status": "Actualización ejecutada: 3 de 4 canales con datos detectados.",
-  "schedule_status": "partial",
+  "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
+  "schedule_status": "ok",
   "schedule_note": "Los horarios detectados provienen de páginas oficiales. Un canal sin datos interpretables se informa como tal; no se completan horarios con datos inventados.",
   "schedule_items": [
     {
@@ -35,6 +35,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Vértigo Extremo",
+      "time": "01:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "El Clan",
       "time": "01:25",
       "source_url": "https://www.13.cl/programacion",
@@ -43,13 +50,6 @@
     {
       "channel": "Canal 13",
       "title": "Siempre hay un chileno",
-      "time": "01:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Vértigo Extremo",
       "time": "01:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -65,13 +65,6 @@
       "channel": "Canal 13",
       "title": "¡Qué dice Chile! Prime",
       "time": "02:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "02:15",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -119,7 +112,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Teletrece Noche",
+      "title": "Vale Todo",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -133,7 +126,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Martes 27 de Octubre",
+      "title": "Lunes 2 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -315,13 +308,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "El Tiempo (Tarde)",
-      "time": "19:15",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Sábados de Películas: \"Spiderman 2\"",
       "time": "19:30",
       "source_url": "https://www.13.cl/programacion",
@@ -386,6 +372,13 @@
     {
       "channel": "Canal 13",
       "title": "El Tiempo",
+      "time": "22:40",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Teletrece Central",
       "time": "22:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1551,6 +1544,104 @@
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La chef Fernanda Fuentes junto a los jueces despidieron a la querida aspirante de chef quien debió...",
+      "time": "01:34",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "02:01",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Este domingo recibimos las primeras ideas para diseñar al futuro corpóreo de nuestro programa en...",
+      "time": "02:07",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacados MasterChef",
+      "time": "02:11",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Si bien los cocineros se lo tomaron al principio como algo simple y rápido, a medida que fueron...",
+      "time": "02:52",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Luciana Echeverría, Matías Oviedo, Cristóbal Gallardo, Antonia Reyes y Gabriela Ahumada protagonizan...",
+      "time": "03:09",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La conductora del programa no aguantó sus lágrimas para destacar la enorme calidad humana de Alicia,...",
+      "time": "03:37",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "\"Yo lo descarto\": Iván Torre entrega su informe del tiempo para Halloween",
+      "time": "05:53",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Cultura",
+      "time": "06:32",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Miércoles 21 de octubre de 2026",
+      "time": "09:51",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Nicolás sorprendió gratamente a los jueces con el increíble sabor de su preparación de trucha. El...",
+      "time": "13:15",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La meteoróloga de TVN nos hizo una clase sobre lo que se espera para los próximos meses donde hay...",
+      "time": "13:29",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Carmina presenta el video donde Max y Nina se besan apasionadamente. Todos en casa quedan impactados...",
+      "time": "15:46",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Revive todos los detalles de la Red Bull Batalla Regional Sur 2026 con nuestro react especial....",
+      "time": "16:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
     }
   ],
   "channel_status": [
@@ -1572,15 +1663,15 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 55,
+      "items_found": 54,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
-      "status": "no_schedule_found",
+      "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 0,
-      "message": "La página se pudo consultar, pero no se detectó una parrilla interpretable."
+      "items_found": 14,
+      "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
 }
