@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T21:47:45.267717-03:00",
+  "updated_at": "2026-10-29T03:57:07.735122-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -28,7 +28,14 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo",
+      "title": "Vértigo Extremo",
+      "time": "00:40",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "El Tiempo",
       "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -49,22 +56,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Siempre hay un chileno",
-      "time": "01:30",
+      "title": "¡Qué dice Chile! Prime",
+      "time": "02:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
       "title": "Vale Todo",
-      "time": "02:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "¡Qué dice Chile! Prime",
-      "time": "02:00",
+      "time": "02:15",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -98,14 +98,14 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Milf",
+      "title": "Socios por el mundo",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Socios por el mundo",
+      "title": "Teletrece Noche",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -133,7 +133,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Miércoles 28 de Octubre",
+      "title": "Martes 3 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -308,6 +308,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "El Tiempo (Tarde)",
+      "time": "19:15",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Sábados de Películas: \"Spiderman 2\"",
       "time": "19:30",
       "source_url": "https://www.13.cl/programacion",
@@ -365,6 +372,13 @@
     {
       "channel": "Canal 13",
       "title": "Teletrece Central",
+      "time": "22:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Vértigo",
       "time": "22:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1547,15 +1561,15 @@
     },
     {
       "channel": "TVN",
-      "title": "La chef Fernanda Fuentes junto a los jueces despidieron a la querida aspirante de chef quien debió...",
-      "time": "01:34",
+      "title": "Destacamos en TVN",
+      "time": "01:06",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "01:57",
+      "title": "La chef Fernanda Fuentes junto a los jueces despidieron a la querida aspirante de chef quien debió...",
+      "time": "01:34",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1577,6 +1591,13 @@
       "channel": "TVN",
       "title": "Si bien los cocineros se lo tomaron al principio como algo simple y rápido, a medida que fueron...",
       "time": "02:52",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "03:27",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1610,8 +1631,22 @@
     },
     {
       "channel": "TVN",
+      "title": "Mientras preparaba un goulash, el participante aseguró que su compañera no está convencida de seguir...",
+      "time": "08:10",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Miércoles 21 de octubre de 2026",
       "time": "09:51",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacados MasterChef",
+      "time": "11:34",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1663,14 +1698,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 54,
+      "items_found": 56,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 14,
+      "items_found": 17,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
