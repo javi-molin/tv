@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T03:57:07.735122-03:00",
+  "updated_at": "2026-10-29T11:08:19.483794-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -35,7 +35,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "El Tiempo",
+      "title": "Vértigo",
       "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -372,13 +372,6 @@
     {
       "channel": "Canal 13",
       "title": "Teletrece Central",
-      "time": "22:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Vértigo",
       "time": "22:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1568,43 +1561,8 @@
     },
     {
       "channel": "TVN",
-      "title": "La chef Fernanda Fuentes junto a los jueces despidieron a la querida aspirante de chef quien debió...",
-      "time": "01:34",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "A menos de un mes de su estreno, el programa de TVN sigue creciendo en sintonía.",
-      "time": "02:01",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El chef nos preparó unos pulpitos para disfrutar del programa y para aprovechar el tiempo, Fran lo...",
-      "time": "02:11",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Si bien los cocineros se lo tomaron al principio como algo simple y rápido, a medida que fueron...",
-      "time": "02:52",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
-      "time": "03:27",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Juan Manuel Pena Passaro lideró el react junto a Fran Medina y nos preparó unas ricas ricas pizzas...",
-      "time": "03:48",
+      "title": "La actriz llegó hasta San Javier, en la región del Maule, para participar de la audiencia judicial...",
+      "time": "02:55",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1624,6 +1582,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Dolores recae durante la boda de Diógenes y se arma un gran escándalo. Capítulo disponible hasta el...",
+      "time": "06:30",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Cultura",
       "time": "06:32",
       "source_url": "https://www.tvn.cl/",
@@ -1638,29 +1603,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Miércoles 21 de octubre de 2026",
-      "time": "09:51",
+      "title": "El protagonista de la historia quedó atrapado en cables del tendido eléctrico la noche del pasado...",
+      "time": "11:07",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "A menos de un mes de su estreno, el programa de TVN sigue creciendo en sintonía.",
       "time": "11:34",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Este miércoles comenzó con un gran desastre en España con un accidente que ha dejado al menos 30...",
-      "time": "12:45",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Antes de cada emisión, la dupla cocina en vivo y después disfrutan lo que cocinaron viendo el...",
-      "time": "14:39",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1673,8 +1624,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Más de 100 vehículos comenzarán a ser rematados desde hoy en Quilicura. Conoce las condiciones para...",
-      "time": "17:20",
+      "title": "El meteorólogo del \"Buenos Días a Todos\" nos enseñó las condiciones que deben existir para que...",
+      "time": "17:02",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1698,14 +1649,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 56,
+      "items_found": 55,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 17,
+      "items_found": 11,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
