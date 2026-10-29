@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T17:57:35.923432-03:00",
+  "updated_at": "2026-10-28T21:47:45.267717-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1582,13 +1582,6 @@
     },
     {
       "channel": "TVN",
-      "title": "La conductora del programa no aguantó sus lágrimas para destacar la enorme calidad humana de Alicia,...",
-      "time": "03:37",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Juan Manuel Pena Passaro lideró el react junto a Fran Medina y nos preparó unas ricas ricas pizzas...",
       "time": "03:48",
       "source_url": "https://www.tvn.cl/",
@@ -1596,7 +1589,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "Un imprevisto momento léxico se transformó en lo más comentado de la jornada digital del estelar...",
       "time": "04:19",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1649,13 +1642,6 @@
       "time": "17:20",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Conversamos con el académico Víctor Silva quien nos explicó la complicada situación que generó la...",
-      "time": "20:19",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
     }
   ],
   "channel_status": [
@@ -1684,7 +1670,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 16,
+      "items_found": 14,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
