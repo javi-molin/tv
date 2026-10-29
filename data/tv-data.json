@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T16:48:15.393588-03:00",
+  "updated_at": "2026-10-29T20:54:20.104805-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1554,6 +1554,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Abel está a punto de rendirse en su plan de conquistar a Jana. Ella no demuestra interés por él y el...",
+      "time": "00:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Ver ahora",
       "time": "00:00",
       "source_url": "https://www.tvn.cl/",
@@ -1582,8 +1589,15 @@
     },
     {
       "channel": "TVN",
-      "title": "La actriz llegó hasta San Javier, en la región del Maule, para participar de la audiencia judicial...",
-      "time": "02:55",
+      "title": "Actualidad y Tendencias",
+      "time": "03:10",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
+      "time": "04:09",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1598,6 +1612,13 @@
       "channel": "TVN",
       "title": "Dolores recae durante la boda de Diógenes y se arma un gran escándalo. Capítulo disponible hasta el...",
       "time": "04:48",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "TVN Stream",
+      "time": "05:43",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1649,6 +1670,13 @@
       "time": "16:00",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El espacio que conduce María Luisa Godoy volvió a superar a su competencia directa y quedó en...",
+      "time": "18:45",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
     }
   ],
   "channel_status": [
@@ -1677,7 +1705,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 14,
+      "items_found": 18,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
