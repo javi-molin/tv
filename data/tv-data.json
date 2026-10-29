@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T11:08:19.483794-03:00",
+  "updated_at": "2026-10-29T16:48:15.393588-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1554,8 +1554,29 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "Ver ahora",
+      "time": "00:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacados MasterChef",
       "time": "01:06",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "¿Cuánto sabemos realmente de la comida de Medio Oriente? ¿Por qué el sabor Árabe es tan sabroso a...",
+      "time": "01:21",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "01:51",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1575,6 +1596,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Dolores recae durante la boda de Diógenes y se arma un gran escándalo. Capítulo disponible hasta el...",
+      "time": "04:48",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "\"Yo lo descarto\": Iván Torre entrega su informe del tiempo para Halloween",
       "time": "05:53",
       "source_url": "https://www.tvn.cl/",
@@ -1582,7 +1610,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Dolores recae durante la boda de Diógenes y se arma un gran escándalo. Capítulo disponible hasta el...",
+      "title": "Aprovechando que se acerca el Día de los Difuntos, Pedro Engel nos dio consejos para tener siempre...",
       "time": "06:30",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1603,8 +1631,8 @@
     },
     {
       "channel": "TVN",
-      "title": "El protagonista de la historia quedó atrapado en cables del tendido eléctrico la noche del pasado...",
-      "time": "11:07",
+      "title": "La actriz expresó su malestar por la ausencia de Américo en la audiencia en el tribunal de San...",
+      "time": "10:45",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1619,13 +1647,6 @@
       "channel": "TVN",
       "title": "Revive todos los detalles de la Red Bull Batalla Regional Sur 2026 con nuestro react especial....",
       "time": "16:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El meteorólogo del \"Buenos Días a Todos\" nos enseñó las condiciones que deben existir para que...",
-      "time": "17:02",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1656,7 +1677,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 11,
+      "items_found": 14,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
