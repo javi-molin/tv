@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T08:35:36.351832-03:00",
+  "updated_at": "2026-10-30T14:09:28.505402-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1540,20 +1540,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Abel está a punto de rendirse en su plan de conquistar a Jana. Ella no demuestra interés por él y el...",
-      "time": "00:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Te invitamos a ser parte de conversaciones sinceras, entretenidas e íntimas junto a María Luisa...",
-      "time": "00:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Los siete participantes en competencia tenían que elegir entre chupe, pastel o budín para cocinar.",
       "time": "01:06",
       "source_url": "https://www.tvn.cl/",
@@ -1568,8 +1554,29 @@
     },
     {
       "channel": "TVN",
+      "title": "La periodista visitó el \"Buenos Días a Todos\" para presentarnos \"¿Quién dijo que era simple?\" en las...",
+      "time": "02:11",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El meteorólogo de TVN nos dio un útil consejo si vamos a salir de noche este sábado en medio de las...",
+      "time": "03:05",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Ver ahora",
-      "time": "03:10",
+      "time": "03:12",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Tras su salida de \"MasterChef Chile\", Patito visitó \"El Medio Día\" para prepararnos su plato...",
+      "time": "03:23",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1582,15 +1589,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Un imprevisto momento léxico se transformó en lo más comentado de la jornada digital del estelar...",
-      "time": "04:19",
+      "title": "La Escuadrilla de Alta Acrobacia 'Halcones', en sus aeronaves GB-1 Gamebird, aviones de instrucción...",
+      "time": "04:50",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Dolores recae durante la boda de Diógenes y se arma un gran escándalo. Capítulo disponible hasta el...",
-      "time": "04:48",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "04:58",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1603,22 +1610,22 @@
     },
     {
       "channel": "TVN",
-      "title": "TVN Stream",
+      "title": "Inesperadamente, Tifón se entera que Carmina fue una prostituta y la mujer queda sin palabras....",
+      "time": "05:16",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "05:35",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Te invitamos a ser parte de conversaciones sinceras, entretenidas e íntimas junto a María Luisa...",
       "time": "05:43",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "\"Yo lo descarto\": Iván Torre entrega su informe del tiempo para Halloween",
-      "time": "05:53",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Aprovechando que se acerca el Día de los Difuntos, Pedro Engel nos dio consejos para tener siempre...",
-      "time": "06:30",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1645,13 +1652,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Mientras preparaba un goulash, el participante aseguró que su compañera no está convencida de seguir...",
-      "time": "08:10",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Destacamos en TVN",
       "time": "08:35",
       "source_url": "https://www.tvn.cl/",
@@ -1659,22 +1659,22 @@
     },
     {
       "channel": "TVN",
-      "title": "La actriz expresó su malestar por la ausencia de Américo en la audiencia en el tribunal de San...",
-      "time": "10:45",
+      "title": "Los jueces no aceptaron ningún error en la preparación que entregó Pato para la prueba de...",
+      "time": "11:41",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "A menos de un mes de su estreno, el programa de TVN sigue creciendo en sintonía.",
-      "time": "11:34",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "Yuhui y Fran Medina reaccionaron a la eliminación de Patricio y de la presentación que lo dejó fuera...",
       "time": "13:43",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Actualidad y Tendencias",
+      "time": "14:38",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1687,8 +1687,8 @@
     },
     {
       "channel": "TVN",
-      "title": "El espacio que conduce María Luisa Godoy volvió a superar a su competencia directa y quedó en...",
-      "time": "18:45",
+      "title": "Pillamos a Paola en la calle y no podía creer que se ganó un vehículo, con un año de bencina gratis,...",
+      "time": "17:38",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
