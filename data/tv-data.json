@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T14:09:28.505402-03:00",
+  "updated_at": "2026-10-30T18:40:46.709481-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -8,7 +8,7 @@
     {
       "channel": "Canal 13",
       "title": "Lugares que Hablan",
-      "time": "00:15",
+      "time": "00:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -22,7 +22,7 @@
     {
       "channel": "Canal 13",
       "title": "Socios por Chile 2",
-      "time": "00:40",
+      "time": "00:35",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -42,15 +42,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "El Clan",
-      "time": "01:25",
+      "title": "Siempre hay un chileno",
+      "time": "01:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Siempre hay un chileno",
-      "time": "01:30",
+      "title": "El Clan",
+      "time": "01:35",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -63,8 +63,15 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Socios por el mundo",
+      "time": "02:05",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "¡Qué dice Chile! Prime",
-      "time": "02:00",
+      "time": "02:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -78,7 +85,7 @@
     {
       "channel": "Canal 13",
       "title": "Only Comparini",
-      "time": "02:25",
+      "time": "02:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -105,13 +112,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Socios por el mundo",
-      "time": "04:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Teletrece Noche",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
@@ -120,6 +120,13 @@
     {
       "channel": "Canal 13",
       "title": "Vale Todo",
+      "time": "04:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Vértigo Lo Mejor",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -183,7 +190,7 @@
     {
       "channel": "Canal 13",
       "title": "Travesía 13C. La Gracia de Viajar",
-      "time": "07:15",
+      "time": "07:10",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -218,14 +225,14 @@
     {
       "channel": "Canal 13",
       "title": "Teletrece a la Hora",
-      "time": "11:00",
+      "time": "10:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
       "title": "Mesa Central",
-      "time": "13:00",
+      "time": "12:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -260,7 +267,7 @@
     {
       "channel": "Canal 13",
       "title": "Recomiendo Chile",
-      "time": "15:00",
+      "time": "15:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -280,8 +287,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo de Películas: \"Vista por última vez\"",
+      "title": "Domingo de Películas: \"Los Locos Addams\"",
       "time": "16:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Sábados de Películas: \"Beetlejuice\"",
+      "time": "16:55",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -294,15 +308,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Sábados de Películas: \"Spiderman\"",
-      "time": "17:10",
+      "title": "Domingo de Películas: \"Los Locos Addams 2\"",
+      "time": "18:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo de Películas: \"Duro de matar 2\"",
-      "time": "18:45",
+      "title": "Sábados de Películas: \"911 Llamada Mortal\"",
+      "time": "18:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -317,13 +331,6 @@
       "channel": "Canal 13",
       "title": "El Tiempo (Tarde)",
       "time": "19:15",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Sábados de Películas: \"Spiderman 2\"",
-      "time": "19:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -1288,15 +1295,15 @@
     },
     {
       "channel": "Mega",
-      "title": "La Baronesa",
-      "time": "16:45",
+      "title": "Viajando Ando",
+      "time": "16:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "Acceso a lo nuestro",
-      "time": "17:00",
+      "title": "La Baronesa",
+      "time": "16:45",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1330,7 +1337,21 @@
     },
     {
       "channel": "Mega",
-      "title": "Detrás del muro - Lo Mejor",
+      "title": "Tesoros de mi barrio",
+      "time": "17:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Acceso a lo nuestro",
+      "time": "18:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "De paseo - Nuestras Fiestas",
       "time": "18:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1345,13 +1366,6 @@
     {
       "channel": "Mega",
       "title": "Dale Play",
-      "time": "18:10",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Viajando Ando",
       "time": "18:10",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1414,6 +1428,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Hípica Clásico Ricardo Lyon",
+      "time": "19:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Viajando Ando",
       "time": "19:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1437,6 +1458,13 @@
       "channel": "Mega",
       "title": "Travel App",
       "time": "19:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Detrás del muro - Lo Mejor",
+      "time": "19:40",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1472,6 +1500,13 @@
       "channel": "Mega",
       "title": "Travel App",
       "time": "20:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Meganoticias Prime",
+      "time": "20:40",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1540,6 +1575,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "00:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Los siete participantes en competencia tenían que elegir entre chupe, pastel o budín para cocinar.",
       "time": "01:06",
       "source_url": "https://www.tvn.cl/",
@@ -1549,6 +1591,13 @@
       "channel": "TVN",
       "title": "¿Cuánto sabemos realmente de la comida de Medio Oriente? ¿Por qué el sabor Árabe es tan sabroso a...",
       "time": "01:21",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "01:56",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1575,7 +1624,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Tras su salida de \"MasterChef Chile\", Patito visitó \"El Medio Día\" para prepararnos su plato...",
+      "title": "Inesperadamente, Tifón se entera que Carmina fue una prostituta y la mujer queda sin palabras....",
       "time": "03:23",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1610,7 +1659,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Inesperadamente, Tifón se entera que Carmina fue una prostituta y la mujer queda sin palabras....",
+      "title": "Pillamos a Paola en la calle y no podía creer que se ganó un vehículo, con un año de bencina gratis,...",
       "time": "05:16",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1652,7 +1701,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "Destacados MasterChef",
       "time": "08:35",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1673,7 +1722,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Actualidad y Tendencias",
+      "title": "General Leonardo Romanini Gutiérrez asume el mando de la FACh",
       "time": "14:38",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1687,7 +1736,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Pillamos a Paola en la calle y no podía creer que se ganó un vehículo, con un año de bencina gratis,...",
+      "title": "Tras su salida de \"MasterChef Chile\", Patito visitó \"El Medio Día\" para prepararnos su plato...",
       "time": "17:38",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1698,7 +1747,7 @@
       "channel": "Mega",
       "status": "ok",
       "source_url": "https://www.mega.cl/programacion/",
-      "items_found": 155,
+      "items_found": 159,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     },
     {
@@ -1712,14 +1761,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 53,
+      "items_found": 54,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 22,
+      "items_found": 24,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
