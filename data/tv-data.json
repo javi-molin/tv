@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T20:54:20.104805-03:00",
+  "updated_at": "2026-10-30T02:34:30.708318-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -35,13 +35,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo",
-      "time": "01:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Vértigo Extremo",
       "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
@@ -51,6 +44,20 @@
       "channel": "Canal 13",
       "title": "El Clan",
       "time": "01:25",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Siempre hay un chileno",
+      "time": "01:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Vale Todo",
+      "time": "02:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -77,13 +84,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "03:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Qué dice el Público",
       "time": "03:50",
       "source_url": "https://www.13.cl/programacion",
@@ -92,6 +92,13 @@
     {
       "channel": "Canal 13",
       "title": "Alfombra Roja (Lo Mejor)",
+      "time": "04:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Milf",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -119,13 +126,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Jueves 29 de Octubre",
-      "time": "05:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Lunes 2 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
@@ -134,6 +134,13 @@
     {
       "channel": "Canal 13",
       "title": "Martes 3 de Noviembre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Miércoles 4 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -322,13 +329,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Alfombra Roja",
-      "time": "21:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Lugares que Hablan",
       "time": "21:00",
       "source_url": "https://www.13.cl/programacion",
@@ -352,20 +352,6 @@
       "channel": "Canal 13",
       "title": "El Tiempo",
       "time": "22:20",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Central",
-      "time": "22:20",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "22:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -1561,14 +1547,14 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
+      "title": "Te invitamos a ser parte de conversaciones sinceras, entretenidas e íntimas junto a María Luisa...",
       "time": "00:00",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "Los siete participantes en competencia tenían que elegir entre chupe, pastel o budín para cocinar.",
       "time": "01:06",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1582,14 +1568,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "01:51",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Actualidad y Tendencias",
+      "title": "Ver ahora",
       "time": "03:10",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1612,6 +1591,13 @@
       "channel": "TVN",
       "title": "Dolores recae durante la boda de Diógenes y se arma un gran escándalo. Capítulo disponible hasta el...",
       "time": "04:48",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El participante pensó que había salido todo perfecto con su plato, pero al momento de la devolución,...",
+      "time": "05:10",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1645,8 +1631,29 @@
     },
     {
       "channel": "TVN",
+      "title": "Patricio pagó caro sus errores y los chefs se lo hicieron saber al momento de la devolución.",
+      "time": "07:07",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Para el participante, fue injusto haberse adjudicado el delantal negro y con esa frustración...",
+      "time": "07:34",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Mientras preparaba un goulash, el participante aseguró que su compañera no está convencida de seguir...",
       "time": "08:10",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "08:35",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1661,6 +1668,13 @@
       "channel": "TVN",
       "title": "A menos de un mes de su estreno, el programa de TVN sigue creciendo en sintonía.",
       "time": "11:34",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacados MasterChef",
+      "time": "13:43",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1698,14 +1712,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 55,
+      "items_found": 53,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 18,
+      "items_found": 22,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
