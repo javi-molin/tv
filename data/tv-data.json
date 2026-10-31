@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T22:30:22.915956-03:00",
+  "updated_at": "2026-10-31T04:27:42.388962-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -8,13 +8,6 @@
     {
       "channel": "Canal 13",
       "title": "Lugares que Hablan",
-      "time": "00:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "¡Qué Dice Chile! Prime",
       "time": "00:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -30,6 +23,13 @@
       "channel": "Canal 13",
       "title": "Vértigo Extremo",
       "time": "00:40",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Vértigo",
+      "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -70,13 +70,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué dice Chile! Prime",
-      "time": "02:05",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Vale Todo",
       "time": "02:15",
       "source_url": "https://www.13.cl/programacion",
@@ -91,15 +84,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Qué dice el Público",
-      "time": "03:50",
+      "title": "Vale Todo",
+      "time": "03:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Alfombra Roja (Lo Mejor)",
-      "time": "04:00",
+      "title": "Qué dice el Público",
+      "time": "03:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -133,6 +126,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Jueves 5 de Noviembre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Lunes 2 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
@@ -148,13 +148,6 @@
     {
       "channel": "Canal 13",
       "title": "Miércoles 4 de Noviembre",
-      "time": "05:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Viernes 30 de Octubre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -336,6 +329,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Alfombra Roja",
+      "time": "21:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Lugares que Hablan",
       "time": "21:00",
       "source_url": "https://www.13.cl/programacion",
@@ -359,6 +359,20 @@
       "channel": "Canal 13",
       "title": "El Tiempo",
       "time": "22:20",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Teletrece Central",
+      "time": "22:20",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "El Tiempo",
+      "time": "22:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -1761,7 +1775,7 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 54,
+      "items_found": 56,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
