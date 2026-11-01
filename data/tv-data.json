@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T16:08:07.399649-03:00",
+  "updated_at": "2026-11-01T20:00:11.588564-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1568,7 +1568,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "Pronóstico del tiempo: Domingo 1 de noviembre | TV Tiempo",
       "time": "03:15",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
