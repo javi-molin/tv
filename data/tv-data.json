@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T21:59:12.854400-03:00",
+  "updated_at": "2026-11-01T04:23:40.059949-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -7,7 +7,7 @@
   "schedule_items": [
     {
       "channel": "Canal 13",
-      "title": "Lugares que Hablan",
+      "title": "¡Qué Dice Chile! Prime",
       "time": "00:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -49,13 +49,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "El Clan",
-      "time": "01:35",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Vale Todo",
       "time": "02:00",
       "source_url": "https://www.13.cl/programacion",
@@ -70,15 +63,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "02:15",
+      "title": "¡Qué dice Chile! Prime",
+      "time": "02:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Only Comparini",
-      "time": "02:40",
+      "title": "Vale Todo",
+      "time": "02:15",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -91,8 +84,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Qué dice el Público",
-      "time": "03:50",
+      "title": "Alfombra Roja (Lo Mejor)",
+      "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -154,6 +147,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Viernes 6 de Noviembre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Teletrece AM",
       "time": "06:00",
       "source_url": "https://www.13.cl/programacion",
@@ -161,22 +161,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Sábado 31 de Octubre",
-      "time": "06:35",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Domingo 1 de Noviembre",
       "time": "06:40",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Travesia 13C: La Gracia de Viajar",
-      "time": "07:10",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -197,13 +183,6 @@
     {
       "channel": "Canal 13",
       "title": "Travesía 13C: City Tour",
-      "time": "08:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Travesía 13C: El Crucero",
       "time": "08:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -231,13 +210,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "T13 Finde",
-      "time": "13:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Tu Día",
       "time": "13:00",
       "source_url": "https://www.13.cl/programacion",
@@ -246,21 +218,7 @@
     {
       "channel": "Canal 13",
       "title": "Teletrece Tarde",
-      "time": "14:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Tarde",
       "time": "14:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Recomiendo Chile",
-      "time": "15:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -287,13 +245,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Sábados de Películas: \"Beetlejuice\"",
-      "time": "16:55",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Vale Todo",
       "time": "17:00",
       "source_url": "https://www.13.cl/programacion",
@@ -303,13 +254,6 @@
       "channel": "Canal 13",
       "title": "Domingo de Películas: \"Los Locos Addams 2\"",
       "time": "18:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Sábados de Películas: \"911 Llamada Mortal\"",
-      "time": "18:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -345,20 +289,6 @@
       "channel": "Canal 13",
       "title": "¡Qué Dice Chile!",
       "time": "21:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Central",
-      "time": "22:10",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "22:20",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -1775,7 +1705,7 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 56,
+      "items_found": 46,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
