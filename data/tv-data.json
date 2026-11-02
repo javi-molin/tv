@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T06:54:11.622953-03:00",
+  "updated_at": "2026-11-02T17:15:23.618548-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -21,7 +21,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo Extremo",
+      "title": "¡Qué Dice Chile! Prime",
       "time": "00:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -330,13 +330,6 @@
     {
       "channel": "Canal 13",
       "title": "El Tiempo",
-      "time": "22:40",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Central",
       "time": "22:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1533,8 +1526,8 @@
     },
     {
       "channel": "TVN",
-      "title": "En el próximo capítulo de \"MasterChef Chile\" recibiremos la visita de un amigo del programa, el chef...",
-      "time": "00:00",
+      "title": "Con tan solo 10 años, Patito se presentó ante el jurado de \"La Huincha\" para probar suerte como...",
+      "time": "01:16",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1547,29 +1540,8 @@
     },
     {
       "channel": "TVN",
-      "title": "¡El chef Tomás al rescate! Llegó el momento de que Tomás sintiera la adrenalina de la competencia....",
-      "time": "01:28",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Tras una tensa preparación marcada por los evidentes desacuerdos en la cocina, la dupla enfrentó al...",
-      "time": "01:29",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El presidente de Colo-Colo sigue dando que hablar tras su paso por la ceremonia en Londres, donde se...",
-      "time": "01:56",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La periodista visitó el \"Buenos Días a Todos\" para presentarnos \"¿Quién dijo que era simple?\" en las...",
-      "time": "02:11",
+      "title": "Destacamos en TVN",
+      "time": "01:57",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1582,7 +1554,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
+      "title": "La conductora del react de \"MasterChef Chile\" conversó con Daniel Fuenzalida sobre el programa y de...",
       "time": "02:33",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1603,28 +1575,14 @@
     },
     {
       "channel": "TVN",
-      "title": "El meteorólogo de TVN nos dio un útil consejo si vamos a salir de noche este sábado en medio de las...",
-      "time": "03:05",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
       "time": "03:09",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:12",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "El eliminado de las cocinas de \"MasterChef Chile\" visitó el react del programa y nos contó uno de...",
       "time": "03:13",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1638,8 +1596,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Tras finalizar sus estudios en el área de la salud, la joven de 24 años le planteó una emotiva...",
-      "time": "03:15",
+      "title": "Yuhui sufrió un pequeño percance mientras cocinaba y casi arruina toda su preparación del react.",
+      "time": "03:14",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1652,22 +1610,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Inesperadamente, Tifón se entera que Carmina fue una prostituta y la mujer queda sin palabras....",
-      "time": "03:23",
+      "title": "Ver ahora",
+      "time": "03:29",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Hoy las cocinas más famosas del mundo se transforman en Ciudad Gótica para un nuevo día de...",
-      "time": "03:34",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Afectada por sus tensos roces con Valentina y las complicaciones en la cocina, la aspirante debió...",
-      "time": "04:07",
+      "title": "Este lunes nos visitó Chris Lindsey, joven quien fue embajador Teletón en el 2024 y que hoy lidera...",
+      "time": "03:46",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1675,41 +1626,6 @@
       "channel": "TVN",
       "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
       "time": "04:09",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La Escuadrilla de Alta Acrobacia 'Halcones', en sus aeronaves GB-1 Gamebird, aviones de instrucción...",
-      "time": "04:50",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
-      "time": "04:58",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El participante pensó que había salido todo perfecto con su plato, pero al momento de la devolución,...",
-      "time": "05:10",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Pillamos a Paola en la calle y no podía creer que se ganó un vehículo, con un año de bencina gratis,...",
-      "time": "05:16",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "05:35",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1729,6 +1645,13 @@
     },
     {
       "channel": "TVN",
+      "title": "El chef Tomás Olivera reemplazó a Yann Yvin en el jurado en un capítulo especial de Halloween.",
+      "time": "06:19",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "En este segundo capítulo, conoce cómo nuestros colaboradores contribuyen día a día a la meta Cero...",
       "time": "06:32",
       "source_url": "https://www.tvn.cl/",
@@ -1736,29 +1659,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Patricio pagó caro sus errores y los chefs se lo hicieron saber al momento de la devolución.",
-      "time": "07:07",
+      "title": "Denuncian la presencia de veneno en caniles de Las Condes",
+      "time": "11:16",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La reconocida chef se puso el delantal blanco para sentir la presión de la competencia desde...",
-      "time": "08:35",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Los jueces no aceptaron ningún error en la preparación que entregó Pato para la prueba de...",
-      "time": "11:41",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui y Fran Medina reaccionaron a la eliminación de Patricio y de la presentación que lo dejó fuera...",
-      "time": "13:43",
+      "title": "El pasado de Carmina provoca una tormenta en su vida. La mujer busca desesperadamente encontrar a un...",
+      "time": "14:28",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1778,8 +1687,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Tras su salida de \"MasterChef Chile\", Patito visitó \"El Medio Día\" para prepararnos su plato...",
-      "time": "17:38",
+      "title": "¡Impactante registro! Jet cayó 8 mil metros en un minuto y deja nueve muertos",
+      "time": "16:22",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "20:53",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1803,14 +1719,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 48,
+      "items_found": 47,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 36,
+      "items_found": 25,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
