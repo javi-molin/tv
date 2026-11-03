@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-02T17:15:23.618548-03:00",
+  "updated_at": "2026-11-02T23:36:16.662069-03:00",
   "timezone": "America/Santiago",
-  "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
-  "schedule_status": "ok",
+  "status": "Actualización ejecutada: 3 de 4 canales con datos detectados.",
+  "schedule_status": "partial",
   "schedule_note": "Los horarios detectados provienen de páginas oficiales. Un canal sin datos interpretables se informa como tal; no se completan horarios con datos inventados.",
   "schedule_items": [
     {
@@ -413,6 +413,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Teletón 2026",
+      "time": "00:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Dale Color",
       "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -441,14 +448,14 @@
     },
     {
       "channel": "Mega",
-      "title": "Dale Play",
-      "time": "01:00",
+      "title": "Volverías con tu ex? 2 - Lo mejor",
+      "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "De paseo - Nuestras Fiestas",
+      "title": "Dale Play",
       "time": "01:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -477,13 +484,6 @@
     {
       "channel": "Mega",
       "title": "Selección Internacional",
-      "time": "01:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Volverías con tu ex? 2 - Lo mejor",
       "time": "01:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -525,6 +525,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Meganoticias Ahora",
+      "time": "02:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Nuestras fiestas",
       "time": "02:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -546,8 +553,8 @@
     },
     {
       "channel": "Mega",
-      "title": "Viajando Ando",
-      "time": "02:00",
+      "title": "Dale Play",
+      "time": "02:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -581,21 +588,7 @@
     },
     {
       "channel": "Mega",
-      "title": "Dale Play",
-      "time": "03:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Los Carsongs",
-      "time": "03:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Meganoticias Ahora",
       "time": "03:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -903,8 +896,22 @@
     },
     {
       "channel": "Mega",
+      "title": "Copec Rally Mobil",
+      "time": "09:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Viajar x Menos",
       "time": "09:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Meganoticias Siempre Juntos",
+      "time": "09:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1260,13 +1267,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Bajo el mismo Techo",
-      "time": "17:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Genios de la carne",
       "time": "17:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1296,13 +1296,6 @@
     {
       "channel": "Mega",
       "title": "Acceso a lo nuestro",
-      "time": "18:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "De paseo - Nuestras Fiestas",
       "time": "18:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1379,13 +1372,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Hípica Clásico Ricardo Lyon",
-      "time": "19:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Viajando Ando",
       "time": "19:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1409,13 +1395,6 @@
       "channel": "Mega",
       "title": "Travel App",
       "time": "19:30",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Detrás del muro - Lo Mejor",
-      "time": "19:40",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1456,13 +1435,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Meganoticias Prime",
-      "time": "20:40",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Agua Viva",
       "time": "21:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1471,6 +1443,13 @@
     {
       "channel": "Mega",
       "title": "Disfruta la Ruta",
+      "time": "21:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Meganoticias Prime",
       "time": "21:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1505,6 +1484,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Teletón 2026",
+      "time": "22:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Prohibida Obsesión",
       "time": "22:10",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1519,184 +1505,16 @@
     },
     {
       "channel": "Mega",
-      "title": "Volverías con tu Ex? 2",
+      "title": "Atrapados, 133",
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
-      "channel": "TVN",
-      "title": "Con tan solo 10 años, Patito se presentó ante el jurado de \"La Huincha\" para probar suerte como...",
-      "time": "01:16",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¿Cuánto sabemos realmente de la comida de Medio Oriente? ¿Por qué el sabor Árabe es tan sabroso a...",
-      "time": "01:21",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "01:57",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En una de las evaluaciones más hilarantes de la noche, Regina aprovechó la \"letra chica\" del desafío...",
-      "time": "02:33",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La conductora del react de \"MasterChef Chile\" conversó con Daniel Fuenzalida sobre el programa y de...",
-      "time": "02:33",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Las aspirantes vivieron una jornada para el olvido. Luego de múltiples roces durante el desafío, un...",
-      "time": "02:46",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En un tenso día de nominación, el misterio de Ciudad Gótica se apodera de las cocinas. Esta vez, el...",
-      "time": "03:04",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
-      "time": "03:09",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El eliminado de las cocinas de \"MasterChef Chile\" visitó el react del programa y nos contó uno de...",
-      "time": "03:13",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Tras una intensa jornada cocinando platos inspirados en los icónicos villanos de DC, el jurado...",
-      "time": "03:14",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui sufrió un pequeño percance mientras cocinaba y casi arruina toda su preparación del react.",
-      "time": "03:14",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Apostando por la innovación, el concursante transformó el zapallo en un llamativo plato dulce. Pese...",
-      "time": "03:21",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:29",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Este lunes nos visitó Chris Lindsey, joven quien fue embajador Teletón en el 2024 y que hoy lidera...",
-      "time": "03:46",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
-      "time": "04:09",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Te invitamos a ser parte de conversaciones sinceras, entretenidas e íntimas junto a María Luisa...",
-      "time": "05:43",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Cultura",
-      "time": "06:15",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El chef Tomás Olivera reemplazó a Yann Yvin en el jurado en un capítulo especial de Halloween.",
-      "time": "06:19",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En este segundo capítulo, conoce cómo nuestros colaboradores contribuyen día a día a la meta Cero...",
-      "time": "06:32",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Denuncian la presencia de veneno en caniles de Las Condes",
-      "time": "11:16",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El pasado de Carmina provoca una tormenta en su vida. La mujer busca desesperadamente encontrar a un...",
-      "time": "14:28",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "General Leonardo Romanini Gutiérrez asume el mando de la FACh",
-      "time": "14:38",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Revive todos los detalles de la Red Bull Batalla Regional Sur 2026 con nuestro react especial....",
-      "time": "16:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¡Impactante registro! Jet cayó 8 mil metros en un minuto y deja nueve muertos",
-      "time": "16:22",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "20:53",
-      "source_url": "https://www.tvn.cl/",
+      "channel": "Mega",
+      "title": "Volverías con tu Ex? 2",
+      "time": "23:00",
+      "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     }
   ],
@@ -1705,7 +1523,7 @@
       "channel": "Mega",
       "status": "ok",
       "source_url": "https://www.mega.cl/programacion/",
-      "items_found": 159,
+      "items_found": 158,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     },
     {
@@ -1724,10 +1542,10 @@
     },
     {
       "channel": "TVN",
-      "status": "ok",
+      "status": "no_schedule_found",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 25,
-      "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
+      "items_found": 0,
+      "message": "La página se pudo consultar, pero no se detectó una parrilla interpretable."
     }
   ]
 }
