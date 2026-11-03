@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T07:01:42.946853-03:00",
+  "updated_at": "2026-11-03T14:44:07.885431-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -896,6 +896,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Huellas por Chile",
+      "time": "07:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Rápidos y Sabrosos",
       "time": "07:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -910,8 +917,8 @@
     },
     {
       "channel": "Mega",
-      "title": "Selección Nacional",
-      "time": "07:00",
+      "title": "Megatiempo",
+      "time": "07:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1036,7 +1043,7 @@
     },
     {
       "channel": "Mega",
-      "title": "Dale Color",
+      "title": "Carmen Gloria Fuerte & Claro",
       "time": "12:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1058,13 +1065,6 @@
     {
       "channel": "Mega",
       "title": "Rápidos y Sabrosos",
-      "time": "12:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Travel App",
       "time": "12:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1603,36 +1603,8 @@
     },
     {
       "channel": "TVN",
-      "title": "La conductora del react de \"MasterChef Chile\" conversó con Daniel Fuenzalida sobre el programa y de...",
-      "time": "02:33",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Las aspirantes vivieron una jornada para el olvido. Luego de múltiples roces durante el desafío, un...",
-      "time": "02:46",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "02:54",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Mientras se encontraba en medio de la prueba, la participante hizo una pequeña demostración que...",
       "time": "02:59",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En un tenso día de nominación, el misterio de Ciudad Gótica se apodera de las cocinas. Esta vez, el...",
-      "time": "03:04",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1647,13 +1619,6 @@
       "channel": "TVN",
       "title": "El eliminado de las cocinas de \"MasterChef Chile\" visitó el react del programa y nos contó uno de...",
       "time": "03:13",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Tras una intensa jornada cocinando platos inspirados en los icónicos villanos de DC, el jurado...",
-      "time": "03:14",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1680,15 +1645,22 @@
     },
     {
       "channel": "TVN",
-      "title": "La voz inconfundible del programa Rojo y otros espacios de TVN conversó con Daniel Fuenzalida sobre...",
-      "time": "03:46",
+      "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
+      "time": "04:09",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
-      "time": "04:09",
+      "title": "Carmina droga a Max para hacerlo dormir en el yate que posteriormente manda a hundir. La mujer...",
+      "time": "04:14",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Choque de helicópteros deja un muerto en el monte Everest",
+      "time": "05:13",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1736,29 +1708,22 @@
     },
     {
       "channel": "TVN",
-      "title": "Denuncian la presencia de veneno en caniles de Las Condes",
-      "time": "11:16",
+      "title": "La participante debió abandonar la competencia tras presentar un caldillo de congrio que no...",
+      "time": "08:32",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "Fue una eliminación que dolió y nos dio pena. Y así lo vivimos en el react junto a Yuhui y Fran...",
+      "time": "08:38",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
       "time": "12:52",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El pasado de Carmina provoca una tormenta en su vida. La mujer busca desesperadamente encontrar a un...",
-      "time": "14:28",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "General Leonardo Romanini Gutiérrez asume el mando de la FACh",
-      "time": "14:38",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1773,20 +1738,6 @@
       "channel": "TVN",
       "title": "¡Impactante registro! Jet cayó 8 mil metros en un minuto y deja nueve muertos",
       "time": "16:22",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Este lunes nos visitó Chris Lindsey, joven quien fue embajador Teletón en el 2024 y que hoy lidera...",
-      "time": "18:49",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "20:53",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1817,7 +1768,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 30,
+      "items_found": 23,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
