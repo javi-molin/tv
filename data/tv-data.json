@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T08:29:28.792115-03:00",
+  "updated_at": "2026-11-04T15:49:50.757207-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1456,15 +1456,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Encontrémonos en ¡Ahora Caigo! junto a Daniel Fuenzalida, de lunes a viernes a las 19:00 horas.",
-      "time": "00:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El chef Tomás Olivera reemplazó a Yann Yvin en el jurado en un capítulo especial de Halloween.",
-      "time": "01:16",
+      "title": "Destacados MasterChef",
+      "time": "00:20",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1477,42 +1470,21 @@
     },
     {
       "channel": "TVN",
-      "title": "Mientras se encontraba en medio de la prueba, la participante hizo una pequeña demostración que...",
-      "time": "02:59",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La participante fue sorprendida por la chef arriesgando su integridad en medio de la prueba mientras...",
-      "time": "03:09",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui sufrió un pequeño percance mientras cocinaba y casi arruina toda su preparación del react.",
-      "time": "03:14",
+      "title": "Destacamos en TVN",
+      "time": "02:00",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
       "title": "Ver ahora",
-      "time": "03:29",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
       "time": "03:38",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "\"¿Le pasa algo conmigo?\" es parte del diálogo que la chef Fernanda sostiene con Chris, en uno de los...",
       "time": "04:03",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1526,22 +1498,8 @@
     },
     {
       "channel": "TVN",
-      "title": "La última eliminada de MasterChile nos preparó un rico pastel de jaiba y nos entregó algunos de sus...",
-      "time": "04:14",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Choque de helicópteros deja un muerto en el monte Everest",
       "time": "05:13",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Justo en la prueba de eliminación, Nico falló estrepitosamente en su preparación y los jueces no lo...",
-      "time": "05:24",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1582,27 +1540,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
-      "time": "07:07",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¿Qué tenía el plato de Cynthia que provocó esa reacción en los jueces?",
-      "time": "07:32",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La participante debió abandonar la competencia tras presentar un caldillo de congrio que no...",
-      "time": "08:32",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "El chef francés perdió la paciencia con Nicolás tras ver su plato. Sus compañeros quedaron...",
       "time": "08:37",
       "source_url": "https://www.tvn.cl/",
@@ -1610,22 +1547,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Fue una eliminación que dolió y nos dio pena. Y así lo vivimos en el react junto a Yuhui y Fran...",
-      "time": "08:38",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "Una particular Caja Misteriosa puso a los equipos a cocinar con patas de distintos animales, antes...",
       "time": "11:35",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La participante más longeva dejó las cocinas de Masterchef en medio del cariño de sus compañeros y...",
-      "time": "12:52",
+      "title": "Ver ahora",
+      "time": "13:49",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1645,8 +1575,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Maximiliano no puede entender su vida sin Carmencita y planea atentar contra su vida en plena pampa....",
-      "time": "23:08",
+      "title": "Actualidad y Tendencias",
+      "time": "20:06",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1677,7 +1607,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 28,
+      "items_found": 18,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
