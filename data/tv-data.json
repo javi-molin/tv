@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-03T20:14:05.051571-03:00",
+  "updated_at": "2026-11-04T00:10:39.076533-03:00",
   "timezone": "America/Santiago",
-  "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
-  "schedule_status": "ok",
+  "status": "Actualización ejecutada: 3 de 4 canales con datos detectados.",
+  "schedule_status": "partial",
   "schedule_note": "Los horarios detectados provienen de páginas oficiales. Un canal sin datos interpretables se informa como tal; no se completan horarios con datos inventados.",
   "schedule_items": [
     {
@@ -28,14 +28,14 @@
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué Dice Chile! Prime",
-      "time": "00:40",
+      "title": "Vértigo",
+      "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo",
+      "title": "Vértigo Extremo",
       "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -77,13 +77,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "02:15",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Only Comparini",
       "time": "02:40",
       "source_url": "https://www.13.cl/programacion",
@@ -119,7 +112,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Teletrece Noche",
+      "title": "Vale Todo",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -140,7 +133,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Martes 3 de Noviembre",
+      "title": "Lunes 9 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -323,13 +316,6 @@
     {
       "channel": "Canal 13",
       "title": "Alfombra Roja",
-      "time": "19:15",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "El Tiempo (Tarde)",
       "time": "19:15",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1467,160 +1453,6 @@
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El chef Tomás Olivera reemplazó a Yann Yvin en el jurado en un capítulo especial de Halloween.",
-      "time": "01:16",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¿Cuánto sabemos realmente de la comida de Medio Oriente? ¿Por qué el sabor Árabe es tan sabroso a...",
-      "time": "01:21",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "01:57",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Mientras se encontraba en medio de la prueba, la participante hizo una pequeña demostración que...",
-      "time": "02:59",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La participante fue sorprendida por la chef arriesgando su integridad en medio de la prueba mientras...",
-      "time": "03:09",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui sufrió un pequeño percance mientras cocinaba y casi arruina toda su preparación del react.",
-      "time": "03:14",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:29",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
-      "time": "04:09",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Carmina droga a Max para hacerlo dormir en el yate que posteriormente manda a hundir. La mujer...",
-      "time": "04:14",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Choque de helicópteros deja un muerto en el monte Everest",
-      "time": "05:13",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Justo en la prueba de eliminación, Nico falló estrepitosamente en su preparación y los jueces no lo...",
-      "time": "05:24",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Te invitamos a ser parte de conversaciones sinceras, entretenidas e íntimas junto a María Luisa...",
-      "time": "05:43",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Cultura",
-      "time": "06:15",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En este segundo capítulo, conoce cómo nuestros colaboradores contribuyen día a día a la meta Cero...",
-      "time": "06:32",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
-      "time": "07:07",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¿Qué tenía el plato de Cynthia que provocó esa reacción en los jueces?",
-      "time": "07:32",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La participante debió abandonar la competencia tras presentar un caldillo de congrio que no...",
-      "time": "08:32",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Fue una eliminación que dolió y nos dio pena. Y así lo vivimos en el react junto a Yuhui y Fran...",
-      "time": "08:38",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La participante más longeva dejó las cocinas de Masterchef en medio del cariño de sus compañeros y...",
-      "time": "12:52",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Revive todos los detalles de la Red Bull Batalla Regional Sur 2026 con nuestro react especial....",
-      "time": "16:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¡Impactante registro! Jet cayó 8 mil metros en un minuto y deja nueve muertos",
-      "time": "16:22",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "23:08",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
     }
   ],
   "channel_status": [
@@ -1642,15 +1474,15 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 56,
+      "items_found": 54,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
-      "status": "ok",
+      "status": "no_schedule_found",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 22,
-      "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
+      "items_found": 0,
+      "message": "La página se pudo consultar, pero no se detectó una parrilla interpretable."
     }
   ]
 }
