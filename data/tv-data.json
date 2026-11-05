@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T04:18:24.658601-03:00",
+  "updated_at": "2026-11-05T12:45:29.872134-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1463,8 +1463,15 @@
     },
     {
       "channel": "TVN",
-      "title": "La prueba del croquembouche dejó tensiones dentro de los equipos y más de alguna discusión.",
-      "time": "00:20",
+      "title": "Carmina casi muere de la sorpresa al ver a Max instalado en la casa de Tifón. El hombre aprovecha el...",
+      "time": "00:34",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "01:00",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1477,8 +1484,29 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "El integrante del react recibió elogios su corte de pelo, y el cocinero confesó que no le gustó cómo...",
+      "time": "02:22",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
       "time": "02:24",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "02:31",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Actualidad y Tendencias",
+      "time": "03:15",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1491,29 +1519,8 @@
     },
     {
       "channel": "TVN",
-      "title": "\"¿Le pasa algo conmigo?\" es parte del diálogo que la chef Fernanda sostiene con Chris, en uno de los...",
-      "time": "04:03",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
       "time": "04:09",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Choque de helicópteros deja un muerto en el monte Everest",
-      "time": "05:13",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En vez de ayudarla a aclarar sus ideas, el paso del chef por la cocina de la participante solo...",
-      "time": "05:40",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1526,8 +1533,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Los participantes se tomaron de distinta manera su misión en las cocinas de Masterchef. Mientras...",
-      "time": "05:45",
+      "title": "¡Mucho cuidado! \"Los Turbinas\" roban en bicicleta y se lanzan al río Mapocho",
+      "time": "05:53",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1547,8 +1554,22 @@
     },
     {
       "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "06:43",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
       "time": "06:49",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El true crime por excelencia de la televisión chilena, junto a Carlos Pinto, vuelve en formato...",
+      "time": "06:50",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1561,29 +1582,22 @@
     },
     {
       "channel": "TVN",
-      "title": "El chef francés perdió la paciencia con Nicolás tras ver su plato. Sus compañeros quedaron...",
-      "time": "08:37",
+      "title": "El meteorólogo del \"Buenos Días a Todos\" nos detalló la razón de la variación de temperaturas que...",
+      "time": "08:21",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "title": "Yuhui nos reveló su plan de ejercicio en el gimnasio donde aseguró que en dos meses tendrá todo un...",
       "time": "10:06",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La participante resaltó a sus compañeros Cris, Rosita y Fernanda, del equipo verde. El comentario no...",
+      "title": "Cada equipo sufrió a la hora de armar su torre de profiteroles. El nerviosismo se tomó las cocinas...",
       "time": "10:25",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Una particular Caja Misteriosa puso a los equipos a cocinar con patas de distintos animales, antes...",
-      "time": "11:35",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1596,21 +1610,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Las postulaciones a \"El Castillo del Pollo\", el primer game show de Benjamín Castillo, cierra este 8...",
-      "time": "13:49",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¡Impactante registro! Jet cayó 8 mil metros en un minuto y deja nueve muertos",
-      "time": "16:22",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Actualidad y Tendencias",
+      "title": "Ver ahora",
       "time": "20:06",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
