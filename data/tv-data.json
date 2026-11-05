@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T15:49:50.757207-03:00",
+  "updated_at": "2026-11-04T21:18:18.825721-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1540,6 +1540,13 @@
     },
     {
       "channel": "TVN",
+      "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
+      "time": "06:49",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "El chef francés perdió la paciencia con Nicolás tras ver su plato. Sus compañeros quedaron...",
       "time": "08:37",
       "source_url": "https://www.tvn.cl/",
@@ -1554,15 +1561,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
+      "title": "Las postulaciones a \"El Castillo del Pollo\", el primer game show de Benjamín Castillo, cierra este 8...",
       "time": "13:49",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Revive todos los detalles de la Red Bull Batalla Regional Sur 2026 con nuestro react especial....",
-      "time": "16:00",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
