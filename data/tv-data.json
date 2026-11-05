@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T12:45:29.872134-03:00",
+  "updated_at": "2026-11-05T18:55:16.951914-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -476,6 +476,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Volverías con tu ex? 2 - Lo mejor",
+      "time": "00:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Dale Color",
       "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -498,13 +505,6 @@
     {
       "channel": "Mega",
       "title": "La Hora de Jugar Trasnoche",
-      "time": "00:30",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Volverías con tu ex? 2 - Lo mejor",
       "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -553,6 +553,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Dale Play",
+      "time": "02:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Familia por el Mundo",
       "time": "02:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -590,13 +597,6 @@
       "channel": "Mega",
       "title": "Superalimentos",
       "time": "02:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Dale Play",
-      "time": "02:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -959,6 +959,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Matinatón",
+      "time": "12:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "De aqui vengo yo",
       "time": "13:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1169,6 +1176,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Viajando Ando",
+      "time": "16:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Familia por el Mundo",
       "time": "16:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1190,15 +1204,15 @@
     },
     {
       "channel": "Mega",
-      "title": "Viajando Ando",
-      "time": "16:30",
+      "title": "La Baronesa",
+      "time": "16:45",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "La Baronesa",
-      "time": "16:45",
+      "title": "Bajo el mismo Techo",
+      "time": "17:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1232,13 +1246,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Tesoros de mi barrio",
-      "time": "17:30",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Acceso a lo nuestro",
       "time": "18:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1248,6 +1255,13 @@
       "channel": "Mega",
       "title": "Dale Play",
       "time": "18:10",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Dale Play",
+      "time": "18:15",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1288,6 +1302,13 @@
     },
     {
       "channel": "Mega",
+      "title": "De paseo - Nuestras Fiestas",
+      "time": "19:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Disfruta la Ruta",
       "time": "19:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1311,13 +1332,6 @@
       "channel": "Mega",
       "title": "Viajando Ando",
       "time": "19:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "De paseo - Nuestras Fiestas",
-      "time": "19:10",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1470,7 +1484,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "title": "Kenny cumplió con su promesa de cantarle a sus compañeros uno de sus temas usando un vestido para...",
       "time": "01:00",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1484,6 +1498,13 @@
     },
     {
       "channel": "TVN",
+      "title": "De los siete participantes que fueron a duelo, dos fueron elegidos para ir directo a la prueba de...",
+      "time": "01:24",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "El integrante del react recibió elogios su corte de pelo, y el cocinero confesó que no le gustó cómo...",
       "time": "02:22",
       "source_url": "https://www.tvn.cl/",
@@ -1491,7 +1512,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
       "time": "02:24",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1505,7 +1526,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Actualidad y Tendencias",
+      "title": "Ver ahora",
       "time": "03:15",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1521,6 +1542,13 @@
       "channel": "TVN",
       "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
       "time": "04:09",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Actualidad y Tendencias",
+      "time": "04:58",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1568,7 +1596,7 @@
     },
     {
       "channel": "TVN",
-      "title": "El true crime por excelencia de la televisión chilena, junto a Carlos Pinto, vuelve en formato...",
+      "title": "La teleserie sobre el salitre lideró la sintonía de la tarde y también, Avenida Brasil se impuso a...",
       "time": "06:50",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1621,7 +1649,7 @@
       "channel": "Mega",
       "status": "ok",
       "source_url": "https://www.mega.cl/programacion/",
-      "items_found": 142,
+      "items_found": 144,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     },
     {
@@ -1642,7 +1670,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 22,
+      "items_found": 24,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
