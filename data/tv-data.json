@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T06:46:41.886591-03:00",
+  "updated_at": "2026-11-06T14:24:41.404322-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -231,8 +231,22 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Tu Día",
+      "time": "12:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Mesa Central",
       "time": "12:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Matinatón",
+      "time": "13:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -1463,20 +1477,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Carmina casi muere de la sorpresa al ver a Max instalado en la casa de Tifón. El hombre aprovecha el...",
-      "time": "00:34",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Kenny cumplió con su promesa de cantarle a sus compañeros uno de sus temas usando un vestido para...",
-      "time": "01:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "¿Cuánto sabemos realmente de la comida de Medio Oriente? ¿Por qué el sabor Árabe es tan sabroso a...",
       "time": "01:21",
       "source_url": "https://www.tvn.cl/",
@@ -1491,13 +1491,6 @@
     },
     {
       "channel": "TVN",
-      "title": "El integrante del react recibió elogios su corte de pelo, y el cocinero confesó que no le gustó cómo...",
-      "time": "02:22",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
       "time": "02:24",
       "source_url": "https://www.tvn.cl/",
@@ -1505,8 +1498,8 @@
     },
     {
       "channel": "TVN",
-      "title": "La jueza se molestó con el comentario que le hizo Cristopher. \"Es mi cara\", le respondió la chef...",
-      "time": "03:25",
+      "title": "El espacio, que anoche despidió a Chris Olivares como su octavo eliminado, se ha instalado en el...",
+      "time": "03:38",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1521,6 +1514,13 @@
       "channel": "TVN",
       "title": "Luego de cocinar en dupla con Cris y ser testigo privilegiada del desencuentro, la participante de...",
       "time": "03:43",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Así Américo ofreció sus disculpas públicas a Yamila Reyna",
+      "time": "03:49",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1561,6 +1561,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Carmina es expulsada de la casa de Tifón en una humillante escena. El hombre la insulta frente a...",
+      "time": "05:55",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Cultura",
       "time": "06:15",
       "source_url": "https://www.tvn.cl/",
@@ -1575,13 +1582,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "06:43",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
       "time": "06:49",
       "source_url": "https://www.tvn.cl/",
@@ -1589,42 +1589,21 @@
     },
     {
       "channel": "TVN",
-      "title": "La teleserie sobre el salitre lideró la sintonía de la tarde y también, Avenida Brasil se impuso a...",
-      "time": "06:50",
+      "title": "Ver ahora",
+      "time": "11:27",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La participante llegó a presentar su plato de pastas ante la chef Fernanda, quien la notó algo...",
-      "time": "07:44",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui nos reveló su plan de ejercicio en el gimnasio donde aseguró que en dos meses tendrá todo un...",
-      "time": "10:06",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "Su comportamiento durante la prueba de salvación llamó la atención de sus compañeros. Seba afirmó:...",
       "time": "12:35",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La preparación de Ariel generó diferencias de opinión entre el chef Juanma y la chef Fernanda, una...",
-      "time": "12:49",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
+      "title": "El cantante fue parte de la transmisión en conjunto de todos los matinales junto a Don Francisco...",
       "time": "13:08",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1663,14 +1642,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 53,
+      "items_found": 55,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 26,
+      "items_found": 21,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
