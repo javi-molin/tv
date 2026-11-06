@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T14:24:41.404322-03:00",
+  "updated_at": "2026-11-06T19:19:47.987828-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -8,13 +8,6 @@
     {
       "channel": "Canal 13",
       "title": "Lugares que Hablan",
-      "time": "00:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "¡Qué Dice Chile! Prime",
       "time": "00:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -70,7 +63,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué dice Chile! Prime",
+      "title": "Teletón",
       "time": "02:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -280,13 +273,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Recomiendo Chile",
-      "time": "15:05",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Teletrece Tarde",
       "time": "15:20",
       "source_url": "https://www.13.cl/programacion",
@@ -308,13 +294,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Sábados de Películas: \"Beetlejuice\"",
-      "time": "16:55",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Vale Todo",
       "time": "17:00",
       "source_url": "https://www.13.cl/programacion",
@@ -329,7 +308,14 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Sábados de Películas: \"911 Llamada Mortal\"",
+      "title": "Alfombra Roja",
+      "time": "18:50",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Recomiendo Chile",
       "time": "18:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -350,7 +336,21 @@
     },
     {
       "channel": "Canal 13",
+      "title": "¡Qué Dice Chile!",
+      "time": "20:50",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Lugares que Hablan",
+      "time": "21:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Teletrece Central",
       "time": "21:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -365,7 +365,14 @@
     {
       "channel": "Canal 13",
       "title": "Teletrece Central",
-      "time": "22:10",
+      "time": "21:50",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "El Tiempo",
+      "time": "22:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -1491,6 +1498,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "02:10",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
       "time": "02:24",
       "source_url": "https://www.tvn.cl/",
@@ -1533,7 +1547,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "El reconocido actor chileno y coprotagonista de \"Una mujer fantástica\", publicó un breve y emotivo...",
       "time": "04:44",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1542,6 +1556,13 @@
       "channel": "TVN",
       "title": "Video: Así anunció el presidente de Paraguay su renuncia",
       "time": "04:58",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La decisión sorprendió a los participantes. Stana lloró y agradeció la oportunidad: “Tengo que...",
+      "time": "05:14",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1589,7 +1610,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
+      "title": "Inés se revela ante Manuel y deja atrás al personaje de Florencio Aguirre. El hombre queda sin...",
       "time": "11:27",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1642,14 +1663,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 55,
+      "items_found": 56,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 21,
+      "items_found": 23,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
