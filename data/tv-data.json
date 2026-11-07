@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T19:19:47.987828-03:00",
+  "updated_at": "2026-11-06T23:19:04.305417-03:00",
   "timezone": "America/Santiago",
-  "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
-  "schedule_status": "ok",
+  "status": "Actualización ejecutada: 3 de 4 canales con datos detectados.",
+  "schedule_status": "partial",
   "schedule_note": "Los horarios detectados provienen de páginas oficiales. Un canal sin datos interpretables se informa como tal; no se completan horarios con datos inventados.",
   "schedule_items": [
     {
@@ -1481,167 +1481,6 @@
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¿Cuánto sabemos realmente de la comida de Medio Oriente? ¿Por qué el sabor Árabe es tan sabroso a...",
-      "time": "01:21",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "De los siete participantes que fueron a duelo, dos fueron elegidos para ir directo a la prueba de...",
-      "time": "01:24",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "02:10",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
-      "time": "02:24",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El espacio, que anoche despidió a Chris Olivares como su octavo eliminado, se ha instalado en el...",
-      "time": "03:38",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:38",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Luego de cocinar en dupla con Cris y ser testigo privilegiada del desencuentro, la participante de...",
-      "time": "03:43",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Así Américo ofreció sus disculpas públicas a Yamila Reyna",
-      "time": "03:49",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
-      "time": "04:09",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El reconocido actor chileno y coprotagonista de \"Una mujer fantástica\", publicó un breve y emotivo...",
-      "time": "04:44",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Video: Así anunció el presidente de Paraguay su renuncia",
-      "time": "04:58",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La decisión sorprendió a los participantes. Stana lloró y agradeció la oportunidad: “Tengo que...",
-      "time": "05:14",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Te invitamos a ser parte de conversaciones sinceras, entretenidas e íntimas junto a María Luisa...",
-      "time": "05:43",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¡Mucho cuidado! \"Los Turbinas\" roban en bicicleta y se lanzan al río Mapocho",
-      "time": "05:53",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Carmina es expulsada de la casa de Tifón en una humillante escena. El hombre la insulta frente a...",
-      "time": "05:55",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Cultura",
-      "time": "06:15",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En este segundo capítulo, conoce cómo nuestros colaboradores contribuyen día a día a la meta Cero...",
-      "time": "06:32",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
-      "time": "06:49",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Inés se revela ante Manuel y deja atrás al personaje de Florencio Aguirre. El hombre queda sin...",
-      "time": "11:27",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Su comportamiento durante la prueba de salvación llamó la atención de sus compañeros. Seba afirmó:...",
-      "time": "12:35",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El cantante fue parte de la transmisión en conjunto de todos los matinales junto a Don Francisco...",
-      "time": "13:08",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Para la participante, cocinar este plato significaba viajar a momentos duros de su infancia. Si bien...",
-      "time": "14:20",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "20:06",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
     }
   ],
   "channel_status": [
@@ -1668,10 +1507,10 @@
     },
     {
       "channel": "TVN",
-      "status": "ok",
+      "status": "no_schedule_found",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 23,
-      "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
+      "items_found": 0,
+      "message": "La página se pudo consultar, pero no se detectó una parrilla interpretable."
     }
   ]
 }
