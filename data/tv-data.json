@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T20:53:27.433342-03:00",
+  "updated_at": "2026-11-08T02:50:29.028900-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 3 de 4 canales con datos detectados.",
   "schedule_status": "partial",
@@ -42,15 +42,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Teletón",
-      "time": "01:30",
+      "title": "Vale Todo",
+      "time": "02:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "02:00",
+      "title": "El Tiempo",
+      "time": "02:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -77,8 +77,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Teletón (Lo mejor)",
-      "time": "03:50",
+      "title": "Alfombra Roja (Lo Mejor)",
+      "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -134,6 +134,13 @@
     {
       "channel": "Canal 13",
       "title": "Miércoles 11 de Noviembre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Viernes 13 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -266,13 +273,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Sábado 7 de Noviembre",
-      "time": "21:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "¡Qué Dice Chile!",
       "time": "21:00",
       "source_url": "https://www.13.cl/programacion",
@@ -280,15 +280,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Teletrece Central",
+      "title": "Alfombra Roja",
       "time": "21:50",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "22:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -1425,7 +1418,7 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 45,
+      "items_found": 44,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
