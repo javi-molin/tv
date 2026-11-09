@@ -1,17 +1,10 @@
 {
-  "updated_at": "2026-11-08T22:54:59.412052-03:00",
+  "updated_at": "2026-11-09T06:37:40.998240-03:00",
   "timezone": "America/Santiago",
-  "status": "Actualización ejecutada: 3 de 4 canales con datos detectados.",
-  "schedule_status": "partial",
+  "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
+  "schedule_status": "ok",
   "schedule_note": "Los horarios detectados provienen de páginas oficiales. Un canal sin datos interpretables se informa como tal; no se completan horarios con datos inventados.",
   "schedule_items": [
-    {
-      "channel": "Canal 13",
-      "title": "Lugares que Hablan",
-      "time": "00:35",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
     {
       "channel": "Canal 13",
       "title": "¡Qué Dice Chile! Prime",
@@ -56,13 +49,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Socios por el mundo",
-      "time": "02:05",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Vale Todo",
       "time": "02:15",
       "source_url": "https://www.13.cl/programacion",
@@ -72,6 +58,13 @@
       "channel": "Canal 13",
       "title": "Vale Todo",
       "time": "03:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "El Tiempo",
+      "time": "03:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -99,13 +92,6 @@
     {
       "channel": "Canal 13",
       "title": "Vale Todo",
-      "time": "04:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Vértigo Lo Mejor",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -154,20 +140,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo 8 de Noviembre",
-      "time": "06:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Siempre Hay un Chileno",
-      "time": "07:10",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Teletrece AM",
       "time": "07:50",
       "source_url": "https://www.13.cl/programacion",
@@ -175,43 +147,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Siempre Hay un Chileno",
-      "time": "08:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Santa Misa",
-      "time": "09:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece a la Hora",
-      "time": "10:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Mesa Central",
-      "time": "12:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Tu Día",
       "time": "13:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Tarde",
-      "time": "14:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -231,22 +168,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo de Películas: Spiderman 3",
-      "time": "17:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Vale Todo",
       "time": "17:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Domingo de Películas: Beekeper: Sentencia de muerte",
-      "time": "18:55",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -266,13 +189,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Lugares que Hablan",
-      "time": "21:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "¡Qué Dice Chile!",
       "time": "21:00",
       "source_url": "https://www.13.cl/programacion",
@@ -281,6 +197,13 @@
     {
       "channel": "Canal 13",
       "title": "Alfombra Roja",
+      "time": "21:50",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Sábado 14 de Noviembre",
       "time": "21:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1397,6 +1320,216 @@
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Los nervios y el estrés se hicieron sentir en los últimos minutos del desafío de MasterChef....",
+      "time": "00:56",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "¡La tensión aumenta en las cocinas de MasterChef! Algunos aspirantes lograron salvarse del temido...",
+      "time": "01:06",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "¿Cuánto sabemos realmente de la comida de Medio Oriente? ¿Por qué el sabor Árabe es tan sabroso a...",
+      "time": "01:21",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "02:46",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "¡La solidaridad volvió a triunfar! Tras más de 27 horas de transmisión, la Teletón 2026 logró...",
+      "time": "02:54",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El espacio, que anoche despidió a Chris Olivares como su octavo eliminado, se ha instalado en el...",
+      "time": "03:38",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "03:38",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Luego de cocinar en dupla con Cris y ser testigo privilegiada del desencuentro, la participante de...",
+      "time": "03:43",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Así Américo ofreció sus disculpas públicas a Yamila Reyna",
+      "time": "03:49",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El Cacique volvió a celebrar un título de Primera División y amplió su ventaja sobre sus principales...",
+      "time": "03:53",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
+      "time": "04:09",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Video: Así anunció el presidente de Paraguay su renuncia",
+      "time": "04:58",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La decisión sorprendió a los participantes. Stana lloró y agradeció la oportunidad: “Tengo que...",
+      "time": "05:14",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Te invitamos a ser parte de conversaciones sinceras, entretenidas e íntimas junto a María Luisa...",
+      "time": "05:43",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "05:48",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "¡Mucho cuidado! \"Los Turbinas\" roban en bicicleta y se lanzan al río Mapocho",
+      "time": "05:53",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Cultura",
+      "time": "06:02",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Detrás de cada alimento rescatado hay una oportunidad de ayudar. En este tercer capítulo, Simón...",
+      "time": "06:15",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "En este segundo capítulo, conoce cómo nuestros colaboradores contribuyen día a día a la meta Cero...",
+      "time": "06:32",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
+      "time": "06:49",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacados MasterChef",
+      "time": "08:03",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "¡Una verdadera fiesta urbana! Tito El Bambino llegó al escenario del Estadio Nacional para encender...",
+      "time": "09:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La cantante nacional Alanys Lagos llegó al escenario del Estadio Nacional para llenar de música,...",
+      "time": "10:11",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Con una presentación llena de ritmo, alegría y cumbia, Santa Feria fue la encargada de cerrar la...",
+      "time": "12:15",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Leo Rey hizo bailar y cantar al público del Estadio Nacional con una presentación llena de ritmo y...",
+      "time": "12:16",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Su comportamiento durante la prueba de salvación llamó la atención de sus compañeros. Seba afirmó:...",
+      "time": "12:35",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Para la participante, cocinar este plato significaba viajar a momentos duros de su infancia. Si bien...",
+      "time": "14:20",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El reconocido ilusionista chileno Jean Paul Olhaberry llegó al escenario de la Teletón 2026 con una...",
+      "time": "18:03",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "20:06",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "En un nuevo recorrido de Chile Conectado, Carla Jara llegó hasta el tradicional Cinzano de...",
+      "time": "21:01",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
     }
   ],
   "channel_status": [
@@ -1418,15 +1551,15 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 44,
+      "items_found": 33,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
-      "status": "no_schedule_found",
+      "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 0,
-      "message": "La página se pudo consultar, pero no se detectó una parrilla interpretable."
+      "items_found": 30,
+      "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
 }
