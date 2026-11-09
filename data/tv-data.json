@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T06:37:40.998240-03:00",
+  "updated_at": "2026-11-09T17:38:39.393095-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -168,22 +168,43 @@
     },
     {
       "channel": "Canal 13",
+      "title": "El Tiempo (Tarde)",
+      "time": "16:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Vale Todo",
-      "time": "17:00",
+      "time": "16:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Machos",
+      "time": "17:15",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
       "title": "Alfombra Roja",
-      "time": "19:15",
+      "time": "19:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "El Tiempo (Tarde)",
-      "time": "19:15",
+      "title": "Qué dice Chile",
+      "time": "19:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Especial Celebración Colo Colo",
+      "time": "21:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -196,14 +217,14 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Alfombra Roja",
+      "title": "Sábado 14 de Noviembre",
       "time": "21:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Sábado 14 de Noviembre",
+      "title": "¡Qué Dice Chile!",
       "time": "21:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1323,7 +1344,21 @@
     },
     {
       "channel": "TVN",
-      "title": "Los nervios y el estrés se hicieron sentir en los últimos minutos del desafío de MasterChef....",
+      "title": "Este lunes, en el \"Buenos Días a Todos\" conversamos con Rodrigo Topelberg, uno de los protagonistas...",
+      "time": "00:40",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La prueba del brazo de reina provocó una serie de buenos momentos, no solo por su sabor sino que...",
+      "time": "00:40",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Tras un intenso desafío de salvación, los aspirantes de MasterChef conocieron quiénes deberán portar...",
       "time": "00:56",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1344,36 +1379,29 @@
     },
     {
       "channel": "TVN",
+      "title": "El conductor del react aprovechó de enviarle un saludo a todo el pueblo albo por el nuevo título y...",
+      "time": "01:31",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Destacamos en TVN",
+      "time": "02:02",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
       "time": "02:46",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "¡La solidaridad volvió a triunfar! Tras más de 27 horas de transmisión, la Teletón 2026 logró...",
-      "time": "02:54",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El espacio, que anoche despidió a Chris Olivares como su octavo eliminado, se ha instalado en el...",
-      "time": "03:38",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:38",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Luego de cocinar en dupla con Cris y ser testigo privilegiada del desencuentro, la participante de...",
-      "time": "03:43",
+      "title": "Pronóstico del tiempo: Lunes 9 de noviembre| TV Tiempo",
+      "time": "03:32",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1381,13 +1409,6 @@
       "channel": "TVN",
       "title": "Así Américo ofreció sus disculpas públicas a Yamila Reyna",
       "time": "03:49",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El Cacique volvió a celebrar un título de Primera División y amplió su ventaja sobre sus principales...",
-      "time": "03:53",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1407,8 +1428,8 @@
     },
     {
       "channel": "TVN",
-      "title": "La decisión sorprendió a los participantes. Stana lloró y agradeció la oportunidad: “Tengo que...",
-      "time": "05:14",
+      "title": "Actualidad y Tendencias",
+      "time": "05:05",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1421,15 +1442,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
+      "title": "Los aspirantes de MasterChef se enfrentaron a un nuevo desafío de salvación, donde el picante fue el...",
       "time": "05:48",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¡Mucho cuidado! \"Los Turbinas\" roban en bicicleta y se lanzan al río Mapocho",
-      "time": "05:53",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1463,71 +1477,43 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "Los aspirantes de MasterChef llegaron frente a los chefs para presentar sus brazos de reina tras un...",
+      "time": "07:02",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La cocina de MasterChef se llena de dulzura con un nuevo desafío en parejas, donde los participantes...",
       "time": "08:03",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "¡Una verdadera fiesta urbana! Tito El Bambino llegó al escenario del Estadio Nacional para encender...",
-      "time": "09:00",
+      "title": "Maxi fue parte de las historias de la Teletón donde encantó por su espíritu de superación y su sueño...",
+      "time": "15:24",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La cantante nacional Alanys Lagos llegó al escenario del Estadio Nacional para llenar de música,...",
-      "time": "10:11",
+      "title": "Este lunes conocimos la rutina cómo se vivió la rutina al interior de Capitán Yáber junto a la...",
+      "time": "15:46",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Con una presentación llena de ritmo, alegría y cumbia, Santa Feria fue la encargada de cerrar la...",
-      "time": "12:15",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Leo Rey hizo bailar y cantar al público del Estadio Nacional con una presentación llena de ritmo y...",
-      "time": "12:16",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Su comportamiento durante la prueba de salvación llamó la atención de sus compañeros. Seba afirmó:...",
-      "time": "12:35",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Para la participante, cocinar este plato significaba viajar a momentos duros de su infancia. Si bien...",
-      "time": "14:20",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El reconocido ilusionista chileno Jean Paul Olhaberry llegó al escenario de la Teletón 2026 con una...",
-      "time": "18:03",
+      "title": "Los aspirantes a chef tuvieron una dulce prueba en duplas y que definió a los primeros delantales...",
+      "time": "17:15",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
       "title": "Ver ahora",
-      "time": "20:06",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En un nuevo recorrido de Chile Conectado, Carla Jara llegó hasta el tradicional Cinzano de...",
-      "time": "21:01",
+      "time": "19:31",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1551,14 +1537,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 33,
+      "items_found": 36,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 30,
+      "items_found": 25,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
