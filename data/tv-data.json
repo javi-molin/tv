@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T08:40:24.681575-03:00",
+  "updated_at": "2026-11-10T16:38:02.999231-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1393,22 +1393,15 @@
     },
     {
       "channel": "TVN",
-      "title": "La prueba del brazo de reina provocó una serie de buenos momentos, no solo por su sabor sino que...",
-      "time": "00:40",
+      "title": "Destacamos en TVN",
+      "time": "02:05",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Tras un intenso desafío de salvación, los aspirantes de MasterChef conocieron quiénes deberán portar...",
-      "time": "00:56",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¿Cuánto sabemos realmente de la comida de Medio Oriente? ¿Por qué el sabor Árabe es tan sabroso a...",
-      "time": "01:21",
+      "title": "Deniss Monsalve y Gonzalo Fouillioux apuntan al futuro del \"KIng\" en la tienda, ya que tras el...",
+      "time": "02:25",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1421,8 +1414,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "02:47",
+      "title": "El exceso de pimienta negra, una mala ejecución con el pollo y la falta de un acompañamiento fueron...",
+      "time": "02:48",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La última eliminación fue tema de debate en el react donde la audiencia manifestó su descontento con...",
+      "time": "03:03",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1442,8 +1442,8 @@
     },
     {
       "channel": "TVN",
-      "title": "La destacada chef y jurado de \"Masterchef\" abordó aspectos de su vida familiar en conversación con...",
-      "time": "04:09",
+      "title": "La participante se despidió conforme con su paso por la competencia: \"Quería que la gente me...",
+      "time": "03:54",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1451,6 +1451,13 @@
       "channel": "TVN",
       "title": "Rosita no lo pasó bien haciendo el rulat de pollo y así lo dejó ver durante la devolución de los...",
       "time": "04:24",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Deniss Monsalve y Gonzalo Fouillioux desmenuzan la campaña y los cambios que sufrió el elenco albo...",
+      "time": "04:29",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1470,7 +1477,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Te invitamos a ser parte de conversaciones sinceras, entretenidas e íntimas junto a María Luisa...",
+      "title": "El conductor del react envió mensajes de apoyo para su team y lo sorprendimos de inmediato.",
       "time": "05:43",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1491,7 +1498,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
       "time": "06:14",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1512,7 +1519,7 @@
     },
     {
       "channel": "TVN",
-      "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
+      "title": "Deniss Monsalve y Gonzalo Fouillioux analizan en el especial de Colo Colo quiénes fueron los...",
       "time": "06:49",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1526,21 +1533,28 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "title": "El aspirante a chef logró una excelente evaluación con su preparación para subir al balcón.",
       "time": "09:33",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Ahora fue el turno de Muricy para desquitarse con Carmina. Ambas arman un espectáculo público de...",
+      "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
+      "time": "13:16",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Manuel e Inés por fin logran conversar sobre su pasado y la razón por la que fueron separados. Ella...",
       "time": "15:46",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Encontrémonos en ¡Ahora Caigo! junto a Daniel Fuenzalida, de lunes a viernes a las 19:00 horas.",
+      "title": "Jimena no aguanta que sea invisibilizada por su embarazo y que todos estén más preocupados por el...",
       "time": "19:31",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1572,7 +1586,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 22,
+      "items_found": 24,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
