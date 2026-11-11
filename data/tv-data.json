@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T21:35:03.395843-03:00",
+  "updated_at": "2026-11-11T04:02:28.796463-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -14,14 +14,14 @@
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué Dice Chile! Prime",
-      "time": "00:40",
+      "title": "Vértigo",
+      "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo",
+      "title": "Vértigo Extremo",
       "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -57,13 +57,6 @@
     {
       "channel": "Canal 13",
       "title": "Vale Todo",
-      "time": "02:15",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Vale Todo",
       "time": "03:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -91,7 +84,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Teletrece Noche",
+      "title": "Vale Todo",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -112,7 +105,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Martes 10 de Noviembre",
+      "title": "Lunes 16 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -253,6 +246,13 @@
     {
       "channel": "Canal 13",
       "title": "Lugares que Hablan",
+      "time": "21:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Machos",
       "time": "21:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1393,13 +1393,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "02:05",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux apuntan al futuro del \"KIng\" en la tienda, ya que tras el...",
       "time": "02:25",
       "source_url": "https://www.tvn.cl/",
@@ -1407,29 +1400,15 @@
     },
     {
       "channel": "TVN",
-      "title": "En medio de la prueba de eliminación, los nervios del participante aumentaron luego de una visita...",
-      "time": "02:46",
+      "title": "Ver ahora",
+      "time": "02:58",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "El exceso de pimienta negra, una mala ejecución con el pollo y la falta de un acompañamiento fueron...",
-      "time": "02:48",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La última eliminación fue tema de debate en el react donde la audiencia manifestó su descontento con...",
-      "time": "03:03",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Pronóstico del tiempo: Lunes 9 de noviembre| TV Tiempo",
-      "time": "03:32",
+      "title": "Jennifer buscaba recuperar su lugar en las cocinas de Masterchef y, para lograrlo, debió formar...",
+      "time": "03:42",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1444,6 +1423,13 @@
       "channel": "TVN",
       "title": "La participante se despidió conforme con su paso por la competencia: \"Quería que la gente me...",
       "time": "03:54",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "04:24",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1470,22 +1456,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Actualidad y Tendencias",
+      "title": "Encuentran cuerpos de padre y su hija de 5 años que cayeron a cascada",
       "time": "05:05",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "El conductor del react envió mensajes de apoyo para su team y lo sorprendimos de inmediato.",
+      "title": "De los diez nuevos aspirantes, solo cuatro serán escogidos para unirse a la competencia. ¿Cómo se lo...",
       "time": "05:43",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Revisamos testimonios de jóvenes que han logrado salir de la adicción a la ketamina y nos revelan la...",
-      "time": "05:48",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1498,7 +1477,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "title": "La última eliminación fue tema de debate en el react donde la audiencia manifestó su descontento con...",
       "time": "06:14",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1507,6 +1486,13 @@
       "channel": "TVN",
       "title": "Detrás de cada alimento rescatado hay una oportunidad de ayudar. En este tercer capítulo, Simón...",
       "time": "06:15",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "06:23",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1526,15 +1512,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Mari llegó sorpresivamente de visita al balcón. Conversando con los participantes, fue testigo de...",
-      "time": "09:24",
+      "title": "El exceso de pimienta negra, una mala ejecución con el pollo y la falta de un acompañamiento fueron...",
+      "time": "09:33",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "El aspirante a chef logró una excelente evaluación con su preparación para subir al balcón.",
-      "time": "09:33",
+      "title": "El exparticipante buscaba un cupo en Masterchef, pero su plato estuvo lejos de hacerlo regresar....",
+      "time": "12:29",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1542,20 +1528,6 @@
       "channel": "TVN",
       "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
       "time": "13:16",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Además, TVN se instaló en el podio de los canales más vistos considerando el rating del día...",
-      "time": "15:46",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Los aspirantes de MasterChef se enfrentaron a un nuevo desafío de salvación, donde el picante fue el...",
-      "time": "16:17",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1593,7 +1565,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 25,
+      "items_found": 21,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
