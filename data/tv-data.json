@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T12:04:21.439582-03:00",
+  "updated_at": "2026-11-11T18:52:02.884760-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1393,6 +1393,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "01:59",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux apuntan al futuro del \"KIng\" en la tienda, ya que tras el...",
       "time": "02:25",
       "source_url": "https://www.tvn.cl/",
@@ -1400,7 +1407,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Actualidad y Tendencias",
+      "title": "Ver ahora",
       "time": "02:52",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1435,14 +1442,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "04:24",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Rosita no lo pasó bien haciendo el rulat de pollo y así lo dejó ver durante la devolución de los...",
+      "title": "Destacados MasterChef",
       "time": "04:24",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1451,6 +1451,13 @@
       "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux desmenuzan la campaña y los cambios que sufrió el elenco albo...",
       "time": "04:29",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Actualidad y Tendencias",
+      "time": "04:54",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1514,13 +1521,6 @@
       "channel": "TVN",
       "title": "Se instaló como uno de los favoritos de la audiencia a la hora de informarse.",
       "time": "06:58",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El exceso de pimienta negra, una mala ejecución con el pollo y la falta de un acompañamiento fueron...",
-      "time": "09:33",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
