@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T16:38:02.999231-03:00",
+  "updated_at": "2026-11-10T21:35:03.395843-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1484,7 +1484,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Los aspirantes de MasterChef se enfrentaron a un nuevo desafío de salvación, donde el picante fue el...",
+      "title": "Revisamos testimonios de jóvenes que han logrado salir de la adicción a la ketamina y nos revelan la...",
       "time": "05:48",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1547,15 +1547,22 @@
     },
     {
       "channel": "TVN",
-      "title": "Manuel e Inés por fin logran conversar sobre su pasado y la razón por la que fueron separados. Ella...",
+      "title": "Además, TVN se instaló en el podio de los canales más vistos considerando el rating del día...",
       "time": "15:46",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Jimena no aguanta que sea invisibilizada por su embarazo y que todos estén más preocupados por el...",
-      "time": "19:31",
+      "title": "Los aspirantes de MasterChef se enfrentaron a un nuevo desafío de salvación, donde el picante fue el...",
+      "time": "16:17",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Jana le pide a Manuel que sea más proactivo con la búsqueda de Ramona para averiguar el rol de Cruz...",
+      "time": "20:52",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1586,7 +1593,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 24,
+      "items_found": 25,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
