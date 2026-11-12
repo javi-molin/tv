@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T07:54:04.978336-03:00",
+  "updated_at": "2026-11-12T15:48:52.419818-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1393,6 +1393,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "01:03",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Giannina presenta ante el jurado su plato inspirado en teleseries de TVN, y aunque la preparación...",
       "time": "01:42",
       "source_url": "https://www.tvn.cl/",
@@ -1400,8 +1407,22 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "Tras el brutal tiroteo, la policía confirma la muerte de Max, desatando el impacto de Carmina. En...",
       "time": "01:45",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Comentamos a los actores que fueron invitados a \"MasterChef Chile\" y Yuhui recordó el momento en que...",
+      "time": "01:58",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "02:08",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1428,28 +1449,14 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "02:58",
+      "title": "Jueves 12 de noviembre de 2026",
+      "time": "03:11",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:13",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:34",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "title": "La aspirante a chef reveló su objetivo en la competencia a Juanma durante la preparación de su plato...",
       "time": "03:58",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1470,15 +1477,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Actualidad y Tendencias",
+      "title": "\"El gobierno no va a tolerar acciones violentas\": Ministro Quiroz aborda el paro de camioneros",
       "time": "04:54",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Encuentran cuerpos de padre y su hija de 5 años que cayeron a cascada",
-      "time": "05:05",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1512,15 +1512,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Se instaló como uno de los favoritos de la audiencia a la hora de informarse.",
-      "time": "06:58",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "09:56",
+      "title": "Con buenos resultados en el horario prime, TVN volvió a ubicarse entre las señales más vistas de la...",
+      "time": "12:21",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1533,15 +1526,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Un caso llamó profundamente la atención los últimos días: la justicia declaró \"indignos\" a tres...",
-      "time": "14:34",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Pía cede y firma el pacto con la marquesa provocando el temido regreso de Petra, mientras Manuel...",
-      "time": "19:13",
+      "title": "Pedro Engel visitó el \"Buenos Días a Todos\" para contarnos sobre las vueltas de la vida, el karma y...",
+      "time": "15:56",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1572,7 +1558,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 22,
+      "items_found": 20,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
