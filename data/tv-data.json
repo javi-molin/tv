@@ -1,14 +1,21 @@
 {
-  "updated_at": "2026-11-11T23:50:55.932371-03:00",
+  "updated_at": "2026-11-12T07:54:04.978336-03:00",
   "timezone": "America/Santiago",
-  "status": "Actualización ejecutada: 3 de 4 canales con datos detectados.",
-  "schedule_status": "partial",
+  "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
+  "schedule_status": "ok",
   "schedule_note": "Los horarios detectados provienen de páginas oficiales. Un canal sin datos interpretables se informa como tal; no se completan horarios con datos inventados.",
   "schedule_items": [
     {
       "channel": "Canal 13",
       "title": "El Tiempo",
       "time": "00:35",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "¡Qué Dice Chile! Prime",
+      "time": "00:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -28,20 +35,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Siempre hay un chileno",
-      "time": "01:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "02:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "El Tiempo",
       "time": "02:05",
       "source_url": "https://www.13.cl/programacion",
@@ -51,6 +44,13 @@
       "channel": "Canal 13",
       "title": "Socios por el mundo",
       "time": "02:05",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Vale Todo",
+      "time": "02:15",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -77,7 +77,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Milf",
+      "title": "Teletrece Noche",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -112,7 +112,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Miércoles 11 de Noviembre",
+      "title": "Martes 17 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1390,6 +1390,160 @@
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Giannina presenta ante el jurado su plato inspirado en teleseries de TVN, y aunque la preparación...",
+      "time": "01:42",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "01:45",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Deniss Monsalve y Gonzalo Fouillioux apuntan al futuro del \"KIng\" en la tienda, ya que tras el...",
+      "time": "02:25",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Basada en la teleserie \"Pampa Ilusión\", actualmente en retransmisión por nuestras pantallas, Ignacia...",
+      "time": "02:49",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "02:52",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "02:58",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "03:13",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "03:34",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "03:58",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Mientras los aspirantes cocinan en la prueba de nominación, la chef Fernanda se acerca a Valentina y...",
+      "time": "04:24",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Deniss Monsalve y Gonzalo Fouillioux desmenuzan la campaña y los cambios que sufrió el elenco albo...",
+      "time": "04:29",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Actualidad y Tendencias",
+      "time": "04:54",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Encuentran cuerpos de padre y su hija de 5 años que cayeron a cascada",
+      "time": "05:05",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Cultura",
+      "time": "06:02",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Detrás de cada alimento rescatado hay una oportunidad de ayudar. En este tercer capítulo, Simón...",
+      "time": "06:15",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "En este segundo capítulo, conoce cómo nuestros colaboradores contribuyen día a día a la meta Cero...",
+      "time": "06:32",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Deniss Monsalve y Gonzalo Fouillioux analizan en el especial de Colo Colo quiénes fueron los...",
+      "time": "06:49",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Se instaló como uno de los favoritos de la audiencia a la hora de informarse.",
+      "time": "06:58",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "09:56",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
+      "time": "13:16",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Un caso llamó profundamente la atención los últimos días: la justicia declaró \"indignos\" a tres...",
+      "time": "14:34",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Pía cede y firma el pacto con la marquesa provocando el temido regreso de Petra, mientras Manuel...",
+      "time": "19:13",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
     }
   ],
   "channel_status": [
@@ -1416,10 +1570,10 @@
     },
     {
       "channel": "TVN",
-      "status": "no_schedule_found",
+      "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 0,
-      "message": "La página se pudo consultar, pero no se detectó una parrilla interpretable."
+      "items_found": 22,
+      "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
 }
