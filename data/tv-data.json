@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T21:08:51.520439-03:00",
+  "updated_at": "2026-11-13T04:09:44.443193-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -21,15 +21,22 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo",
+      "title": "Vértigo Extremo",
       "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo Extremo",
-      "time": "01:00",
+      "title": "Siempre hay un chileno",
+      "time": "01:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Vale Todo",
+      "time": "02:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -56,13 +63,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "03:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "El Tiempo",
       "time": "03:50",
       "source_url": "https://www.13.cl/programacion",
@@ -71,6 +71,13 @@
     {
       "channel": "Canal 13",
       "title": "Alfombra Roja (Lo Mejor)",
+      "time": "04:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Milf",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -98,13 +105,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Jueves 12 de Noviembre",
-      "time": "05:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Lunes 16 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
@@ -113,6 +113,13 @@
     {
       "channel": "Canal 13",
       "title": "Martes 17 de Noviembre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Miércoles 18 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -197,20 +204,6 @@
     {
       "channel": "Canal 13",
       "title": "Teletrece Tarde",
-      "time": "15:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Especial Prensa",
-      "time": "15:20",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Tarde",
       "time": "15:20",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -259,13 +252,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Machos",
-      "time": "19:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Alfombra Roja",
       "time": "21:00",
       "source_url": "https://www.13.cl/programacion",
@@ -296,20 +282,6 @@
       "channel": "Canal 13",
       "title": "¡Qué Dice Chile!",
       "time": "21:50",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Central",
-      "time": "22:20",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "22:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -1421,20 +1393,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
-      "time": "01:03",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Giannina presenta ante el jurado su plato inspirado en teleseries de TVN, y aunque la preparación...",
-      "time": "01:42",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Disfruta con esta clásica serie todos los sábados desde las 10:45 horas.",
       "time": "01:45",
       "source_url": "https://www.tvn.cl/",
@@ -1449,13 +1407,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "02:08",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux apuntan al futuro del \"KIng\" en la tienda, ya que tras el...",
       "time": "02:25",
       "source_url": "https://www.tvn.cl/",
@@ -1463,8 +1414,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Basada en la teleserie \"Pampa Ilusión\", actualmente en retransmisión por nuestras pantallas, Ignacia...",
-      "time": "02:49",
+      "title": "Destacamos en TVN",
+      "time": "03:03",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1477,8 +1428,22 @@
     },
     {
       "channel": "TVN",
-      "title": "La aspirante a chef reveló su objetivo en la competencia a Juanma durante la preparación de su plato...",
-      "time": "03:58",
+      "title": "El chef Juanma fue a preguntarle por qué no quiso usar el comodín para preparar el pad thai y Vale...",
+      "time": "03:24",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "03:43",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Se acabó el tiempo para la prueba del pad thai y el resultado dio muestra de lo difícil que fue este...",
+      "time": "03:49",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1486,13 +1451,6 @@
       "channel": "TVN",
       "title": "Florencio llega hasta donde los trabajadores para revelarles los planes de seguridad del don mister...",
       "time": "04:08",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Mientras los aspirantes cocinan en la prueba de nominación, la chef Fernanda se acerca a Valentina y...",
-      "time": "04:24",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1528,6 +1486,20 @@
       "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux analizan en el especial de Colo Colo quiénes fueron los...",
       "time": "06:49",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "11:29",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La chef Fernanda le tomó el peso al plato de Hugo y no lo podía creer: pesaba 600 gramos.",
+      "time": "11:37",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1579,7 +1551,7 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 46,
+      "items_found": 42,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
