@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T04:09:44.443193-03:00",
+  "updated_at": "2026-11-13T12:39:01.469097-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -511,6 +511,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Volverías con tu ex? 2 - Lo mejor",
+      "time": "02:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Genios de la carne",
       "time": "02:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -569,6 +576,13 @@
       "channel": "Mega",
       "title": "Vuelta a la manzana",
       "time": "03:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Reunión de Superados - Lo Mejor",
+      "time": "03:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -868,13 +882,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Matinatón",
-      "time": "12:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "De aqui vengo yo",
       "time": "13:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1099,7 +1106,7 @@
     },
     {
       "channel": "Mega",
-      "title": "Fútbol femenino: U. de Chile vs U. Católica",
+      "title": "Previa Fútbol: Colombia vs Chile",
       "time": "16:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1169,7 +1176,7 @@
     },
     {
       "channel": "Mega",
-      "title": "Dale Play",
+      "title": "Meganoticias Prime",
       "time": "18:15",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1253,6 +1260,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Previa Fútbol: Colombia vs Chile",
+      "time": "19:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Travel App",
       "time": "19:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1276,6 +1290,13 @@
       "channel": "Mega",
       "title": "Vuelta a la manzana",
       "time": "20:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Fútbol amistoso internacional: Colombia vs Chile",
+      "time": "20:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1379,6 +1400,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Detrás del Muro",
+      "time": "23:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Volverías con tu Ex? 2",
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1386,22 +1414,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Tras el fin al paro de camioneros, el ministro del Interior, Claudio Alvarado, dio cuenta en detalle...",
-      "time": "00:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Disfruta con esta clásica serie todos los sábados desde las 10:45 horas.",
-      "time": "01:45",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Comentamos a los actores que fueron invitados a \"MasterChef Chile\" y Yuhui recordó el momento en que...",
-      "time": "01:58",
+      "title": "Mamá Lucinda entierra a Max en una ceremonia alejada de todos los lujos que siempre buscó su hijo....",
+      "time": "02:17",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1435,13 +1449,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:43",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Se acabó el tiempo para la prueba del pad thai y el resultado dio muestra de lo difícil que fue este...",
       "time": "03:49",
       "source_url": "https://www.tvn.cl/",
@@ -1449,7 +1456,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Florencio llega hasta donde los trabajadores para revelarles los planes de seguridad del don mister...",
+      "title": "La senadora Paulina Núñez abordó el rol que tendrá ahora el Congreso tras el acuerdo alcanzado por...",
       "time": "04:08",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1458,6 +1465,13 @@
       "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux desmenuzan la campaña y los cambios que sufrió el elenco albo...",
       "time": "04:29",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "04:43",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1491,7 +1505,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "title": "El chef Roberto Muñoz destacó por sus conocimientos en la pastelería, su larga trayectoria en...",
       "time": "11:29",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1505,13 +1519,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Con buenos resultados en el horario prime, TVN volvió a ubicarse entre las señales más vistas de la...",
-      "time": "12:21",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
       "time": "13:16",
       "source_url": "https://www.tvn.cl/",
@@ -1519,15 +1526,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Pedro Engel visitó el \"Buenos Días a Todos\" para contarnos sobre las vueltas de la vida, el karma y...",
-      "time": "15:56",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Lorenzo perdió el 25% de los terrenos familiares y Cruz estalla en ira. Le exige que debe inventar...",
-      "time": "19:43",
+      "title": "La productora ejecutiva de ficción y series verticales de TVN, Paula Ovalle, reveló uno de los...",
+      "time": "20:16",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1537,7 +1537,7 @@
       "channel": "Mega",
       "status": "ok",
       "source_url": "https://www.mega.cl/programacion/",
-      "items_found": 144,
+      "items_found": 148,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     },
     {
@@ -1558,7 +1558,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 21,
+      "items_found": 17,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
