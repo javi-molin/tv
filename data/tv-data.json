@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T23:14:49.357644-03:00",
+  "updated_at": "2026-11-14T06:20:42.005897-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -16,6 +16,13 @@
       "channel": "Canal 13",
       "title": "¡Qué Dice Chile! Prime",
       "time": "00:40",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Vértigo",
+      "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -42,13 +49,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "02:05",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Socios por el mundo",
       "time": "02:05",
       "source_url": "https://www.13.cl/programacion",
@@ -63,15 +63,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "03:50",
+      "title": "Vale Todo",
+      "time": "03:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Alfombra Roja (Lo Mejor)",
-      "time": "04:00",
+      "title": "El Tiempo",
+      "time": "03:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -105,6 +105,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Jueves 19 de Noviembre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Lunes 16 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
@@ -120,13 +127,6 @@
     {
       "channel": "Canal 13",
       "title": "Miércoles 18 de Noviembre",
-      "time": "05:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Viernes 13 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -217,13 +217,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "El Tiempo (Tarde)",
-      "time": "16:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Vale Todo",
       "time": "16:30",
       "source_url": "https://www.13.cl/programacion",
@@ -245,13 +238,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "17:15",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Domingo de Películas: Beekeper: Sentencia de muerte",
       "time": "18:55",
       "source_url": "https://www.13.cl/programacion",
@@ -260,6 +246,13 @@
     {
       "channel": "Canal 13",
       "title": "Alfombra Roja",
+      "time": "19:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Machos",
       "time": "19:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -294,8 +287,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué Dice Chile!",
-      "time": "21:50",
+      "title": "Teletrece Central",
+      "time": "22:20",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "El Tiempo",
+      "time": "22:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
