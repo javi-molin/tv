@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T18:54:56.271369-03:00",
+  "updated_at": "2026-11-13T23:14:49.357644-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1624,13 +1624,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Mamá Lucinda entierra a Max en una ceremonia alejada de todos los lujos que siempre buscó su hijo....",
-      "time": "02:17",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux apuntan al futuro del \"KIng\" en la tienda, ya que tras el...",
       "time": "02:25",
       "source_url": "https://www.tvn.cl/",
@@ -1640,13 +1633,6 @@
       "channel": "TVN",
       "title": "Destacados MasterChef",
       "time": "03:03",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Jueves 12 de noviembre de 2026",
-      "time": "03:11",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1743,6 +1729,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Manuel desea ordenar su vida y lo primero que hace es recuperar el tiempo perdido con Clementina. Le...",
+      "time": "11:59",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
       "time": "13:16",
       "source_url": "https://www.tvn.cl/",
@@ -1750,14 +1743,14 @@
     },
     {
       "channel": "TVN",
-      "title": "Ver ahora",
+      "title": "Jimena cumple con su plan de acabar con su falso embarazo en complicidad con el doctor. Manuel se...",
       "time": "19:39",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La productora ejecutiva de ficción y series verticales de TVN, Paula Ovalle, reveló uno de los...",
+      "title": "Mamá Lucinda entierra a Max en una ceremonia alejada de todos los lujos que siempre buscó su hijo....",
       "time": "20:16",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1789,7 +1782,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 21,
+      "items_found": 20,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
