@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T21:58:05.276177-03:00",
+  "updated_at": "2026-11-15T04:46:00.325288-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -49,6 +49,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "El Tiempo",
+      "time": "02:05",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Socios por el mundo",
       "time": "02:05",
       "source_url": "https://www.13.cl/programacion",
@@ -70,8 +77,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "El Tiempo",
-      "time": "03:50",
+      "title": "Alfombra Roja (Lo Mejor)",
+      "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -127,6 +134,13 @@
     {
       "channel": "Canal 13",
       "title": "Miércoles 18 de Noviembre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Viernes 20 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -231,6 +245,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "El Tiempo (Tarde)",
+      "time": "17:15",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Machos",
       "time": "17:15",
       "source_url": "https://www.13.cl/programacion",
@@ -280,7 +301,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Sábado 14 de Noviembre",
+      "title": "¡Qué Dice Chile!",
       "time": "21:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1775,7 +1796,7 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 44,
+      "items_found": 47,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
