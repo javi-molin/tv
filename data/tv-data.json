@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T04:11:11.372348-03:00",
+  "updated_at": "2026-11-16T14:22:44.793649-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -336,6 +336,13 @@
     },
     {
       "channel": "Chilevisión",
+      "title": "Pasapalabra",
+      "time": "19:00",
+      "source_url": "https://www.chilevision.cl/page/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Chilevisión",
       "title": "La Divina Comida",
       "time": "22:25",
       "source_url": "https://www.chilevision.cl/page/programacion/",
@@ -343,7 +350,7 @@
     },
     {
       "channel": "Chilevisión",
-      "title": "Fiebre de Canto",
+      "title": "Un concurso donde las palabras juegan el rol principal y el rosco define al mejor del capítulo. El clásico de la televisión que pone a todos a participar en sus casas.",
       "time": "22:30",
       "source_url": "https://www.chilevision.cl/page/programacion/",
       "summary": ""
@@ -1589,8 +1596,15 @@
     },
     {
       "channel": "TVN",
-      "title": "En medio de la visita de María Pombo, los cocineros deberán lucirse preparando la clásica tortilla...",
+      "title": "En esta instancia, los participantes deberán enfrentar el complejo reto de equilibrar sabores dulces...",
       "time": "02:39",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Los conductores del programa recordaron que al principio los encontraban “fomes” y revelaron cómo...",
+      "time": "02:40",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1603,15 +1617,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Los aspirantes enfrentaron el complejo reto cítrico con suertes completamente opuestas frente al...",
+      "title": "En la previa del capítulo de este domingo, los conductores del React de MasterChef Chile contaron...",
       "time": "03:05",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En el marco de su viaje a nuestro país para presentar su reciente colección con Alaniz y Paris y...",
-      "time": "03:06",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1624,14 +1631,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Fran y Yuhui se sumaron a los elogios del chef que visitó el programa por sus grandes conocimientos...",
-      "time": "03:22",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Luego de confundir sus severos síntomas con un problema digestivo, fueron sus propias seguidoras...",
+      "title": "Ver ahora",
       "time": "04:08",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1652,21 +1652,14 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
-      "time": "04:43",
+      "title": "Los aspirantes enfrentaron el complejo reto cítrico con suertes completamente opuestas frente al...",
+      "time": "04:49",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Se acabó el tiempo para la prueba del pad thai y el resultado dio muestra de lo difícil que fue este...",
-      "time": "05:21",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
+      "title": "Iván Torres y Arlette Chacón nos entregaron su informe del tiempo para la semana donde las nubes y...",
       "time": "05:26",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1680,7 +1673,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
       "time": "06:08",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1694,7 +1687,7 @@
     },
     {
       "channel": "TVN",
-      "title": "En esta instancia, los participantes deberán enfrentar el complejo reto de equilibrar sabores dulces...",
+      "title": "En el marco de su viaje a nuestro país para presentar su reciente colección con Alaniz y Paris y...",
       "time": "06:11",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1722,8 +1715,29 @@
     },
     {
       "channel": "TVN",
+      "title": "Atropello masivo en Rengo: Registro captó el momento exacto en que conductor arrasó con siete ciclistas",
+      "time": "06:33",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Los contenidos de Televisión Nacional de Chile fueron los elegidos por la audiencia dejando a la...",
+      "time": "06:48",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux analizan en el especial de Colo Colo quiénes fueron los...",
       "time": "06:49",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "200 personas terminaron en el agua: Así fue el choque entre dos barcos en Estados Unidos",
+      "time": "06:57",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1736,29 +1750,15 @@
     },
     {
       "channel": "TVN",
-      "title": "El chef Roberto Muñoz destacó por sus conocimientos en la pastelería, su larga trayectoria en...",
-      "time": "11:29",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La chef Fernanda le tomó el peso al plato de Hugo y no lo podía creer: pesaba 600 gramos.",
-      "time": "11:37",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Este lunes 16 de noviembre, después de \"Pampa Ilusión\", vuelve \"Sucupira\" a las pantallas de TVN.",
-      "time": "11:59",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
       "time": "13:16",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "13:58",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1775,7 +1775,7 @@
       "channel": "Chilevisión",
       "status": "ok",
       "source_url": "https://www.chilevision.cl/page/programacion/",
-      "items_found": 11,
+      "items_found": 12,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     },
     {
@@ -1789,7 +1789,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 26,
+      "items_found": 25,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
