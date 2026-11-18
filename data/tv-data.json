@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T06:01:49.234532-03:00",
+  "updated_at": "2026-11-18T14:57:15.014393-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1652,29 +1652,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Encontrémonos en ¡Ahora Caigo! junto a Daniel Fuenzalida, de lunes a viernes a las 19:00 horas.",
-      "time": "00:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux apuntan al futuro del \"KIng\" en la tienda, ya que tras el...",
       "time": "02:25",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Tras diversas teorías circulando en Internet, la intervención, que sorprendió a los aspirantes...",
-      "time": "02:53",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:10",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1708,6 +1687,20 @@
     },
     {
       "channel": "TVN",
+      "title": "Actualidad y Tendencias",
+      "time": "05:33",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Revisamos la pieza encontrada en el sector de interés por los investigadores y de las nuevas...",
+      "time": "05:37",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "¿Qué tienen de especial los huevos más circulares de Pronto Copec? En este nuevo capítulo, Simón...",
       "time": "06:02",
       "source_url": "https://www.tvn.cl/",
@@ -1731,6 +1724,13 @@
       "channel": "TVN",
       "title": "Detrás de cada alimento rescatado hay una oportunidad de ayudar. En este tercer capítulo, Simón...",
       "time": "06:15",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Con ricos ingredientes podemos preparar este gran estofado húngaro para sorprender a la hora de...",
+      "time": "06:23",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1806,6 +1806,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Funcionarios de seguridad municipal con carabineros lograron auxiliar a unos cachorritos que se...",
+      "time": "12:29",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "¿Sabemos realmente en Chile cómo cocinar pescados y mariscos? En este capítulo de Ciencia y Cocina,...",
       "time": "13:16",
       "source_url": "https://www.tvn.cl/",
@@ -1813,22 +1820,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Bárbara Valdivieso llega a Sucupira obligada por su padre para mantenerla controlada. La joven...",
-      "time": "19:36",
+      "title": "Carmina teme que los nuevos planes de su padre no funcionen por la presencia de Milo. Sin embargo,...",
+      "time": "20:07",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Miguel lideró el react de \"El Medio Día\" e hizo incómodas preguntas a los integrantes del programa.",
-      "time": "20:19",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El arquero de la generación dorada de La Roja visitó \"El Medio Día\" para invitar a todos los hombres...",
-      "time": "22:13",
+      "title": "A tomar nota porque el próximo año tendrá una gran cantidad de días libres, ideal para programar...",
+      "time": "22:32",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
