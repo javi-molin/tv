@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T14:57:15.014393-03:00",
+  "updated_at": "2026-11-18T21:14:57.752365-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1652,6 +1652,20 @@
     },
     {
       "channel": "TVN",
+      "title": "Los equipos debieron replicar una preparación francesa siguiendo las instrucciones de sus compañeros...",
+      "time": "01:59",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "02:02",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux apuntan al futuro del \"KIng\" en la tienda, ya que tras el...",
       "time": "02:25",
       "source_url": "https://www.tvn.cl/",
@@ -1666,28 +1680,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui y Fran compartieron sus impresiones sobre la salida de Hugo de las cocinas de \"MasterChef...",
-      "time": "04:36",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Si bien no fue un plato perfecto, la chef Fernanda valoró el avance en la cocina de Fernanda tras...",
-      "time": "04:39",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "A falta de pocos minutos para el final de la prueba, la jurado tuvo que darle una fuerte reprimenda...",
-      "time": "05:07",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Actualidad y Tendencias",
+      "title": "Video: Carabinero de franco frustó a balazos una encerrona",
       "time": "05:33",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1703,13 +1696,6 @@
       "channel": "TVN",
       "title": "¿Qué tienen de especial los huevos más circulares de Pronto Copec? En este nuevo capítulo, Simón...",
       "time": "06:02",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Luego de un intenso y complejo desafío enfocado en los sabores ácidos y dulces, el exigente jurado...",
-      "time": "06:08",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1743,7 +1729,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "Los platos de las duplas Regina-Fernanda y Fefa-Don Jona transportaron al chef a su Francia natal, a...",
       "time": "06:25",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1757,13 +1743,6 @@
     },
     {
       "channel": "TVN",
-      "title": "En medio de la prueba de eliminación, la aspirante quiso sorprender con un pan naan. Sin embargo, el...",
-      "time": "06:40",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux analizan en el especial de Colo Colo quiénes fueron los...",
       "time": "06:49",
       "source_url": "https://www.tvn.cl/",
@@ -1771,8 +1750,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Tras varios roces y retos, Nicolás simplemente no pasa al chef francés y así lo hizo saber.",
-      "time": "06:53",
+      "title": "El último eliminado de \"MasterChef Chile\" no pudo participar del react del programa y Fran entregó...",
+      "time": "07:01",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1785,22 +1764,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Los platos de las duplas Regina-Fernanda y Fefa-Don Jona transportaron al chef a su Francia natal, a...",
+      "title": "Tras una reñida lucha con la dupla de Fernanda y Regina, ambos aspirantes se quedaron con la prueba...",
       "time": "08:14",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "title": "Su triunfo que le dio la inmunidad en el programa tuvo muy buenos comentarios en la audiencia por su...",
       "time": "11:04",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El participante de San Carlos no logró convencer al jurado con su preparación, que recibió duras...",
-      "time": "11:16",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1859,7 +1831,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 26,
+      "items_found": 22,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
