@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T04:50:23.907292-03:00",
+  "updated_at": "2026-11-19T14:17:53.524108-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -266,20 +266,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "19:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Alfombra Roja",
-      "time": "21:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Lugares que Hablan",
       "time": "21:00",
       "source_url": "https://www.13.cl/programacion",
@@ -476,20 +462,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Dale Play",
-      "time": "01:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "La Cabaña",
-      "time": "01:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Nuestras fiestas",
       "time": "01:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -520,6 +492,20 @@
       "channel": "Mega",
       "title": "Dale Play - Repetición",
       "time": "01:15",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "La Cabaña",
+      "time": "01:15",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "A la punta del cerro",
+      "time": "01:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -588,6 +574,13 @@
     },
     {
       "channel": "Mega",
+      "title": "De Paseo",
+      "time": "02:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Genios de la carne",
       "time": "02:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -604,13 +597,6 @@
       "channel": "Mega",
       "title": "Viajar x Menos",
       "time": "02:30",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "A la punta del cerro",
-      "time": "03:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -659,13 +645,20 @@
     {
       "channel": "Mega",
       "title": "Familia por el Mundo",
-      "time": "03:30",
+      "time": "03:15",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
       "title": "Reunión de Superados - Lo Mejor",
+      "time": "03:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Rápidos y Sabrosos",
       "time": "03:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -686,8 +679,8 @@
     },
     {
       "channel": "Mega",
-      "title": "De Paseo",
-      "time": "04:00",
+      "title": "Recorri2 Go",
+      "time": "03:45",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -707,13 +700,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Recorri2 Go",
-      "time": "04:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Viajando Ando",
       "time": "04:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -723,6 +709,13 @@
       "channel": "Mega",
       "title": "Vuelta a la manzana",
       "time": "04:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Travel App",
+      "time": "04:15",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -749,8 +742,15 @@
     },
     {
       "channel": "Mega",
-      "title": "Travel App",
+      "title": "Nuestras fiestas",
       "time": "04:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Rápidos y Sabrosos",
+      "time": "04:50",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -779,6 +779,13 @@
       "channel": "Mega",
       "title": "Rápidos y Sabrosos",
       "time": "05:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Tesoros de mi barrio",
+      "time": "05:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1281,7 +1288,7 @@
     },
     {
       "channel": "Mega",
-      "title": "Fútbol femenino: Colo Colo vs Coquimbo Unido",
+      "title": "Fútbol femenino: Colo Colo vs U Católica",
       "time": "16:40",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1379,6 +1386,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Fútbol femenino: Colo Colo vs U Católica",
+      "time": "18:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Fútbol amistoso internacional: Colombia vs Chile",
       "time": "18:35",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1394,13 +1408,6 @@
     {
       "channel": "Mega",
       "title": "Estar bien",
-      "time": "18:55",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "La Ruta del Agua",
       "time": "18:55",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1575,6 +1582,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Festival Coke Studio by Coca-Cola Zero Azúcar",
+      "time": "22:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Reunión de Superados",
       "time": "22:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1583,13 +1597,6 @@
     {
       "channel": "Mega",
       "title": "Volverías con tu Ex? 2",
-      "time": "22:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Volverías con tu ex? 2 - Lo mejor",
       "time": "22:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1696,13 +1703,6 @@
       "channel": "TVN",
       "title": "Fran se quebró al presentar su plato porque se acordó de su familia y Cynthia llegó con una pena,...",
       "time": "02:58",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
-      "time": "03:23",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1817,7 +1817,7 @@
       "channel": "Mega",
       "status": "ok",
       "source_url": "https://www.mega.cl/programacion/",
-      "items_found": 175,
+      "items_found": 178,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     },
     {
@@ -1831,14 +1831,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 48,
+      "items_found": 46,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 23,
+      "items_found": 22,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
