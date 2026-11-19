@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T21:14:57.752365-03:00",
+  "updated_at": "2026-11-19T04:50:23.907292-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -9,6 +9,13 @@
       "channel": "Canal 13",
       "title": "Especial Socios de la Parrilla a Domicilio",
       "time": "00:25",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Biografías",
+      "time": "00:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -28,13 +35,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Siempre hay un chileno",
-      "time": "01:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Socios por el mundo",
       "time": "01:55",
       "source_url": "https://www.13.cl/programacion",
@@ -42,15 +42,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "02:00",
+      "title": "¡Qué Dice Chile! Prime",
+      "time": "02:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué Dice Chile! Prime",
-      "time": "02:05",
+      "title": "Vale Todo",
+      "time": "02:15",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -77,7 +77,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Milf",
+      "title": "Teletrece Noche",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -112,7 +112,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Miércoles 18 de Noviembre",
+      "title": "Martes 24 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1652,6 +1652,27 @@
     },
     {
       "channel": "TVN",
+      "title": "Cruz consuela a Manuel por la pérdida de su hijo y recuerdan momentos de su infancia. En la...",
+      "time": "00:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Encontrémonos en ¡Ahora Caigo! junto a Daniel Fuenzalida, de lunes a viernes a las 19:00 horas.",
+      "time": "00:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La participante reiteró sus reparos a los consejos del balcón antes de finalizar la prueba de...",
+      "time": "01:34",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Los equipos debieron replicar una preparación francesa siguiendo las instrucciones de sus compañeros...",
       "time": "01:59",
       "source_url": "https://www.tvn.cl/",
@@ -1659,15 +1680,29 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "02:02",
+      "title": "Deniss Monsalve y Gonzalo Fouillioux apuntan al futuro del \"KIng\" en la tienda, ya que tras el...",
+      "time": "02:25",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Deniss Monsalve y Gonzalo Fouillioux apuntan al futuro del \"KIng\" en la tienda, ya que tras el...",
-      "time": "02:25",
+      "title": "Destacamos en TVN",
+      "time": "02:53",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Fran se quebró al presentar su plato porque se acordó de su familia y Cynthia llegó con una pena,...",
+      "time": "02:58",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "03:23",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1682,13 +1717,6 @@
       "channel": "TVN",
       "title": "Video: Carabinero de franco frustó a balazos una encerrona",
       "time": "05:33",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Revisamos la pieza encontrada en el sector de interés por los investigadores y de las nuevas...",
-      "time": "05:37",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1722,20 +1750,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Como voz autorizada para evaluar esta preparación típicamente francesa, el chef Yann no tuvo una...",
-      "time": "06:24",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Los platos de las duplas Regina-Fernanda y Fefa-Don Jona transportaron al chef a su Francia natal, a...",
-      "time": "06:25",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "En este segundo capítulo, conoce cómo nuestros colaboradores contribuyen día a día a la meta Cero...",
       "time": "06:32",
       "source_url": "https://www.tvn.cl/",
@@ -1757,20 +1771,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Al igual que Nicolás, Santo también se dio cuenta que el desafío consistía en un exquisito cassoulet...",
-      "time": "07:10",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Tras una reñida lucha con la dupla de Fernanda y Regina, ambos aspirantes se quedaron con la prueba...",
-      "time": "08:14",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Su triunfo que le dio la inmunidad en el programa tuvo muy buenos comentarios en la audiencia por su...",
       "time": "11:04",
       "source_url": "https://www.tvn.cl/",
@@ -1778,8 +1778,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Funcionarios de seguridad municipal con carabineros lograron auxiliar a unos cachorritos que se...",
-      "time": "12:29",
+      "title": "En tanto, Regina se llevó los halagos del jurado con su plato y Sebastián generó dudas con su...",
+      "time": "12:11",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "12:21",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1792,15 +1799,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Carmina teme que los nuevos planes de su padre no funcionen por la presencia de Milo. Sin embargo,...",
-      "time": "20:07",
+      "title": "El candidato Federico Valdivieso debe enfrentar una protesta de sus trabajadores en plena campaña...",
+      "time": "19:48",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "A tomar nota porque el próximo año tendrá una gran cantidad de días libres, ideal para programar...",
-      "time": "22:32",
+      "title": "Carmina teme que los nuevos planes de su padre no funcionen por la presencia de Milo. Sin embargo,...",
+      "time": "20:07",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1831,7 +1838,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 22,
+      "items_found": 23,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
