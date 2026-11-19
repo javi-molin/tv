@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T14:17:53.524108-03:00",
+  "updated_at": "2026-11-19T20:45:36.266071-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1659,14 +1659,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Cruz consuela a Manuel por la pérdida de su hijo y recuerdan momentos de su infancia. En la...",
-      "time": "00:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Encontrémonos en ¡Ahora Caigo! junto a Daniel Fuenzalida, de lunes a viernes a las 19:00 horas.",
+      "title": "Ver ahora",
       "time": "00:00",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1710,13 +1703,6 @@
       "channel": "TVN",
       "title": "Deniss Monsalve y Gonzalo Fouillioux desmenuzan la campaña y los cambios que sufrió el elenco albo...",
       "time": "04:29",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Video: Carabinero de franco frustó a balazos una encerrona",
-      "time": "05:33",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1799,14 +1785,14 @@
     },
     {
       "channel": "TVN",
-      "title": "El candidato Federico Valdivieso debe enfrentar una protesta de sus trabajadores en plena campaña...",
-      "time": "19:48",
+      "title": "Luisa, Dorita y Regina van a confesarse con el cura de Sucupira antes del evento de desagravio de...",
+      "time": "18:59",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Carmina teme que los nuevos planes de su padre no funcionen por la presencia de Milo. Sin embargo,...",
+      "title": "El realizador destacó la respuesta que ha recibido de personas que ya están viendo la serie en sus...",
       "time": "20:07",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1838,7 +1824,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 22,
+      "items_found": 20,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
