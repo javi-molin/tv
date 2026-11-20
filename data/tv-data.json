@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T13:02:11.242912-03:00",
+  "updated_at": "2026-11-20T19:37:19.816755-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -7,8 +7,22 @@
   "schedule_items": [
     {
       "channel": "Canal 13",
-      "title": "Especial Socios de la Parrilla a Domicilio",
+      "title": "Lugares que Hablan",
       "time": "00:25",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Socios por el Mundo",
+      "time": "00:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "¡Qué Dice Chile! Prime",
+      "time": "00:35",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -35,8 +49,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Socios por el mundo",
-      "time": "01:55",
+      "title": "El Clan",
+      "time": "01:40",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Socios por Chile",
+      "time": "02:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -49,7 +70,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué Dice Chile! Prime",
+      "title": "¡Qué dice Chile! Prime",
       "time": "02:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -63,8 +84,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Lugares que Hablan",
-      "time": "03:50",
+      "title": "Only Comparini",
+      "time": "02:45",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Copa Culinaria",
+      "time": "03:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -105,6 +133,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Noche 13: ¡Qué Dice el Público!",
+      "time": "04:45",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Lunes 23 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
@@ -140,14 +175,28 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo 22 de Noviembre",
-      "time": "06:30",
+      "title": "Sábado 21 de Noviembre",
+      "time": "06:35",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Siempre Hay un Chileno",
+      "title": "Domingo 22 de Noviembre",
+      "time": "06:40",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Travesia 13C: La Gracia de Viajar",
+      "time": "07:05",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Travesia 13C: La Gracia de Viajar",
       "time": "07:10",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -161,7 +210,14 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Siempre Hay un Chileno",
+      "title": "Travesia 13C: City Tour",
+      "time": "08:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Travesia 13C: El Crucero",
       "time": "08:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -189,6 +245,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "T13 Finde",
+      "time": "13:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Tu Día",
       "time": "13:00",
       "source_url": "https://www.13.cl/programacion",
@@ -196,7 +259,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Sábado 21 de Noviembre",
+      "title": "Teletrece Tarde",
       "time": "14:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -231,8 +294,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo de Películas: Rocky I",
+      "title": "Domingo de Películas: \"Moonfall\"",
       "time": "16:50",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Sábado de Películas: \"La última canción\"",
+      "time": "17:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -245,13 +315,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Sábado de Películas: Paddington",
-      "time": "17:55",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Alfombra Roja",
       "time": "19:00",
       "source_url": "https://www.13.cl/programacion",
@@ -259,15 +322,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo de Películas: El Implacable",
+      "title": "Domingo de Películas: \"Kong\"",
       "time": "19:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Sábado de Películas: Arthur, una amistad sin límites",
-      "time": "19:00",
+      "title": "Sábado de Películas: \"Quédate a mi lado\"",
+      "time": "19:20",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -287,14 +350,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Lugares que Hablan",
-      "time": "21:50",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "¡Qué Dice Chile!",
+      "title": "Teletrece Central",
       "time": "21:50",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -303,6 +359,13 @@
       "channel": "Canal 13",
       "title": "El Tiempo",
       "time": "22:20",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "El Tiempo",
+      "time": "22:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -1575,8 +1638,29 @@
     },
     {
       "channel": "TVN",
-      "title": "El participante se despidió de las cocinas tras una prueba centrada en las algas, donde presentó...",
+      "title": "Manuel quiere recuperar su vida y a sentirse útil. Le plantea a su padre volver a las competiciones...",
       "time": "00:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "00:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Clementina decide dejar todas las mentiras del pasado para enfrentar la nueva etapa con Manuel. Le...",
+      "time": "00:29",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "02:10",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1589,27 +1673,6 @@
     },
     {
       "channel": "TVN",
-      "title": "El conductor de nacionalidad colombiana impactó contra el recinto al perder el control del...",
-      "time": "02:26",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ser creativos, pero mesurados con la sal son algunas de las consignas a seguir en esta prueba de...",
-      "time": "02:36",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El ballet cultural visitó \"El Medio Día\" para invitarnos a sus presentaciones y sentirse más cerca...",
-      "time": "02:52",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Cocinar un clásico de Francia frente a un chef francés no era para nada fácil, pero la dupla lo...",
       "time": "03:21",
       "source_url": "https://www.tvn.cl/",
@@ -1617,21 +1680,14 @@
     },
     {
       "channel": "TVN",
-      "title": "Con la sal y la textura como principales enemigos en el plato, los delantales negros deberán lucirse...",
-      "time": "03:41",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Carmen Lucía logra salvar a Tifón y Nina de las amenazas de Santiago. La mujer logra redimirse de...",
+      "title": "El participante se despidió de las cocinas tras una prueba centrada en las algas, donde presentó...",
       "time": "04:00",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "title": "Caballero, buen compañero y apañador: así describieron sus compañeros a Nico en la hora de su adiós....",
       "time": "04:39",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1687,7 +1743,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "El último eliminado de \"MasterChef Chile\" se comunicó con Fran y Yuhui para enviar sus saludos y...",
       "time": "08:18",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1708,15 +1764,15 @@
     },
     {
       "channel": "TVN",
-      "title": "El meteorólogo del \"Buenos Días a Todos\" nos entregó su pronóstico para los próximos días donde las...",
-      "time": "12:10",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "14:45",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La actriz conversó con el \"Buenos Días a Todos\" sobre el éxito que está viviendo gracias a su rol en...",
-      "time": "13:09",
+      "title": "Bárbara se entera que Rafael es el dueño del diario opositor de su padre. Ella tema que sus baños...",
+      "time": "19:53",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1740,14 +1796,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 45,
+      "items_found": 54,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 21,
+      "items_found": 20,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
