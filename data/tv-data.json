@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-22T22:56:11.414814-03:00",
+  "updated_at": "2026-11-23T07:39:06.760171-03:00",
   "timezone": "America/Santiago",
-  "status": "Actualización ejecutada: 3 de 4 canales con datos detectados.",
-  "schedule_status": "partial",
+  "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
+  "schedule_status": "ok",
   "schedule_note": "Los horarios detectados provienen de páginas oficiales. Un canal sin datos interpretables se informa como tal; no se completan horarios con datos inventados.",
   "schedule_items": [
     {
       "channel": "Canal 13",
-      "title": "Socios por el Mundo",
-      "time": "00:30",
+      "title": "Lugares que Hablan",
+      "time": "00:25",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -49,8 +49,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Socios por Chile",
-      "time": "02:00",
+      "title": "El Clan",
+      "time": "01:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -77,8 +77,22 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Only Comparini",
+      "time": "02:45",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Vale Todo",
       "time": "03:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Copa Culinaria",
+      "time": "03:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -112,8 +126,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo Lo Mejor",
-      "time": "04:00",
+      "title": "Noche 13: ¡Qué Dice el Público!",
+      "time": "04:45",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -161,15 +175,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo 22 de Noviembre",
-      "time": "06:40",
+      "title": "Sábado 28 de Noviembre",
+      "time": "06:35",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
       "title": "Travesia 13C: La Gracia de Viajar",
-      "time": "07:05",
+      "time": "07:10",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -182,29 +196,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Travesia 13C: City Tour",
+      "title": "Travesia 13C: El Crucero",
       "time": "08:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Santa Misa",
-      "time": "09:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece a la Hora",
-      "time": "10:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Mesa Central",
-      "time": "12:30",
+      "title": "T13 Finde",
+      "time": "13:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -218,7 +218,14 @@
     {
       "channel": "Canal 13",
       "title": "Teletrece Tarde",
-      "time": "14:30",
+      "time": "14:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Copa Culinaria",
+      "time": "15:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -238,8 +245,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo de Películas: \"Moonfall\"",
-      "time": "16:50",
+      "title": "Sábado de Películas: \"La última canción\"",
+      "time": "17:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -259,8 +266,8 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Domingo de Películas: \"Kong\"",
-      "time": "19:00",
+      "title": "Sábado de Películas: \"Quédate a mi lado\"",
+      "time": "19:20",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -282,6 +289,13 @@
       "channel": "Canal 13",
       "title": "Teletrece Central",
       "time": "21:50",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "El Tiempo",
+      "time": "22:20",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -1565,6 +1579,181 @@
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Encontrémonos en ¡Ahora Caigo! junto a Daniel Fuenzalida, de lunes a viernes a las 19:00 horas.",
+      "time": "00:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Manuel quiere recuperar su vida y a sentirse útil. Le plantea a su padre volver a las competiciones...",
+      "time": "00:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Clementina decide dejar todas las mentiras del pasado para enfrentar la nueva etapa con Manuel. Le...",
+      "time": "00:29",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Una emergencia aérea se registró durante la tarde de este sábado 21 de noviembre en la comuna de...",
+      "time": "02:10",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Cocinar un clásico de Francia frente a un chef francés no era para nada fácil, pero la dupla lo...",
+      "time": "03:21",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "En un nuevo capítulo de Chile Conectado, Carla Jara y Simón Oliveros recorrieron distintos rincones...",
+      "time": "03:40",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El extenista y cuartofinalista de Wimbledon en 1985 murió a los 68 años durante la madrugada de este...",
+      "time": "03:54",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El participante se despidió de las cocinas tras una prueba centrada en las algas, donde presentó...",
+      "time": "04:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Caballero, buen compañero y apañador: así describieron sus compañeros a Nico en la hora de su adiós....",
+      "time": "04:39",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Con una preparación tradicional llena de sabor casero, la dupla brilló en la prueba de salvación y...",
+      "time": "05:23",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Cultura",
+      "time": "05:24",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Franchesca y Regina también recibieron halagos de los chefs tras evaluar sus platos en esta difícil...",
+      "time": "05:57",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "¿Qué tienen de especial los huevos más circulares de Pronto Copec? En este nuevo capítulo, Simón...",
+      "time": "06:02",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Actualidad y Tendencias",
+      "time": "06:08",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Una parada para tomar café lleva a Simón Oliveros a descubrir que el mejor residuo es el que nunca...",
+      "time": "06:09",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Detrás de cada alimento rescatado hay una oportunidad de ayudar. En este tercer capítulo, Simón...",
+      "time": "06:15",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "En este segundo capítulo, conoce cómo nuestros colaboradores contribuyen día a día a la meta Cero...",
+      "time": "06:32",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacados MasterChef",
+      "time": "08:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El último eliminado de \"MasterChef Chile\" se comunicó con Fran y Yuhui para enviar sus saludos y...",
+      "time": "08:18",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La prueba de eliminación basada en algas les trajo problemas a ambos participantes, quienes han sido...",
+      "time": "11:09",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "En medio de un nuevo duelo de eliminación en Masterchef, la jurado también tuvo palabras de aliento...",
+      "time": "11:42",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Ver ahora",
+      "time": "13:58",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "time": "14:45",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Bárbara se entera que Rafael es el dueño del diario opositor de su padre. Ella tema que sus baños...",
+      "time": "19:53",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "22:59",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
     }
   ],
   "channel_status": [
@@ -1586,15 +1775,15 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 44,
+      "items_found": 46,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
-      "status": "no_schedule_found",
+      "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 0,
-      "message": "La página se pudo consultar, pero no se detectó una parrilla interpretable."
+      "items_found": 25,
+      "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
 }
