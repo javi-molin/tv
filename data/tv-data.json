@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T19:33:20.476635-03:00",
+  "updated_at": "2026-11-24T03:20:17.735826-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -9,6 +9,13 @@
       "channel": "Canal 13",
       "title": "Lugares que Hablan",
       "time": "00:25",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Socios por el Mundo",
+      "time": "00:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -35,13 +42,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo Extremo",
-      "time": "01:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Siempre hay un chileno",
       "time": "01:30",
       "source_url": "https://www.13.cl/programacion",
@@ -51,6 +51,13 @@
       "channel": "Canal 13",
       "title": "El Clan",
       "time": "01:40",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Socios por Chile",
+      "time": "02:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -119,7 +126,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
+      "title": "Vértigo Lo Mejor",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -134,13 +141,6 @@
     {
       "channel": "Canal 13",
       "title": "Jueves 26 de Noviembre",
-      "time": "05:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Lunes 23 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -182,6 +182,20 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Domingo 29 de Noviembre",
+      "time": "06:40",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Travesia 13C: La Gracia de Viajar",
+      "time": "07:05",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Travesia 13C: La Gracia de Viajar",
       "time": "07:10",
       "source_url": "https://www.13.cl/programacion",
@@ -196,8 +210,36 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Travesia 13C: City Tour",
+      "time": "08:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Travesia 13C: El Crucero",
       "time": "08:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Santa Misa",
+      "time": "09:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Teletrece a la Hora",
+      "time": "10:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Mesa Central",
+      "time": "12:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -224,6 +266,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Teletrece Tarde",
+      "time": "14:30",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Copa Culinaria",
       "time": "15:00",
       "source_url": "https://www.13.cl/programacion",
@@ -245,6 +294,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Domingo de Películas: \"Moonfall\"",
+      "time": "16:50",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Sábado de Películas: \"La última canción\"",
       "time": "17:05",
       "source_url": "https://www.13.cl/programacion",
@@ -260,6 +316,13 @@
     {
       "channel": "Canal 13",
       "title": "Alfombra Roja",
+      "time": "19:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Domingo de Películas: \"Kong\"",
       "time": "19:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1582,13 +1645,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "01:55",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Manuel se presenta ante su padre con Clementina y con su hija en brazos. El hombre le recrimina...",
       "time": "03:06",
       "source_url": "https://www.tvn.cl/",
@@ -1596,22 +1652,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Cocinar un clásico de Francia frente a un chef francés no era para nada fácil, pero la dupla lo...",
-      "time": "03:21",
+      "title": "El participante presentó una preparación llamada \"ven que sí estudio\" que se robó los elogios del...",
+      "time": "03:51",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Tras enfrentar el segundo desafío de improvisación de MasterChef, los aspirantes presentan ante el...",
+      "title": "La evaluación tuvo emociones para todos los gustos: mientras Nattida quedó complicada tras escuchar...",
       "time": "04:04",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Caballero, buen compañero y apañador: así describieron sus compañeros a Nico en la hora de su adiós....",
-      "time": "04:39",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1666,36 +1715,29 @@
     },
     {
       "channel": "TVN",
-      "title": "Nicolás Berlinger nos presentó una serie de fotografías de su infancia y adolescencia alrededor del...",
-      "time": "08:00",
+      "title": "Destacamos en TVN",
+      "time": "06:57",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "El último eliminado de \"MasterChef Chile\" se comunicó con Fran y Yuhui para enviar sus saludos y...",
-      "time": "08:18",
+      "title": "Yuhui Lee y Fran Medina tuvieron la visita de Nicolás Berlinger y reaccionaron al capítulo de...",
+      "time": "06:58",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Una serie de vecinos conversó con el \"Buenos Días a Todos\" sobre las amenazas previas que hubo en el...",
-      "time": "13:58",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "El último eliminado de \"MasterChef Chile\" visitó a Fran y Yuhui donde nos compartió su experiencia...",
+      "title": "Tras enfrentar el segundo desafío de improvisación de MasterChef, los aspirantes presentan ante el...",
       "time": "14:20",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La creatividad y la improvisación serán claves en este nuevo desafío de MasterChef, donde los...",
-      "time": "14:45",
+      "title": "La participante presentó una preparación inspirada en sus raíces llamada \"del campo a Puente Alto a...",
+      "time": "15:13",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1715,7 +1757,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina comentan y reaccionan en tiempo real a un nuevo capítulo del programa de...",
+      "title": "El último eliminado de \"MasterChef Chile\" visitó a Fran y Yuhui donde nos compartió su experiencia...",
       "time": "22:59",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1740,14 +1782,14 @@
       "channel": "Canal 13",
       "status": "ok",
       "source_url": "https://www.13.cl/sites/default/files/tools/epg-canal13.json",
-      "items_found": 46,
+      "items_found": 55,
       "message": "Datos obtenidos de fuentes oficiales."
     },
     {
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 20,
+      "items_found": 17,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
