@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T03:20:17.735826-03:00",
+  "updated_at": "2026-11-24T15:12:24.604332-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1645,13 +1645,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Manuel se presenta ante su padre con Clementina y con su hija en brazos. El hombre le recrimina...",
-      "time": "03:06",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "El participante presentó una preparación llamada \"ven que sí estudio\" que se robó los elogios del...",
       "time": "03:51",
       "source_url": "https://www.tvn.cl/",
@@ -1666,13 +1659,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Video: Exbeisbolista amateur venezolano cobraba por lanzar droga",
-      "time": "04:48",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Cultura",
       "time": "05:24",
       "source_url": "https://www.tvn.cl/",
@@ -1680,15 +1666,15 @@
     },
     {
       "channel": "TVN",
-      "title": "¿Qué tienen de especial los huevos más circulares de Pronto Copec? En este nuevo capítulo, Simón...",
-      "time": "06:02",
+      "title": "El actor se sumó a los homenajes para Delfina Guzmán donde destacó su lucha por la cultura y el...",
+      "time": "05:27",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Viernes 20 de noviembre de 2026",
-      "time": "06:08",
+      "title": "¿Qué tienen de especial los huevos más circulares de Pronto Copec? En este nuevo capítulo, Simón...",
+      "time": "06:02",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1708,6 +1694,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Zeynep no aguanta más la falta de acción para encontrar a su hija que lleva cinco años desaparecida...",
+      "time": "06:23",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "En este segundo capítulo, conoce cómo nuestros colaboradores contribuyen día a día a la meta Cero...",
       "time": "06:32",
       "source_url": "https://www.tvn.cl/",
@@ -1715,14 +1708,14 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "La actriz murió a los 98 años dejando un valioso legado en el teatro y en la televisión con...",
       "time": "06:57",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina tuvieron la visita de Nicolás Berlinger y reaccionaron al capítulo de...",
+      "title": "Yuhui Lee y Fran Medina reaccionaron al capítulo de MasterChef de este lunes 23 de noviembre, el que...",
       "time": "06:58",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1743,15 +1736,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Daniela junto a sus amigas analizan al grupo de compañeras de Bárbara Valdivieso. No entienden por...",
-      "time": "20:43",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Muchas gracias por acompañarnos todas las noches de domingo a jueves para seguir la historia de...",
-      "time": "22:21",
+      "title": "En sus más de 70 años de trayectoria, la destacada actriz naciona recibió diversos reconocimientos,...",
+      "time": "15:41",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1789,7 +1775,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 17,
+      "items_found": 15,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
