@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T09:36:49.300107-03:00",
+  "updated_at": "2026-11-25T18:57:54.602943-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -1638,6 +1638,34 @@
     },
     {
       "channel": "TVN",
+      "title": "Lo que comenzó como una parada para desayunar en Pronto Copec terminó siendo una experiencia llena...",
+      "time": "01:03",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La esposa del participante envió un mensaje a Fran Medina para compartir su enojo por el coqueto...",
+      "time": "01:24",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Lo que parecía una prueba sencilla terminó convirtiéndose en un complejo desafío para los...",
+      "time": "01:40",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "01:58",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Con un particular diseño en la masa y vegetales muy bien logrados, la dupla presentó un plato...",
       "time": "02:26",
       "source_url": "https://www.tvn.cl/",
@@ -1652,29 +1680,22 @@
     },
     {
       "channel": "TVN",
-      "title": "Pese a que la masa del Filete Wellington quedó un poco cruda y restó puntos en textura, Giannina y...",
-      "time": "03:19",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "La participante se impuso ante Santo en una reñida definición, en una prueba que también estuvo...",
       "time": "03:33",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Los jueces recorrieron las estaciones para frenar cualquier experimento y advertir que no perdonarán...",
-      "time": "04:02",
+      "title": "Revisamos la serie de acusaciones que deberá enfrentar Ariel Wolfenson, quien fue expulsado del...",
+      "time": "04:03",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Tras una jornada difícil y cargada de emociones en el capítulo anterior, Nattida encontró el alivio...",
-      "time": "04:03",
+      "title": "\"Tenemos la oportunidad de celebrar una vida plena, maestra de vida\", señaló la actriz al hablar de...",
+      "time": "04:25",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1715,13 +1736,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Formada en la Escuela de Teatro Experimental de la Universidad de Chile en los años 50, la...",
-      "time": "06:57",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Cynthia se convirtió en la protagonista de un tenso momento en las cocinas: tomó un ingrediente de...",
       "time": "07:56",
       "source_url": "https://www.tvn.cl/",
@@ -1736,15 +1750,29 @@
     },
     {
       "channel": "TVN",
-      "title": "Raimundo quiere cumplir con su manda a San Pedro y todo el pueblo le pide que no lo haga. La gente...",
-      "time": "17:55",
+      "title": "\"No puedo olvidar sus ojos...\": Papa Francisco asegura que vio al diablo tras su visita a Chile",
+      "time": "12:38",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "En medio de la competencia de \"MasterChef Chile\" el conductor del react detalló el dato que es...",
       "time": "18:41",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Para la conmemoración del Día Internacional para la Eliminación de la Violencia contra las Mujeres,...",
+      "time": "18:42",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Rafael Aliaga decide publicar la nota sobre el escándalo de las aceitunas de Mariana Montero, su...",
+      "time": "20:05",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1775,7 +1803,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 16,
+      "items_found": 20,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
