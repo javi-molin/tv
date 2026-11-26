@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T10:48:05.256450-03:00",
+  "updated_at": "2026-11-26T19:55:12.539351-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -469,6 +469,13 @@
     },
     {
       "channel": "Mega",
+      "title": "La Cabaña",
+      "time": "00:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Volverías con tu ex? 2 - Lo mejor",
       "time": "00:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -497,14 +504,14 @@
     },
     {
       "channel": "Mega",
-      "title": "La Hora de Jugar Trasnoche",
+      "title": "Festiranch",
       "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "Nuestras Fiestas",
+      "title": "La Hora de Jugar Trasnoche",
       "time": "00:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -560,13 +567,6 @@
     },
     {
       "channel": "Mega",
-      "title": "La Cabaña",
-      "time": "01:15",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "A la punta del cerro",
       "time": "01:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -581,15 +581,22 @@
     },
     {
       "channel": "Mega",
-      "title": "Viajando Ando",
+      "title": "Viajar x Menos",
       "time": "01:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "Viajar x Menos",
-      "time": "01:30",
+      "title": "Nuestras Fiestas",
+      "time": "01:45",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Agua Viva",
+      "time": "02:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -651,15 +658,15 @@
     },
     {
       "channel": "Mega",
-      "title": "Meganoticias Ahora",
+      "title": "Viajar x Menos",
       "time": "02:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "Viajar x Menos",
-      "time": "02:30",
+      "title": "Viajando Ando",
+      "time": "02:45",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -673,6 +680,13 @@
     {
       "channel": "Mega",
       "title": "Meganoticias Ahora",
+      "time": "03:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Picadas con Koke Santana",
       "time": "03:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -715,7 +729,7 @@
     {
       "channel": "Mega",
       "title": "Familia por el Mundo",
-      "time": "03:15",
+      "time": "03:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -742,7 +756,7 @@
     },
     {
       "channel": "Mega",
-      "title": "Recorri2 Go",
+      "title": "Meganoticias Ahora",
       "time": "03:45",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -763,6 +777,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Recorri2 Go",
+      "time": "04:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Viajando Ando",
       "time": "04:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -772,13 +793,6 @@
       "channel": "Mega",
       "title": "Vuelta a la manzana",
       "time": "04:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Travel App",
-      "time": "04:15",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -805,8 +819,8 @@
     },
     {
       "channel": "Mega",
-      "title": "Rápidos y Sabrosos",
-      "time": "04:50",
+      "title": "Travel App",
+      "time": "04:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -994,8 +1008,22 @@
     },
     {
       "channel": "Mega",
+      "title": "Copec Rally Mobil",
+      "time": "09:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Viajar x Menos",
       "time": "09:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Meganoticias Siempre Juntos",
+      "time": "09:30",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1134,8 +1162,22 @@
     },
     {
       "channel": "Mega",
+      "title": "Fútbol femenino: España vs Chile",
+      "time": "13:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Tesoros de mi barrio",
       "time": "13:30",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Festiranch",
+      "time": "14:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1156,13 +1198,6 @@
     {
       "channel": "Mega",
       "title": "Rápidos y Sabrosos",
-      "time": "14:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Selección Internacional",
       "time": "14:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1198,20 +1233,6 @@
     {
       "channel": "Mega",
       "title": "Agua Viva",
-      "time": "15:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Bajo el mismo Techo",
-      "time": "15:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "De Paseo",
       "time": "15:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1239,13 +1260,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Mi Humano y yo",
-      "time": "15:30",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Recorri2 Go",
       "time": "15:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1261,6 +1275,13 @@
     {
       "channel": "Mega",
       "title": "Carmen Gloria Fuerte & Claro",
+      "time": "15:45",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "De Paseo",
       "time": "15:45",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1288,13 +1309,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Disfruta la Ruta",
-      "time": "16:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Recorri2 Go",
       "time": "16:00",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1303,6 +1317,13 @@
     {
       "channel": "Mega",
       "title": "Secretos Urbanos",
+      "time": "16:00",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
+      "title": "Viajando Ando",
       "time": "16:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1330,14 +1351,7 @@
     },
     {
       "channel": "Mega",
-      "title": "Genios de la carne",
-      "time": "17:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Mega Humor",
+      "title": "Del Mar al Paladar",
       "time": "17:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1358,21 +1372,14 @@
     },
     {
       "channel": "Mega",
-      "title": "Viajando Ando",
-      "time": "17:00",
+      "title": "Mega Humor",
+      "time": "17:45",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
       "title": "Acceso a lo nuestro",
-      "time": "18:00",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Viajando Ando",
       "time": "18:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1393,13 +1400,6 @@
     },
     {
       "channel": "Mega",
-      "title": "Detrás del muro - Lo Mejor",
-      "time": "18:20",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
       "title": "Megatiempo",
       "time": "18:25",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1414,14 +1414,14 @@
     },
     {
       "channel": "Mega",
-      "title": "Fútbol femenino: Colo Colo vs U Católica",
-      "time": "18:30",
+      "title": "Estar bien",
+      "time": "18:55",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "Estar bien",
+      "title": "La Ruta del Agua",
       "time": "18:55",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1430,13 +1430,6 @@
       "channel": "Mega",
       "title": "Viajando Ando",
       "time": "18:55",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Acceso a lo nuestro",
-      "time": "19:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1470,6 +1463,13 @@
     },
     {
       "channel": "Mega",
+      "title": "Hipica: El Ensayo Mega",
+      "time": "19:15",
+      "source_url": "https://www.mega.cl/programacion/",
+      "summary": ""
+    },
+    {
+      "channel": "Mega",
       "title": "Fútbol amistoso internacional: Colombia vs Chile",
       "time": "19:30",
       "source_url": "https://www.mega.cl/programacion/",
@@ -1498,14 +1498,14 @@
     },
     {
       "channel": "Mega",
-      "title": "Meganoticias Prime",
+      "title": "Detrás del muro - Lo Mejor",
       "time": "20:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "Picadas con Koke Santana",
+      "title": "Meganoticias Prime",
       "time": "20:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1519,21 +1519,14 @@
     },
     {
       "channel": "Mega",
-      "title": "Travel App",
-      "time": "20:30",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Agua Viva",
+      "title": "Disfruta la Ruta",
       "time": "21:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "Disfruta la Ruta",
+      "title": "Meganoticias Prime",
       "time": "21:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
@@ -1555,14 +1548,7 @@
     {
       "channel": "Mega",
       "title": "Reunión de Superados",
-      "time": "21:10",
-      "source_url": "https://www.mega.cl/programacion/",
-      "summary": ""
-    },
-    {
-      "channel": "Mega",
-      "title": "Miss Universo 2026",
-      "time": "21:30",
+      "time": "21:20",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1575,15 +1561,15 @@
     },
     {
       "channel": "Mega",
-      "title": "Festiranch",
+      "title": "Volverías con tu Ex? 2",
       "time": "22:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
     {
       "channel": "Mega",
-      "title": "Volverías con tu Ex? 2",
-      "time": "22:00",
+      "title": "Coliseo",
+      "time": "22:10",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
     },
@@ -1638,21 +1624,35 @@
     },
     {
       "channel": "TVN",
+      "title": "El sargento Funes vuelve a la mansión y es recibido por Rómulo. De inmediato hay un aire de...",
+      "time": "00:00",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Lo que comenzó como una parada para desayunar en Pronto Copec terminó siendo una experiencia llena...",
+      "time": "01:01",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Desde su llegada por mar hasta su distribución en las estaciones de servicio, el combustible Copec...",
       "time": "01:03",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "La dupla pensó en apostar a la especialidad del chef francés para sacar el máximo provecho de su...",
-      "time": "01:36",
+      "title": "Destacamos en TVN",
+      "time": "01:59",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
+      "title": "Yuhui Lee y Fran Medina reaccionan al capítulo de MasterChef de este miércoles 25 de noviembre,...",
       "time": "02:49",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1666,36 +1666,8 @@
     },
     {
       "channel": "TVN",
-      "title": "El cantante urbano se lució en la prueba, dedicó su preparación a sus hijos y recibió un tremendo...",
-      "time": "03:53",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Revisamos la serie de acusaciones que deberá enfrentar Ariel Wolfenson, quien fue expulsado del...",
-      "time": "04:03",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La dupla llegó al mesón escoltada por el chef y recibió una evaluación positiva, no sin una buena...",
-      "time": "04:22",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Los participantes deberán trabajar con productos solidarios de Red de Alimentos y crear un plato...",
       "time": "04:24",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "\"Tenemos la oportunidad de celebrar una vida plena, maestra de vida\", señaló la actriz al hablar de...",
-      "time": "04:25",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1757,6 +1729,13 @@
     },
     {
       "channel": "TVN",
+      "title": "Actualidad y Tendencias",
+      "time": "07:15",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "En medio del desafío con productos de Red de Alimentos, los participantes deben demostrar toda su...",
       "time": "07:21",
       "source_url": "https://www.tvn.cl/",
@@ -1764,22 +1743,22 @@
     },
     {
       "channel": "TVN",
-      "title": "Tras ser enviada directo a la prueba de nominación para cuadrar las parejas, Rosita enfrentó este...",
-      "time": "09:02",
+      "title": "Elisa Zulueta dedicó unas hermosas palabras a la fallecida actriz en la Catedral de Santiago donde...",
+      "time": "08:51",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
     {
       "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "Luego de una larga espera, Inés logra conversar directamente su padre, don mister Clark. Ella le...",
+      "time": "09:13",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Tras ganar la inmunidad en el capítulo anterior, la participante pudo definir las condiciones de la...",
       "time": "11:20",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina reaccionan al capítulo de MasterChef de este miércoles 25 de noviembre,...",
-      "time": "11:30",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1792,15 +1771,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Para la conmemoración del Día Internacional para la Eliminación de la Violencia contra las Mujeres,...",
-      "time": "18:42",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Rafael Aliaga decide publicar la nota sobre el escándalo de las aceitunas de Mariana Montero, su...",
-      "time": "20:05",
+      "title": "Llegan las elecciones a Sucupira y Federico Valdivieso es elegido como alcalde. El político celebra...",
+      "time": "20:41",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1810,7 +1782,7 @@
       "channel": "Mega",
       "status": "ok",
       "source_url": "https://www.mega.cl/programacion/",
-      "items_found": 167,
+      "items_found": 165,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     },
     {
@@ -1831,7 +1803,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 24,
+      "items_found": 22,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
