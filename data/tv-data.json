@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-25T18:57:54.602943-03:00",
+  "updated_at": "2026-11-26T01:05:25.784411-03:00",
   "timezone": "America/Santiago",
-  "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
-  "schedule_status": "ok",
+  "status": "Actualización ejecutada: 3 de 4 canales con datos detectados.",
+  "schedule_status": "partial",
   "schedule_note": "Los horarios detectados provienen de páginas oficiales. Un canal sin datos interpretables se informa como tal; no se completan horarios con datos inventados.",
   "schedule_items": [
     {
@@ -28,6 +28,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Biografías",
+      "time": "00:40",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Vértigo",
       "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
@@ -37,13 +44,6 @@
       "channel": "Canal 13",
       "title": "Vértigo Extremo",
       "time": "01:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Siempre hay un chileno",
-      "time": "01:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -63,15 +63,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "02:00",
+      "title": "¡Qué dice Chile! Prime",
+      "time": "02:05",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué dice Chile! Prime",
-      "time": "02:05",
+      "title": "Vale Todo",
+      "time": "02:15",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -105,7 +105,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Milf",
+      "title": "Teletrece Noche",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -147,7 +147,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Miércoles 25 de Noviembre",
+      "title": "Martes 1 de Diciembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1635,146 +1635,6 @@
       "time": "23:00",
       "source_url": "https://www.mega.cl/programacion/",
       "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Lo que comenzó como una parada para desayunar en Pronto Copec terminó siendo una experiencia llena...",
-      "time": "01:03",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La esposa del participante envió un mensaje a Fran Medina para compartir su enojo por el coqueto...",
-      "time": "01:24",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Lo que parecía una prueba sencilla terminó convirtiéndose en un complejo desafío para los...",
-      "time": "01:40",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "01:58",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Con un particular diseño en la masa y vegetales muy bien logrados, la dupla presentó un plato...",
-      "time": "02:26",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¿La masa de las gyosas lleva o no lleva huevo? El cantante urbano le gritó desde el balcón que sí,...",
-      "time": "02:47",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La participante se impuso ante Santo en una reñida definición, en una prueba que también estuvo...",
-      "time": "03:33",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Revisamos la serie de acusaciones que deberá enfrentar Ariel Wolfenson, quien fue expulsado del...",
-      "time": "04:03",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "\"Tenemos la oportunidad de celebrar una vida plena, maestra de vida\", señaló la actriz al hablar de...",
-      "time": "04:25",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Cultura",
-      "time": "05:24",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "¿Qué tienen de especial los huevos más circulares de Pronto Copec? En este nuevo capítulo, Simón...",
-      "time": "06:02",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Una parada para tomar café lleva a Simón Oliveros a descubrir que el mejor residuo es el que nunca...",
-      "time": "06:09",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Detrás de cada alimento rescatado hay una oportunidad de ayudar. En este tercer capítulo, Simón...",
-      "time": "06:15",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En este segundo capítulo, conoce cómo nuestros colaboradores contribuyen día a día a la meta Cero...",
-      "time": "06:32",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Cynthia se convirtió en la protagonista de un tenso momento en las cocinas: tomó un ingrediente de...",
-      "time": "07:56",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Llegó con sus gyosas cuya preparación bautizó como \"Paquetín\" y no pasó desapercibido. Sorprendió a...",
-      "time": "09:53",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "\"No puedo olvidar sus ojos...\": Papa Francisco asegura que vio al diablo tras su visita a Chile",
-      "time": "12:38",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "En medio de la competencia de \"MasterChef Chile\" el conductor del react detalló el dato que es...",
-      "time": "18:41",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Para la conmemoración del Día Internacional para la Eliminación de la Violencia contra las Mujeres,...",
-      "time": "18:42",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Rafael Aliaga decide publicar la nota sobre el escándalo de las aceitunas de Mariana Montero, su...",
-      "time": "20:05",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
     }
   ],
   "channel_status": [
@@ -1801,10 +1661,10 @@
     },
     {
       "channel": "TVN",
-      "status": "ok",
+      "status": "no_schedule_found",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 20,
-      "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
+      "items_found": 0,
+      "message": "La página se pudo consultar, pero no se detectó una parrilla interpretable."
     }
   ]
 }
