@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T01:55:40.829761-03:00",
+  "updated_at": "2026-11-27T11:54:39.168333-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -281,14 +281,14 @@
     {
       "channel": "Canal 13",
       "title": "Teletrece Tarde",
-      "time": "15:40",
+      "time": "15:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "15:50",
+      "title": "El Tiempo (Tarde)",
+      "time": "15:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -308,7 +308,7 @@
     },
     {
       "channel": "Canal 13",
-      "title": "El Tiempo (Tarde)",
+      "title": "Vale Todo",
       "time": "17:15",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1624,13 +1624,6 @@
     },
     {
       "channel": "TVN",
-      "title": "El sargento Funes vuelve a la mansión y es recibido por Rómulo. De inmediato hay un aire de...",
-      "time": "00:00",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "La corrección de los chefs sobre cómo debía prepararse la clásica ensalada desató un cruce de...",
       "time": "00:58",
       "source_url": "https://www.tvn.cl/",
@@ -1647,13 +1640,6 @@
       "channel": "TVN",
       "title": "Desde su llegada por mar hasta su distribución en las estaciones de servicio, el combustible Copec...",
       "time": "01:03",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La intérprete acompañó a distintas generaciones en Latinoamérica con su voz en series como PAW...",
-      "time": "02:09",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1680,22 +1666,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina reaccionan al capítulo de MasterChef de este miércoles 25 de noviembre,...",
-      "time": "02:49",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Destacados MasterChef",
+      "title": "Yuhui Lee y Fran Medina reaccionan al capítulo de MasterChef de este jueves 26 de noviembre, donde...",
       "time": "02:53",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "La dupla sorprendió con un plato llamado “5x1”, que conquistó al jurado y se llevó un tremendo...",
-      "time": "03:26",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1715,13 +1687,6 @@
     },
     {
       "channel": "TVN",
-      "title": "Los participantes deberán trabajar con productos solidarios de Red de Alimentos y crear un plato...",
-      "time": "04:24",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "Cultura",
       "time": "05:24",
       "source_url": "https://www.tvn.cl/",
@@ -1731,20 +1696,6 @@
       "channel": "TVN",
       "title": "Con evidente nerviosismo, Cynthia presentó “Todas íbamos a ser reinas”. Si bien no logró el...",
       "time": "05:28",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Mientras la chef Fernanda confesó que se reía para no llorar frente al resultado, la dupla intentó...",
-      "time": "05:44",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Valentina, Franchesca, Don Jona, Seba, Cynthia, Giannina a los que se suma Rosita deberán enfrentar...",
-      "time": "05:51",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1778,8 +1729,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Rosita sorprendió con su preparación “Un consejo antiguo”, un consomé de tomate que conquistó a Yann...",
-      "time": "06:47",
+      "title": "La última eliminación de \"MasterChef Chile\" nos dejó sin palabras y la esperamos el próximo domingo...",
+      "time": "06:44",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1792,29 +1743,8 @@
     },
     {
       "channel": "TVN",
-      "title": "En medio del desafío con productos de Red de Alimentos, los participantes deben demostrar toda su...",
-      "time": "07:21",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Elisa Zulueta dedicó unas hermosas palabras a la fallecida actriz en la Catedral de Santiago donde...",
-      "time": "08:51",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
       "title": "La conductora llega a conversar con los participantes sobre quiénes están más complicados de cara a...",
       "time": "09:03",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Luego de una larga espera, Inés logra conversar directamente su padre, don mister Clark. Ella le...",
-      "time": "09:13",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1827,15 +1757,8 @@
     },
     {
       "channel": "TVN",
-      "title": "Yuhui Lee y Fran Medina reaccionan al capítulo de MasterChef de este jueves 26 de noviembre, donde...",
+      "title": "Can está muy asustado por la agresión a Meltem y busca refugio en la casa de Melis. Mientras tanto,...",
       "time": "10:09",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Tras ganar la inmunidad en el capítulo anterior, la participante pudo definir las condiciones de la...",
-      "time": "11:20",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1848,8 +1771,15 @@
     },
     {
       "channel": "TVN",
-      "title": "Llegan las elecciones a Sucupira y Federico Valdivieso es elegido como alcalde. El político celebra...",
-      "time": "20:41",
+      "title": "En el \"Buenos Días a Todos\" conversamos con el canalizador Pablo Miranda quien denunció que...",
+      "time": "14:54",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "La versión rubia de Yuhui compartió en el programa y fue bien recibida por los yuflancitos del...",
+      "time": "15:21",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     }
@@ -1880,7 +1810,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 33,
+      "items_found": 23,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
