@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T19:55:12.539351-03:00",
+  "updated_at": "2026-11-27T01:55:40.829761-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -35,15 +35,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo",
+      "title": "Vértigo Extremo",
       "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Vértigo Extremo",
-      "time": "01:00",
+      "title": "Siempre hay un chileno",
+      "time": "01:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -57,6 +57,13 @@
     {
       "channel": "Canal 13",
       "title": "Socios por Chile",
+      "time": "02:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Vale Todo",
       "time": "02:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -84,13 +91,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Vale Todo",
-      "time": "03:30",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Copa Culinaria",
       "time": "03:40",
       "source_url": "https://www.13.cl/programacion",
@@ -99,6 +99,13 @@
     {
       "channel": "Canal 13",
       "title": "Alfombra Roja (Lo Mejor)",
+      "time": "04:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Milf",
       "time": "04:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -133,13 +140,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Jueves 26 de Noviembre",
-      "time": "05:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Lunes 30 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
@@ -148,6 +148,13 @@
     {
       "channel": "Canal 13",
       "title": "Martes 1 de Diciembre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Miércoles 2 de Diciembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -351,13 +358,6 @@
     {
       "channel": "Canal 13",
       "title": "El Tiempo",
-      "time": "22:20",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Teletrece Central",
       "time": "22:20",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1631,6 +1631,13 @@
     },
     {
       "channel": "TVN",
+      "title": "La corrección de los chefs sobre cómo debía prepararse la clásica ensalada desató un cruce de...",
+      "time": "00:58",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Lo que comenzó como una parada para desayunar en Pronto Copec terminó siendo una experiencia llena...",
       "time": "01:01",
       "source_url": "https://www.tvn.cl/",
@@ -1645,8 +1652,29 @@
     },
     {
       "channel": "TVN",
-      "title": "Destacamos en TVN",
-      "time": "01:59",
+      "title": "La intérprete acompañó a distintas generaciones en Latinoamérica con su voz en series como PAW...",
+      "time": "02:09",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Al freír las papas con aceite de maravilla en lugar del de maíz exigido para esa preparación,...",
+      "time": "02:14",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Los berries son los protagonistas, donde los nervios y la tensión se apoderan de los participantes...",
+      "time": "02:30",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Las bayas y frutos rojos de Chile toman el protagonismo en una eliminación donde el equilibrio del...",
+      "time": "02:32",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1659,8 +1687,29 @@
     },
     {
       "channel": "TVN",
+      "title": "Destacados MasterChef",
+      "time": "02:53",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "La dupla sorprendió con un plato llamado “5x1”, que conquistó al jurado y se llevó un tremendo...",
       "time": "03:26",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "El jurado anunció quiénes logran salvarse y dejó claro que quienes reciben el delantal negro caen...",
+      "time": "03:36",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Pese a que las papas terminaron más cocidas que fritas tras la confusión en la estación, la dupla...",
+      "time": "03:50",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1675,6 +1724,13 @@
       "channel": "TVN",
       "title": "Cultura",
       "time": "05:24",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Con evidente nerviosismo, Cynthia presentó “Todas íbamos a ser reinas”. Si bien no logró el...",
+      "time": "05:28",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1750,8 +1806,29 @@
     },
     {
       "channel": "TVN",
+      "title": "La conductora llega a conversar con los participantes sobre quiénes están más complicados de cara a...",
+      "time": "09:03",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
       "title": "Luego de una larga espera, Inés logra conversar directamente su padre, don mister Clark. Ella le...",
       "time": "09:13",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Destacamos en TVN",
+      "time": "10:04",
+      "source_url": "https://www.tvn.cl/",
+      "summary": ""
+    },
+    {
+      "channel": "TVN",
+      "title": "Yuhui Lee y Fran Medina reaccionan al capítulo de MasterChef de este jueves 26 de noviembre, donde...",
+      "time": "10:09",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
     },
@@ -1803,7 +1880,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 22,
+      "items_found": 33,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
