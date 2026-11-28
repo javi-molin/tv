@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T20:22:25.240149-03:00",
+  "updated_at": "2026-11-28T01:55:24.723226-03:00",
   "timezone": "America/Santiago",
   "status": "Actualización ejecutada: 4 de 4 canales con datos detectados.",
   "schedule_status": "ok",
@@ -21,15 +21,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué Dice Chile! Prime",
-      "time": "00:35",
+      "title": "Biografías",
+      "time": "00:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Biografías",
-      "time": "00:40",
+      "title": "Vértigo",
+      "time": "01:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -70,13 +70,6 @@
     },
     {
       "channel": "Canal 13",
-      "title": "¡Qué dice Chile! Prime",
-      "time": "02:05",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
       "title": "Vale Todo",
       "time": "02:15",
       "source_url": "https://www.13.cl/programacion",
@@ -91,15 +84,15 @@
     },
     {
       "channel": "Canal 13",
-      "title": "Copa Culinaria",
-      "time": "03:40",
+      "title": "Vale Todo",
+      "time": "03:30",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
     {
       "channel": "Canal 13",
-      "title": "Alfombra Roja (Lo Mejor)",
-      "time": "04:00",
+      "title": "Copa Culinaria",
+      "time": "03:40",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
     },
@@ -140,6 +133,13 @@
     },
     {
       "channel": "Canal 13",
+      "title": "Jueves 3 de Diciembre",
+      "time": "05:00",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
       "title": "Lunes 30 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
@@ -155,13 +155,6 @@
     {
       "channel": "Canal 13",
       "title": "Miércoles 2 de Diciembre",
-      "time": "05:00",
-      "source_url": "https://www.13.cl/programacion",
-      "summary": ""
-    },
-    {
-      "channel": "Canal 13",
-      "title": "Viernes 27 de Noviembre",
       "time": "05:00",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -358,6 +351,13 @@
     {
       "channel": "Canal 13",
       "title": "El Tiempo",
+      "time": "22:20",
+      "source_url": "https://www.13.cl/programacion",
+      "summary": ""
+    },
+    {
+      "channel": "Canal 13",
+      "title": "Teletrece Central",
       "time": "22:20",
       "source_url": "https://www.13.cl/programacion",
       "summary": ""
@@ -1659,7 +1659,7 @@
     },
     {
       "channel": "TVN",
-      "title": "Rafael decide postergar el matrimonio con Sofía luego de su encuentro con Bárbara. La joven queda...",
+      "title": "Encontrémonos en ¡Ahora Caigo! junto a Daniel Fuenzalida, de lunes a viernes a las 19:00 horas.",
       "time": "04:59",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1750,14 +1750,7 @@
     },
     {
       "channel": "TVN",
-      "title": "La producción recorre la historia de la actriz a través de su propio relato, archivos y testimonios...",
-      "time": "17:40",
-      "source_url": "https://www.tvn.cl/",
-      "summary": ""
-    },
-    {
-      "channel": "TVN",
-      "title": "Ver ahora",
+      "title": "Manuel vuelve a usar su avioneta a pesar de todas las restricciones. En su regreso a tierra, tiene...",
       "time": "19:14",
       "source_url": "https://www.tvn.cl/",
       "summary": ""
@@ -1789,7 +1782,7 @@
       "channel": "TVN",
       "status": "ok",
       "source_url": "https://www.tvn.cl/",
-      "items_found": 20,
+      "items_found": 19,
       "message": "Se detectaron horarios; revisar la parrilla si el sitio cambió su estructura."
     }
   ]
